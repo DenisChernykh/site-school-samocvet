@@ -1,0 +1,28 @@
+---
+import { getSiteContent } from '@/shared/api/site-content';
+import SiteLayout from '../../layouts/site-layout.astro';
+import EventPage from '@/pages/event/event-page.astro';
+import type { SchoolEvent, SiteContent } from '@/shared/api/types';
+export async function getStaticPaths() {
+  const content = await getSiteContent();
+  return content.events.items.map((event) => ({
+    params: { slug: event.slug },
+    props: { content, event },
+  }));
+}
+interface Props {
+  content: SiteContent;
+  event: SchoolEvent;
+}
+const { content, event } = Astro.props;
+---
+
+<SiteLayout
+  content={content}
+  title={event.title.replaceAll('\n', ' ')}
+  description={event.description}
+  ><EventPage
+    event={event}
+    contactUrl={content.site.contactVkUrl}
+  /></SiteLayout
+>

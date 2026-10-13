@@ -1,0 +1,54 @@
+---
+import type { Feature } from '@/shared/api/types';
+import Photo from './photo.astro';
+import TextLink from './text-link.astro';
+interface Props {
+  feature: Feature;
+  reverse?: boolean;
+  framed?: boolean;
+  mainHeading?: boolean;
+  centered?: boolean;
+  ratio?: string;
+}
+const {
+  feature,
+  reverse = false,
+  framed = false,
+  mainHeading = false,
+  centered = false,
+  ratio = '1.1',
+} = Astro.props;
+const HeadingTag = mainHeading ? 'h1' : 'h2';
+---
+
+<section class="section">
+  <div class:list={['section-inner split feature', { reverse }]}>
+    <div class="feature-photo reveal">
+      <Photo
+        name={feature.image}
+        alt={feature.title.replaceAll('\n', ' ')}
+        framed={framed}
+        ratio={ratio}
+        eager={mainHeading}
+      />
+    </div><div class:list={['text-stack', { center: centered }]}>
+      <HeadingTag class="multiline">{feature.title}</HeadingTag>{
+        feature.description && <p>{feature.description}</p>
+      }{feature.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}{
+        feature.link && (
+          <TextLink href={feature.link.href}>{feature.link.label}</TextLink>
+        )
+      }<slot />
+    </div>
+  </div>
+</section>
+<style>
+  .reverse .feature-photo {
+    order: 2;
+  }
+  @media (max-width: 760px) {
+    .reverse .feature-photo {
+      order: 0;
+    }
+  }
+</style>

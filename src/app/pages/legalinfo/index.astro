@@ -1,0 +1,10 @@
+---
+import { getSiteContent } from '@/shared/api/site-content';
+import SiteLayout from '../../layouts/site-layout.astro';
+import Page from '@/pages/legal/legal-page.astro';
+const content = await getSiteContent();
+---
+
+<SiteLayout content={content} title="Сведения и документы"
+  ><Page content={content} /></SiteLayout
+>

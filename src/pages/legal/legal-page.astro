@@ -1,0 +1,122 @@
+---
+import type { SiteContent } from '@/shared/api/types';
+import PageHeading from '@/shared/ui/page-heading.astro';
+import TextLink from '@/shared/ui/text-link.astro';
+interface Props {
+  content: SiteContent;
+}
+const { content } = Astro.props;
+const { legal, site } = content;
+---
+
+<PageHeading heading={legal.heading} />
+<section class="section legal">
+  <div class="section-inner legal-layout">
+    <nav class="legal-nav" aria-label="Сведения об организации">
+      <a href="#organization">Основные сведения</a><a href="#documents"
+        >Документы</a
+      ><a href="#education">Образовательные программы</a><a
+        href="#organization-contacts">Контакты организации</a
+      >
+    </nav><div class="panel legal-content">
+      <section id="organization">
+        <h2>{legal.name}</h2><dl class="facts">
+          {
+            legal.facts.map((fact) => (
+              <div>
+                <>
+                  <dt>{fact.label}</dt>
+                  <dd>{fact.value}</dd>
+                </>
+              </div>
+            ))
+          }
+        </dl>
+      </section><section id="documents">
+        <h2>Документы</h2><ul>
+          {legal.documents.map((document) => <li>{document}</li>)}
+        </ul>
+      </section><section id="education">
+        <h2>Образовательные программы</h2><ul>
+          {legal.programs.map((program) => <li>{program}</li>)}
+        </ul>
+      </section><section id="organization-contacts">
+        <h2>Контакты организации</h2><p>{site.address}</p><a
+          href={`mailto:${site.email}`}>{site.email}</a
+        >
+      </section><TextLink href={legal.sourceUrl}
+        >Все документы организации</TextLink
+      ><p class="muted source-note">
+        Документы доступны на действующем сайте школы. Сведения в
+        демонстрационной версии приведены по исходным материалам.
+      </p>
+    </div>
+  </div>
+</section>
+<style>
+  .legal {
+    padding-top: 32px;
+  }
+  .legal-layout {
+    display: grid;
+    grid-template-columns: 244px 1fr;
+    gap: 64px;
+    align-items: start;
+  }
+  .legal-nav {
+    display: grid;
+    gap: 12px;
+    padding: 24px;
+    background: var(--sage);
+    border-radius: 12px;
+    position: sticky;
+    top: 24px;
+  }
+  .legal-nav a {
+    padding-block: 6px;
+    font-size: 14px;
+  }
+  .legal-nav a:hover {
+    text-decoration: underline;
+  }
+  .legal-content {
+    padding: 40px;
+    display: grid;
+    gap: 32px;
+  }
+  .legal-content h2 {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+  .legal-content .facts {
+    gap: 16px;
+  }
+  .legal-content ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  .legal-content li {
+    margin-block: 8px;
+  }
+  .source-note {
+    font-size: 14px;
+  }
+  @media (max-width: 900px) {
+    .legal-layout {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .legal-nav {
+      position: static;
+      grid-template-columns: 1fr 1fr;
+    }
+    .legal-content {
+      padding: 28px 24px;
+    }
+  }
+  @media (max-width: 400px) {
+    .legal-nav {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

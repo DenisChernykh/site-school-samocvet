@@ -1,0 +1,91 @@
+---
+import type { SiteContent } from '@/shared/api/types';
+import { media } from '@/shared/lib/paths';
+import FeatureSection from '@/shared/ui/feature-section.astro';
+import Button from '@/shared/ui/button.astro';
+import TextLink from '@/shared/ui/text-link.astro';
+import Invitation from '@/widgets/invitation/invitation.astro';
+interface Props {
+  content: SiteContent;
+}
+const { content } = Astro.props;
+const { about } = content;
+---
+
+<FeatureSection
+  feature={{ ...about.intro, link: undefined }}
+  mainHeading
+  reverse
+  centered
+  framed
+  ><Button href="team/">Познакомиться с педагогами</Button><TextLink
+    href="admission/">Как познакомиться со школой</TextLink
+  ></FeatureSection
+>
+<section class="section">
+  <div class="section-inner">
+    <div class="section-heading">
+      <h2 class="multiline">{about.principles.title}</h2>
+    </div><div class="panel-grid">
+      {
+        about.principles.panels.map((panel, index) => (
+          <div class:list={['panel', { sage: index === 1 }]}>
+            <>
+              <h3>{panel.title}</h3>
+              <div class="items">
+                {panel.items.map((item) => (
+                  <div>
+                    <h4>{item.title}</h4>
+                    <p>{item.description}</p>
+                  </div>
+                ))}
+              </div>
+            </>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
+<section class="statement light">
+  <img src={media('school-04.webp')} alt="" loading="lazy" /><h2
+    class="multiline"
+  >
+    {about.statement}
+  </h2>
+</section>
+<FeatureSection feature={about.family} framed centered />
+<Invitation />
+<style>
+  .statement {
+    position: relative;
+    padding: 100px var(--gutter);
+    color: var(--cream);
+    text-align: center;
+    background: var(--forest);
+  }
+  .statement img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .statement::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #374036b0;
+  }
+  .statement h2 {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin-inline: auto;
+  }
+  @media (max-width: 760px) {
+    .statement {
+      padding: 72px 24px;
+    }
+  }
+</style>

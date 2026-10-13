@@ -1,0 +1,28 @@
+---
+import { getSiteContent } from '@/shared/api/site-content';
+import SiteLayout from '../../layouts/site-layout.astro';
+import ProgramPage from '@/pages/program/program-page.astro';
+import type { Program, SiteContent } from '@/shared/api/types';
+export async function getStaticPaths() {
+  const content = await getSiteContent();
+  return content.programs.map((program) => ({
+    params: { slug: program.slug },
+    props: { content, program },
+  }));
+}
+interface Props {
+  content: SiteContent;
+  program: Program;
+}
+const { content, program } = Astro.props;
+---
+
+<SiteLayout
+  content={content}
+  title={program.name}
+  description={program.heading.description}
+  ><ProgramPage
+    program={program}
+    contactUrl={content.site.contactVkUrl}
+  /></SiteLayout
+>

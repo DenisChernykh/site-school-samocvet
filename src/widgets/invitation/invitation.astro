@@ -1,0 +1,90 @@
+---
+import { media } from '@/shared/lib/paths';
+import Button from '@/shared/ui/button.astro';
+interface Props {
+  title?: string;
+  photo?: boolean;
+  description?: string;
+  label?: string;
+  href?: string;
+}
+const {
+  title = 'Приходите познакомиться',
+  photo = false,
+  description = 'Покажем, как живёт школа, и ответим на вопросы вашей семьи.',
+  label = 'Записаться на экскурсию',
+  href = 'admission/#inquiry',
+} = Astro.props;
+---
+
+<section class:list={['invitation', { 'with-photo': photo }]}>
+  {
+    photo && (
+      <img
+        src={media('school-04.webp')}
+        alt=""
+        loading="lazy"
+        decoding="async"
+      />
+    )
+  }
+  <div>
+    <h2 class="multiline">{title}</h2><p>{description}</p><Button
+      href={href}
+      outline={photo}>{label}</Button
+    >
+  </div>
+</section>
+<style>
+  .invitation {
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 120px var(--gutter);
+    background: var(--sage);
+    text-align: center;
+  }
+  .with-photo {
+    min-height: 528px;
+    background: var(--forest);
+    color: var(--cream);
+  }
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .with-photo::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #374036a0;
+  }
+  .invitation > div {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    max-width: 680px;
+  }
+  @media (max-width: 760px) {
+    .invitation {
+      padding: 72px 24px;
+    }
+    .with-photo {
+      min-height: 379px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+  }
+</style>

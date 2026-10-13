@@ -1,0 +1,75 @@
+---
+import type { SiteContent } from '@/shared/api/types';
+import { withBase, media } from '@/shared/lib/paths';
+import SiteHeader from '@/widgets/site-header/site-header.astro';
+import SiteFooter from '@/widgets/site-footer/site-footer.astro';
+import '../styles/global.css';
+interface Props {
+  content: SiteContent;
+  title?: string;
+  description?: string;
+  overlay?: boolean;
+}
+const {
+  content,
+  title,
+  description = content.site.description,
+  overlay = false,
+} = Astro.props;
+const pageTitle = title
+  ? `${title} — ${content.site.name}`
+  : `${content.site.name} — семейная школа в Екатеринбурге`;
+const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url.origin)
+  .href;
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#FAF8F2" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={withBase('favicon.svg')} type="image/svg+xml" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:url" content={canonical} />
+    <meta
+      property="og:image"
+      content={new URL(media('school-04.webp'), Astro.site || Astro.url.origin)
+        .href}
+    />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержанию</a>
+    <SiteHeader content={content} overlay={overlay} />
+    <main id="main" tabindex="-1"><slot /></main>
+    <SiteFooter site={content.site} />
+    <script>
+      const reduced = window.matchMedia(
+        '(prefers-reduced-motion: reduce)',
+      ).matches;
+      if (!reduced && 'IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.15 },
+        );
+        document
+          .querySelectorAll('.reveal')
+          .forEach((element) => observer.observe(element));
+      }
+    </script>
+  </body>
+</html>

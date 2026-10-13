@@ -1,0 +1,23 @@
+---
+import { media } from '@/shared/lib/paths';
+interface Props {
+  name: string;
+  alt: string;
+  ratio?: string;
+  framed?: boolean;
+  eager?: boolean;
+}
+const { name, alt, ratio = '1.1', framed = false, eager = false } = Astro.props;
+---
+
+<figure
+  class:list={['photo', { 'photo-frame': framed }]}
+  style={`aspect-ratio:${ratio}`}
+>
+  <img
+    src={media(name)}
+    alt={alt}
+    loading={eager ? 'eager' : 'lazy'}
+    decoding="async"
+  />
+</figure>

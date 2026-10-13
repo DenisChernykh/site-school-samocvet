@@ -1,0 +1,96 @@
+---
+import type { SiteContent } from '@/shared/api/types';
+import PageHeading from '@/shared/ui/page-heading.astro';
+import Photo from '@/shared/ui/photo.astro';
+import TextLink from '@/shared/ui/text-link.astro';
+import Invitation from '@/widgets/invitation/invitation.astro';
+interface Props {
+  content: SiteContent;
+}
+const { content } = Astro.props;
+---
+
+<PageHeading heading={content.life.heading}
+  ><div class="tabs" data-life-filters aria-label="Темы школьных историй">
+    <button type="button" data-filter="all" aria-pressed="true"
+      >Все истории</button
+    ><button type="button" data-filter="creativity" aria-pressed="false"
+      >Творчество</button
+    ><button type="button" data-filter="walks" aria-pressed="false"
+      >Походы</button
+    >
+  </div></PageHeading
+>
+<div data-life-stories>
+  {
+    content.life.stories.map((story, index) => (
+      <article class="section" data-category={story.category}>
+        <div class:list={['section-inner split', { reverse: index === 1 }]}>
+          <>
+            <div class="story-photo reveal">
+              <Photo
+                name={story.image}
+                alt={story.title.replaceAll('\n', ' ')}
+                ratio="1.35"
+              />
+            </div>
+            <div class="text-stack">
+              <p>{story.description}</p>
+              {story.link && (
+                <TextLink href={story.link.href}>{story.link.label}</TextLink>
+              )}
+            </div>
+          </>
+        </div>
+      </article>
+    ))
+  }
+</div>
+<p class="filter-status" role="status" aria-live="polite" data-filter-status>
+</p>
+<Invitation
+  title="Истории начинаются\nсо встречи"
+  description="Открытые встречи и мастерские помогают познакомиться с сообществом."
+  label="Посмотреть афишу"
+  href="events/"
+/>
+<script>
+  const filters = document.querySelector('[data-life-filters]');
+  filters?.querySelectorAll<HTMLButtonElement>('button').forEach((button) =>
+    button.addEventListener('click', () => {
+      const category = button.dataset.filter;
+      filters
+        .querySelectorAll('button')
+        .forEach((item) =>
+          item.setAttribute('aria-pressed', String(item === button)),
+        );
+      let count = 0;
+      document
+        .querySelectorAll<HTMLElement>('[data-category]')
+        .forEach((story) => {
+          story.hidden =
+            category !== 'all' && story.dataset.category !== category;
+          if (!story.hidden) count++;
+        });
+      const status = document.querySelector('[data-filter-status]');
+      if (status) status.textContent = `Показано историй: ${count}`;
+    }),
+  );
+</script>
+<style>
+  .reverse .story-photo {
+    order: 2;
+  }
+  .filter-status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  @media (max-width: 760px) {
+    .reverse .story-photo {
+      order: 0;
+    }
+  }
+</style>

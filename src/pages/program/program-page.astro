@@ -1,0 +1,117 @@
+---
+import type { Program } from '@/shared/api/types';
+import { withBase } from '@/shared/lib/paths';
+import PageHeading from '@/shared/ui/page-heading.astro';
+import FeatureSection from '@/shared/ui/feature-section.astro';
+import Photo from '@/shared/ui/photo.astro';
+import Button from '@/shared/ui/button.astro';
+interface Props {
+  program: Program;
+  contactUrl: string;
+}
+const { program, contactUrl } = Astro.props;
+const panels = [
+  program.details.items.slice(0, 2),
+  program.details.items.slice(2),
+];
+---
+
+<PageHeading heading={program.heading}
+  ><nav slot="before" class="breadcrumbs" aria-label="Хлебные крошки">
+    <a href={withBase('programs/')}>Направления</a><span aria-hidden="true">
+      /
+    </span><span>{program.name}</span>
+  </nav></PageHeading
+>
+<section class="section program-overview">
+  <div class="section-inner overview">
+    <Photo name={program.image} alt={program.name} ratio="1.76" eager /><div
+      class="text-stack"
+    >
+      <dl class="facts">
+        {
+          program.facts.map((fact) => (
+            <div>
+              <>
+                <dt>{fact.label}</dt>
+                <dd>{fact.value}</dd>
+              </>
+            </div>
+          ))
+        }
+      </dl><Button href={contactUrl}>{program.actionLabel}</Button>
+    </div>
+  </div>
+</section>
+<section class="section details">
+  <div class="section-inner">
+    <div class="section-heading">
+      <h2 class="multiline">{program.details.title}</h2>
+    </div><div class="panel-grid">
+      {
+        panels.map((items, index) => (
+          <div class:list={['panel', { sage: index === 1 }]}>
+            <div class="items">
+              {items.map((item) => (
+                <div>
+                  <h3>{item.title}</h3>
+                  <p>{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
+<FeatureSection feature={program.story} framed />
+<section class="section start">
+  <div class="narrow text-stack center">
+    <h2>{program.start.title}</h2><p>{program.start.description}</p><Button
+      href={contactUrl}>Написать Ксении</Button
+    >
+  </div>
+</section>
+<style>
+  .breadcrumbs {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .breadcrumbs a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  .overview {
+    display: grid;
+    grid-template-columns: 758fr 442fr;
+    gap: 48px;
+    align-items: start;
+  }
+  .program-overview {
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+  .details {
+    border-top: 1px solid var(--line);
+  }
+  .panel h3 {
+    font-size: 22px;
+    margin: 0 0 8px;
+  }
+  .start {
+    background: var(--sage);
+  }
+  @media (max-width: 760px) {
+    .overview {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .program-overview {
+      padding-bottom: 56px;
+    }
+    .breadcrumbs {
+      font-size: 12px;
+    }
+  }
+</style>

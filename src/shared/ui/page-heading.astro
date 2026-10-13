@@ -1,0 +1,33 @@
+---
+import type { Heading } from '@/shared/api/types';
+interface Props {
+  heading: Heading;
+}
+const { heading } = Astro.props;
+---
+
+<section class="page-heading section">
+  <div class="narrow text-stack center">
+    <slot name="before" /><h1 class="multiline">{heading.title}</h1>{
+      heading.description && <p>{heading.description}</p>
+    }<slot />
+  </div>
+</section>
+<style>
+  .page-heading {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .page-heading p {
+    max-width: 850px;
+  }
+  @media (max-width: 760px) {
+    .page-heading {
+      padding-top: 40px;
+      padding-bottom: 44px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+  }
+</style>

@@ -1,0 +1,115 @@
+---
+import type { SiteContent } from '@/shared/api/types';
+import PageHeading from '@/shared/ui/page-heading.astro';
+import Photo from '@/shared/ui/photo.astro';
+import TextLink from '@/shared/ui/text-link.astro';
+import Invitation from '@/widgets/invitation/invitation.astro';
+interface Props {
+  content: SiteContent;
+}
+const { content } = Astro.props;
+---
+
+<PageHeading heading={content.team.heading} />
+<section class="section team">
+  <div class="section-inner team-members">
+    {
+      content.team.members.map((member, index) => (
+        <article
+          class:list={[
+            'team-member',
+            { reverse: index % 2 === 0, director: index === 0 },
+          ]}
+        >
+          <>
+            <div class="portrait reveal">
+              <Photo
+                name={member.image}
+                alt={member.title.replaceAll('\n', ' ')}
+                ratio={index === 0 ? '1.08' : '.917'}
+              />
+            </div>
+            <div class="text-stack">
+              <p class="muted">{member.description}</p>
+              {index === 0 && (
+                <TextLink href="admission/#inquiry">
+                  Познакомиться на экскурсии
+                </TextLink>
+              )}
+            </div>
+          </>
+        </article>
+      ))
+    }
+  </div>
+</section>
+<Invitation title="Лучше познакомиться лично" />
+<style>
+  .team {
+    padding-top: 32px;
+  }
+  .team-members {
+    max-width: 1140px;
+    display: grid;
+    gap: 100px;
+  }
+  .team-member {
+    display: grid;
+    grid-template-columns: 330px 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .team-member.reverse {
+    grid-template-columns: 1fr 330px;
+  }
+  .reverse .portrait {
+    order: 2;
+  }
+  .director {
+    grid-template-columns: 1fr 500px !important;
+    gap: 96px;
+    margin-bottom: 32px;
+  }
+  .team-member h2 {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+  .director h2 {
+    font-size: 40px;
+  }
+  .role {
+    font-style: italic;
+  }
+  @media (max-width: 1000px) {
+    .team-member,
+    .team-member.reverse,
+    .director {
+      grid-template-columns: 1fr 1fr !important;
+      gap: 40px;
+    }
+  }
+  @media (max-width: 760px) {
+    .team-members {
+      gap: 64px;
+    }
+    .team-member,
+    .team-member.reverse,
+    .director {
+      grid-template-columns: 1fr !important;
+      gap: 28px;
+    }
+    .reverse .portrait {
+      order: 0;
+    }
+    .portrait {
+      max-width: 430px;
+      width: 100%;
+    }
+    .director h2 {
+      font-size: 32px;
+    }
+    .team-member h2 {
+      font-size: 28px;
+    }
+  }
+</style>

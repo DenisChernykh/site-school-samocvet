@@ -1,0 +1,22 @@
+---
+import { withBase } from '@/shared/lib/paths';
+interface Props {
+  href: string;
+}
+const { href } = Astro.props;
+const external = /^https?:\/\//.test(href);
+const destination =
+  external ||
+  href.startsWith('#') ||
+  href.startsWith('tel:') ||
+  href.startsWith('mailto:')
+    ? href
+    : withBase(href);
+---
+
+<a
+  class="text-link"
+  href={destination}
+  target={external ? '_blank' : undefined}
+  rel={external ? 'noopener noreferrer' : undefined}><slot /></a
+>

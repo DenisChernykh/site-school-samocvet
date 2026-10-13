@@ -1,0 +1,37 @@
+---
+import { getSiteContent } from '@/shared/api/site-content';
+import SiteLayout from '../layouts/site-layout.astro';
+import Button from '@/shared/ui/button.astro';
+import TextLink from '@/shared/ui/text-link.astro';
+const content = await getSiteContent();
+---
+
+<SiteLayout content={content} title="Страница не найдена"
+  ><section class="section error-page">
+    <div class="text-stack center">
+      <p class="code">404</p><h1>Здесь пока<br />ничего нет</h1><p>
+        Возможно, адрес изменился. Вернёмся на главную — там начинается
+        знакомство со школой.
+      </p><Button href="">На главную</Button><TextLink href="programs/"
+        >Наши направления</TextLink
+      >
+    </div>
+  </section></SiteLayout
+>
+<style>
+  .error-page {
+    min-height: 65svh;
+    display: grid;
+    place-items: center;
+  }
+  .error-page p {
+    max-width: 540px;
+    text-align: center;
+  }
+  .code {
+    font:
+      italic 80px/1 Lora,
+      serif;
+    color: var(--fern);
+  }
+</style>

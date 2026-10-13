@@ -1,0 +1,83 @@
+---
+import type { SiteContent } from '@/shared/api/types';
+import PageHeading from '@/shared/ui/page-heading.astro';
+import FeatureSection from '@/shared/ui/feature-section.astro';
+import ProgramCard from '@/entities/program/program-card.astro';
+import Invitation from '@/widgets/invitation/invitation.astro';
+interface Props {
+  content: SiteContent;
+}
+const { content } = Astro.props;
+---
+
+<PageHeading heading={content.programsHeading} />
+<section class="section catalogue">
+  <div class="section-inner program-grid">
+    {
+      content.programs
+        .slice(0, 3)
+        .map((program) => <ProgramCard program={program} />)
+    }
+  </div>
+</section>
+<FeatureSection feature={content.individualIntro} reverse centered />
+<section class="section school-day">
+  <div class="section-inner">
+    <div class="section-heading">
+      <h2 class="multiline">{content.schoolDay.title}</h2>
+    </div><div class="day-items">
+      {
+        content.schoolDay.items.map((item) => (
+          <div>
+            <>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </>
+          </div>
+        ))
+      }
+    </div><p class="note muted">{content.schoolDay.note}</p>
+  </div>
+</section>
+<Invitation title="Поможем найти ваш формат" />
+<style>
+  .catalogue {
+    padding-top: 16px;
+  }
+  .program-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .school-day {
+    background: var(--sage);
+  }
+  .day-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    text-align: center;
+  }
+  .day-items h3 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  .note {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  @media (max-width: 760px) {
+    .program-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .day-items {
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+    .day-items h3 {
+      font-size: 24px;
+    }
+  }
+</style>

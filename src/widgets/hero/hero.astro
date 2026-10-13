@@ -1,0 +1,99 @@
+---
+import type { Hero } from '@/shared/api/types';
+import { media } from '@/shared/lib/paths';
+import Button from '@/shared/ui/button.astro';
+interface Props {
+  hero: Hero;
+  compact?: boolean;
+}
+const { hero, compact = false } = Astro.props;
+---
+
+<section class:list={['hero', { compact }]}>
+  <picture aria-hidden="true">
+    {
+      hero.mobileImage && (
+        <source media="(max-width: 760px)" srcset={media(hero.mobileImage)} />
+      )
+    }
+    <img src={media(hero.image)} alt="" fetchpriority="high" decoding="async" />
+  </picture>
+  <div class="hero-content">
+    <h1 class="multiline">{hero.title}</h1>
+    <p class="multiline">{hero.description}</p>
+    <Button href={hero.action.href}>{hero.action.label}</Button>
+  </div>
+</section>
+<style>
+  .hero {
+    position: relative;
+    height: min(820px, 100svh);
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cream);
+    background: var(--forest);
+  }
+  .hero.compact {
+    height: 700px;
+  }
+  picture {
+    position: absolute;
+    inset: 0;
+  }
+  picture::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #374036ae;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    padding: 96px 24px 42px;
+    text-align: center;
+  }
+  .hero-content > * {
+    animation: hero-arrive 650ms ease both;
+  }
+  .hero-content > p {
+    animation-delay: 120ms;
+  }
+  .hero-content :global(.button) {
+    animation-delay: 240ms;
+  }
+  p {
+    max-width: 770px;
+    font:
+      20px/1.4 Lora,
+      serif;
+  }
+  @media (max-width: 760px) {
+    .hero,
+    .hero.compact {
+      height: min(740px, 100svh);
+      min-height: 600px;
+    }
+    .hero-content {
+      gap: 26px;
+      padding-bottom: 32px;
+    }
+    h1 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+</style>
