@@ -1,0 +1,223 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e17]:
+    - generic [ref=f7e25]:
+      - heading "@samocvet_me" [level=2] [ref=f7e27]
+      - group [ref=f7e30]:
+        - button "Ещё" [ref=f7e31] [cursor=pointer]
+    - generic [ref=f7e37]:
+      - generic [ref=f7e41]:
+        - generic [ref=f7e43] [cursor=pointer]
+        - generic [ref=f7e45]:
+          - generic [ref=f7e46]: САМОЦВЕТ — Вальдорфская инициатива.
+          - button [ref=f7e50] [cursor=pointer]:
+            - generic [ref=f7e52]:
+              - heading "2,3K" [level=4] [ref=f7e53]
+              - text: подписчиков
+          - generic [ref=f7e58]:
+            - generic [ref=f7e60]:
+              - generic [ref=f7e61]:
+                - text: "САМОЦВЕТ - сообщество семей, где дети любят учиться и делают это с радостью! 🌿Душевная атмосфера; 🌿Развитие творческого живого мышления и умения работать в команде; 🌿Познание через наблюдение, исследование и опыт; 🌿Трудовое и экологическое воспитание; 🌿Гуманный подход с учетом возрастных и индивидуальных особенностей ребенка; 🌿Малокомплектные семейные классы; 🌿Аттестация. Навигация по статьям в нашей группе:"
+                - link "#будни_школасамоцвет" [ref=f7e62] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B1%D1%83%D0%B4%D0%BD%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#педагоги_школасамоцвет" [ref=f7e63] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#эпохи_школасамоцвет" [ref=f7e64] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%8D%D0%BF%D0%BE%D1%85%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#продленка_школасамоцвет" [ref=f7e65] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D1%80%D0%BE%D0%B4%D0%BB%D0%B5%D0%BD%D0%BA%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#праздники_школасамоцвет" [ref=f7e66] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#отзывы_школасамоцвет" [ref=f7e67] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BE%D1%82%D0%B7%D1%8B%D0%B2%D1%8B_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#родители_школасамоцвет" [ref=f7e68] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#проектнаядеятельность_школасамоцвет" [ref=f7e69] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BD%D0%B0%D1%8F%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#ремесла_школасамоцвет" [ref=f7e70] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D0%B5%D0%BC%D0%B5%D1%81%D0%BB%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#педагогическийсеминар_школасамоцвет" [ref=f7e71] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%D1%81%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#анонс_самоцвет" [ref=f7e72] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B0%D0%BD%D0%BE%D0%BD%D1%81_%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#друзья_самоцвет" [ref=f7e73] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F_%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#теплыевстречи_школасамоцвет" [ref=f7e74] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%82%D0%B5%D0%BF%D0%BB%D1%8B%D0%B5%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#польза_школасамоцвет" [ref=f7e75] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#игры_школасамоцвет" [ref=f7e76] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B8%D0%B3%D1%80%D1%8B_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#РА_школасамоцвет" [ref=f7e77] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%A0%D0%90_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - text: "Предметы:"
+                - link "#живопись_школасамоцвет" [ref=f7e78] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B6%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D1%8C_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#ручнойтруд_школасамоцвет" [ref=f7e79] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D1%83%D1%87%D0%BD%D0%BE%D0%B9%D1%82%D1%80%D1%83%D0%B4_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#английский_школасамоцвет" [ref=f7e80] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#немецкий_школасамоцвет" [ref=f7e81] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BD%D0%B5%D0%BC%D0%B5%D1%86%D0%BA%D0%B8%D0%B9_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#подвижныеигры_школасамоцвет" [ref=f7e82] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D1%8B%D0%B5%D0%B8%D0%B3%D1%80%D1%8B_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#русскийязык_школасамоцвет" [ref=f7e83] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%D1%8F%D0%B7%D1%8B%D0%BA_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#математика_школасамоцвет" [ref=f7e84] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#рисованиеформ_школасамоцвет" [ref=f7e85] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D1%84%D0%BE%D1%80%D0%BC_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#музыка_школасамоцвет" [ref=f7e86] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#эвритмия_школасамоцвет" [ref=f7e87] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%8D%D0%B2%D1%80%D0%B8%D1%82%D0%BC%D0%B8%D1%8F_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - text: "По классам:"
+                - link "#подготовкакшколе_школасамоцвет" [ref=f7e88] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%D0%BA%D1%88%D0%BA%D0%BE%D0%BB%D0%B5_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#1йкласс_школасамоцвет" [ref=f7e89] [cursor=pointer]:
+                  - /url: /feed?q=%231%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#2йкласс_школасамоцвет" [ref=f7e90] [cursor=pointer]:
+                  - /url: /feed?q=%232%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#3йкласс_школасамоцвет" [ref=f7e91] [cursor=pointer]:
+                  - /url: /feed?q=%233%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#4йкласс_школасамоцвет" [ref=f7e92] [cursor=pointer]:
+                  - /url: /feed?q=%234%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#5йкласс_школасамоцвет" [ref=f7e93] [cursor=pointer]:
+                  - /url: /feed?q=%235%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#6йкласс_школасамоцвет" [ref=f7e94] [cursor=pointer]:
+                  - /url: /feed?q=%236%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+              - button "Ещё" [ref=f7e96] [cursor=pointer]
+            - button "Ещё" [ref=f7e99] [cursor=pointer]
+          - button [ref=f7e100] [cursor=pointer]:
+            - link "samosvet-ekb.ru/" [ref=f7e108]:
+              - /url: /away.php?to=https%3A%2F%2Fsamosvet-ekb.ru%2F&utf=1
+          - group [ref=f7e111]:
+            - button "Подписаться" [ref=f7e112] [cursor=pointer]
+            - link "Позвонить" [ref=f7e115] [cursor=pointer]:
+              - /url: tel:++7 (963) 853-93-36
+      - generic [ref=f7e118]:
+        - generic [ref=f7e789]:
+          - generic [ref=f7e791]:
+            - separator [ref=f7e794]
+            - heading "Альбомы" [level=2] [ref=f7e798]:
+              - generic "Альбомы" [ref=f7e803]
+            - generic [ref=f7e806]:
+              - button [aria-hidden]:
+                - generic: Вперед
+              - generic [ref=f7e809]:
+                - link "Интерьеры вальдорфских школ" [ref=f7e812] [cursor=pointer]:
+                  - /url: /album-156951422_248922247
+                  - generic [ref=f7e821]:
+                    - generic [ref=f7e822]: Интерьеры вальдорфских школ
+                    - generic [ref=f7e823]: 33 фото
+                - link "Праздник двора 12.06.26" [ref=f7e827] [cursor=pointer]:
+                  - /url: /album-156951422_311149252
+                  - generic [ref=f7e836]:
+                    - generic [ref=f7e837]: Праздник двора 12.06.26
+                    - generic [ref=f7e838]: 55 фото
+                - link "Выпускные 2026" [ref=f7e842] [cursor=pointer]:
+                  - /url: /album-156951422_310996343
+                  - generic [ref=f7e851]:
+                    - generic [ref=f7e852]: Выпускные 2026
+                    - generic [ref=f7e853]: 70 фото
+                - link "30.04.26 Весенний концерт" [ref=f7e857] [cursor=pointer]:
+                  - /url: /album-156951422_310792866
+                  - generic [ref=f7e866]:
+                    - generic [ref=f7e867]: 30.04.26 Весенний концерт
+                    - generic [ref=f7e868]: 48 фото
+                - link "Продленка 25/26гг" [ref=f7e872] [cursor=pointer]:
+                  - /url: /album-156951422_309303211
+                  - generic [ref=f7e881]:
+                    - generic [ref=f7e882]: Продленка 25/26гг
+                    - generic [ref=f7e883]: 21 фото
+                - link "6 класс 25/26гг" [ref=f7e887] [cursor=pointer]:
+                  - /url: /album-156951422_309303201
+                  - generic [ref=f7e896]:
+                    - generic [ref=f7e897]: 6 класс 25/26гг
+                    - generic [ref=f7e898]: 9 фото
+                - link "Показать все" [ref=f7e901] [cursor=pointer]:
+                  - /url: /albums-156951422?act=all
+            - separator [ref=f7e909]
+            - heading "Фотографии" [level=2] [ref=f7e913]:
+              - generic "Фотографии" [ref=f7e918]
+            - generic [ref=f7e920]:
+              - button [ref=f7e922] [cursor=pointer]
+              - button [ref=f7e928] [cursor=pointer]
+              - button [ref=f7e934] [cursor=pointer]
+              - button [ref=f7e940] [cursor=pointer]
+              - button [ref=f7e946] [cursor=pointer]
+              - button [ref=f7e952] [cursor=pointer]
+              - button [ref=f7e958] [cursor=pointer]
+              - button [ref=f7e964] [cursor=pointer]
+              - button [ref=f7e970] [cursor=pointer]
+              - button [ref=f7e976] [cursor=pointer]
+              - button [ref=f7e982] [cursor=pointer]
+              - button [ref=f7e988] [cursor=pointer]
+              - button [ref=f7e994] [cursor=pointer]
+              - button [ref=f7e1000] [cursor=pointer]
+              - button [ref=f7e1006] [cursor=pointer]
+              - button [ref=f7e1012] [cursor=pointer]
+              - button [ref=f7e1018] [cursor=pointer]
+              - button [ref=f7e1024] [cursor=pointer]
+              - button [ref=f7e1030] [cursor=pointer]
+              - button [ref=f7e1036] [cursor=pointer]
+              - button [ref=f7e1042] [cursor=pointer]
+              - button [ref=f7e1048] [cursor=pointer]
+              - button [ref=f7e1054] [cursor=pointer]
+              - button [ref=f7e1060] [cursor=pointer]
+              - button [ref=f7e1066] [cursor=pointer]
+              - button [ref=f7e1072] [cursor=pointer]
+              - button [ref=f7e1078] [cursor=pointer]
+              - button [ref=f7e1084] [cursor=pointer]
+              - button [ref=f7e1090] [cursor=pointer]
+              - button [ref=f7e1096] [cursor=pointer]
+              - button [ref=f7e1102] [cursor=pointer]
+              - button [ref=f7e1108] [cursor=pointer]
+              - button [ref=f7e1114] [cursor=pointer]
+              - button [ref=f7e1120] [cursor=pointer]
+              - button [ref=f7e1126] [cursor=pointer]
+              - button [ref=f7e1132] [cursor=pointer]
+              - button [ref=f7e1138] [cursor=pointer]
+              - button [ref=f7e1144] [cursor=pointer]
+              - button [ref=f7e1150] [cursor=pointer]
+              - button [ref=f7e1156] [cursor=pointer]
+              - button [ref=f7e1162] [cursor=pointer]
+              - button [ref=f7e1168] [cursor=pointer]
+              - button [ref=f7e1174] [cursor=pointer]
+              - button [ref=f7e1180] [cursor=pointer]
+              - button [ref=f7e1186] [cursor=pointer]
+              - button [ref=f7e1192] [cursor=pointer]
+              - button [ref=f7e1198] [cursor=pointer]
+              - button [ref=f7e1204] [cursor=pointer]
+              - button [ref=f7e1210] [cursor=pointer]
+              - button [ref=f7e1216] [cursor=pointer]
+              - button [ref=f7e1222] [cursor=pointer]
+              - button [ref=f7e1228] [cursor=pointer]
+              - button [ref=f7e1234] [cursor=pointer]
+              - button [ref=f7e1240] [cursor=pointer]
+              - button [ref=f7e1246] [cursor=pointer]
+              - button [ref=f7e1252] [cursor=pointer]
+              - button [ref=f7e1258] [cursor=pointer]
+              - button [ref=f7e1264] [cursor=pointer]
+              - button [ref=f7e1270] [cursor=pointer]
+              - button [ref=f7e1276] [cursor=pointer]
+          - generic [ref=f7e1287]:
+            - group
+        - tablist [ref=f7e725]:
+          - generic [ref=f7e729]:
+            - tab "Посты" [ref=f7e1288] [cursor=pointer]
+            - tab "Клипы" [ref=f7e732] [cursor=pointer]
+            - tab "Альбомы Интерьеры вальдорфских школ Праздник двора 12.06.26 Выпускные 2026 30.04.26 Весенний концерт Продленка 25/26гг 6 класс 25/26гг Показать все Фотографии" [active] [selected] [ref=f7e1289] [cursor=pointer]:
+              - generic [ref=f7e735]: Фото
+            - tab "Видео" [ref=f7e736] [cursor=pointer]
+            - tab "Обсуждения" [ref=f7e738] [cursor=pointer]
+  - generic [ref=f7e474]:
+    - generic [ref=f7e479]:
+      - heading "Следите за новыми постами — с аккаунтом ВКонтакте" [level=4] [ref=f7e480]
+      - generic [ref=f7e481]: Войдите, чтобы не пропускать интересный контент
+    - group [ref=f7e482]:
+      - link "Открыть в приложении" [ref=f7e483] [cursor=pointer]:
+        - /url: https://trk.mail.ru/c/xj9pr7
+      - link "Зарегистрироваться" [ref=f7e486] [cursor=pointer]:
+        - /url: /join?from=Y2x1YjIzMTQ3MTYzMQ--
+      - link "Войти" [ref=f7e489] [cursor=pointer]:
+        - /url: /login?to=Y2x1YjIzMTQ3MTYzMQ--

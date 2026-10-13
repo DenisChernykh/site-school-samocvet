@@ -1,0 +1,662 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e17]:
+    - generic [ref=f7e25]:
+      - heading "@samocvet_me" [level=2] [ref=f7e27]
+      - group [ref=f7e30]:
+        - button "Ещё" [ref=f7e31] [cursor=pointer]
+    - generic [ref=f7e37]:
+      - generic [ref=f7e41]:
+        - generic [ref=f7e43] [cursor=pointer]
+        - generic [ref=f7e45]:
+          - generic [ref=f7e46]: САМОЦВЕТ — Вальдорфская инициатива.
+          - button [ref=f7e50] [cursor=pointer]:
+            - generic [ref=f7e52]:
+              - heading "2,3K" [level=4] [ref=f7e53]
+              - text: подписчиков
+          - generic [ref=f7e58]:
+            - generic [ref=f7e60]:
+              - generic [ref=f7e61]:
+                - text: "САМОЦВЕТ - сообщество семей, где дети любят учиться и делают это с радостью! 🌿Душевная атмосфера; 🌿Развитие творческого живого мышления и умения работать в команде; 🌿Познание через наблюдение, исследование и опыт; 🌿Трудовое и экологическое воспитание; 🌿Гуманный подход с учетом возрастных и индивидуальных особенностей ребенка; 🌿Малокомплектные семейные классы; 🌿Аттестация. Навигация по статьям в нашей группе:"
+                - link "#будни_школасамоцвет" [ref=f7e62] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B1%D1%83%D0%B4%D0%BD%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#педагоги_школасамоцвет" [ref=f7e63] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#эпохи_школасамоцвет" [ref=f7e64] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%8D%D0%BF%D0%BE%D1%85%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#продленка_школасамоцвет" [ref=f7e65] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D1%80%D0%BE%D0%B4%D0%BB%D0%B5%D0%BD%D0%BA%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#праздники_школасамоцвет" [ref=f7e66] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#отзывы_школасамоцвет" [ref=f7e67] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BE%D1%82%D0%B7%D1%8B%D0%B2%D1%8B_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#родители_школасамоцвет" [ref=f7e68] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#проектнаядеятельность_школасамоцвет" [ref=f7e69] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BD%D0%B0%D1%8F%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#ремесла_школасамоцвет" [ref=f7e70] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D0%B5%D0%BC%D0%B5%D1%81%D0%BB%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#педагогическийсеминар_школасамоцвет" [ref=f7e71] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%D1%81%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#анонс_самоцвет" [ref=f7e72] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B0%D0%BD%D0%BE%D0%BD%D1%81_%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#друзья_самоцвет" [ref=f7e73] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F_%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#теплыевстречи_школасамоцвет" [ref=f7e74] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%82%D0%B5%D0%BF%D0%BB%D1%8B%D0%B5%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#польза_школасамоцвет" [ref=f7e75] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#игры_школасамоцвет" [ref=f7e76] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B8%D0%B3%D1%80%D1%8B_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#РА_школасамоцвет" [ref=f7e77] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%A0%D0%90_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - text: "Предметы:"
+                - link "#живопись_школасамоцвет" [ref=f7e78] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B6%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D1%8C_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#ручнойтруд_школасамоцвет" [ref=f7e79] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D1%83%D1%87%D0%BD%D0%BE%D0%B9%D1%82%D1%80%D1%83%D0%B4_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#английский_школасамоцвет" [ref=f7e80] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#немецкий_школасамоцвет" [ref=f7e81] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BD%D0%B5%D0%BC%D0%B5%D1%86%D0%BA%D0%B8%D0%B9_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#подвижныеигры_школасамоцвет" [ref=f7e82] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D1%8B%D0%B5%D0%B8%D0%B3%D1%80%D1%8B_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#русскийязык_школасамоцвет" [ref=f7e83] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%D1%8F%D0%B7%D1%8B%D0%BA_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#математика_школасамоцвет" [ref=f7e84] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#рисованиеформ_школасамоцвет" [ref=f7e85] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D1%84%D0%BE%D1%80%D0%BC_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#музыка_школасамоцвет" [ref=f7e86] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#эвритмия_школасамоцвет" [ref=f7e87] [cursor=pointer]:
+                  - /url: /feed?q=%23%D1%8D%D0%B2%D1%80%D0%B8%D1%82%D0%BC%D0%B8%D1%8F_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - text: "По классам:"
+                - link "#подготовкакшколе_школасамоцвет" [ref=f7e88] [cursor=pointer]:
+                  - /url: /feed?q=%23%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%D0%BA%D1%88%D0%BA%D0%BE%D0%BB%D0%B5_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#1йкласс_школасамоцвет" [ref=f7e89] [cursor=pointer]:
+                  - /url: /feed?q=%231%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#2йкласс_школасамоцвет" [ref=f7e90] [cursor=pointer]:
+                  - /url: /feed?q=%232%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#3йкласс_школасамоцвет" [ref=f7e91] [cursor=pointer]:
+                  - /url: /feed?q=%233%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#4йкласс_школасамоцвет" [ref=f7e92] [cursor=pointer]:
+                  - /url: /feed?q=%234%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#5йкласс_школасамоцвет" [ref=f7e93] [cursor=pointer]:
+                  - /url: /feed?q=%235%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+                - link "#6йкласс_школасамоцвет" [ref=f7e94] [cursor=pointer]:
+                  - /url: /feed?q=%236%D0%B9%D0%BA%D0%BB%D0%B0%D1%81%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82&section=search
+              - button "Ещё" [ref=f7e96] [cursor=pointer]
+            - button "Ещё" [ref=f7e99] [cursor=pointer]
+          - button [ref=f7e100] [cursor=pointer]:
+            - link "samosvet-ekb.ru/" [ref=f7e108]:
+              - /url: /away.php?to=https%3A%2F%2Fsamosvet-ekb.ru%2F&utf=1
+          - group [ref=f7e111]:
+            - button "Подписаться" [ref=f7e112] [cursor=pointer]
+            - link "Позвонить" [ref=f7e115] [cursor=pointer]:
+              - /url: tel:++7 (963) 853-93-36
+      - generic [ref=f7e118]:
+        - feed [ref=f7e154]:
+          - article [ref=f7e155]:
+            - generic [ref=f7e156]:
+              - generic [ref=f7e158]:
+                - link [aria-hidden] [ref=f7e160] [cursor=pointer]:
+                  - /url: /samocvet_me
+                - heading [level=3] [ref=f7e165]:
+                  - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f7e169] [cursor=pointer]:
+                    - /url: /samocvet_me?trackcode=0xabcdefomdfZrMbkF8PJ151iRAIRkpJaUKBUUVDEE33qMx6qTepfbFtKmHqQPhhqkvjKIhn6lAyUON2pjeINoBg-XLyXfhPhz3yK6ZwqG34Iuo0l0UHCB836DSVTdwrpnDv5Uw9DI9pbaI
+                - button "Действия" [ref=f7e173] [cursor=pointer]
+              - generic [ref=f7e180]:
+                - generic [ref=f7e183] [cursor=pointer]:
+                  - generic [ref=f7e185]:
+                    - text: Сегодня день рождения
+                    - link "Анны Пышинской" [ref=f7e186]:
+                      - /url: https://vk.ru/zvezdnosvetnaya
+                    - text: ", нашего прекрасного педагога по живописи, проводника в мир красоты!"
+                    - img "🍁" [ref=f7e187]
+                    - text: "Анна, благодарим, что вы учите ребят не просто смотреть, а видеть - замечать оттенки, линии, настроение момента.. Восхищаемся тем, как вы тонко чувствуете мир, и как щедро делитесь этим чувством: будь то акварельные работы, сезонное оформление столика времен года, или стены 5 класса, расписанные в технике лессировки, которые буквально дышат цветом, столько в них глубины и воздуха!А еще, в каждой куколке, которую создаёте своими руками чувствуется столько тепла и душевности.. Вы - творческая, отзывчивая, мудрая, мы бесконечно ценим, что вы с нами и благодарны за ваш труд, за вдохновение, которое передаете и детям, и взрослым. Что можно пожелать настоящему художнику? Творить! На холсте жизни - свою историю! Пусть палитра дней будет насыщенной, а композиция судьбы - гармоничной и счастливой!"
+                    - img "💛" [ref=f7e188]
+                    - text: "А здесь, дорогие друзья, хотим поделиться с вами небольшой подборкой постов, где можно увидеть красоту, которую ребята сотворили на уроках живописи под руководством Анны:"
+                    - link "весна" [ref=f7e189]:
+                      - /url: https://vk.ru/wall-156951422_3517
+                    - link "древнегреческие амфоры" [ref=f7e190]:
+                      - /url: https://vk.ru/wall-156951422_3460
+                    - link "зиккураты" [ref=f7e191]:
+                      - /url: https://vk.ru/wall-156951422_3285
+                    - link "5 класс ч.1" [ref=f7e192]:
+                      - /url: https://vk.ru/wall-156951422_3277
+                    - link "5 класс ч.2" [ref=f7e193]:
+                      - /url: https://vk.ru/wall-156951422_3182
+                    - link "4 класс ч.1" [ref=f7e194]:
+                      - /url: https://vk.ru/wall-156951422_2833
+                    - link "4 класс ч.2" [ref=f7e195]:
+                      - /url: https://vk.ru/wall-156951422_2936
+                    - link "4 класс ч.3" [ref=f7e196]:
+                      - /url: https://vk.ru/wall-156951422_2990
+                    - link "3класс" [ref=f7e197]:
+                      - /url: https://vk.ru/wall-156951422_3185
+                    - link "#СО" [ref=f7e198]:
+                      - /url: /search/statuses?q=%23%D0%A1%D0%9E
+                    - link "#семейноеобучение" [ref=f7e199]:
+                      - /url: /search/statuses?q=%23%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D0%BE%D0%B5%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5
+                    - link "#вальдорф" [ref=f7e200]:
+                      - /url: /search/statuses?q=%23%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D1%84
+                    - link "#школа" [ref=f7e201]:
+                      - /url: /search/statuses?q=%23%D1%88%D0%BA%D0%BE%D0%BB%D0%B0
+                    - link "#Екатеринбург" [ref=f7e202]:
+                      - /url: /search/statuses?q=%23%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3
+                    - link "#Ботаника" [ref=f7e203]:
+                      - /url: /search/statuses?q=%23%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0
+                    - link "#waldorf" [ref=f7e204]:
+                      - /url: /search/statuses?q=%23waldorf
+                    - link "#waldorfschool" [ref=f7e205]:
+                      - /url: /search/statuses?q=%23waldorfschool
+                    - link "#waldorfeducation" [ref=f7e206]:
+                      - /url: /search/statuses?q=%23waldorfeducation
+                    - link "#педагоги_школасамоцвет" [ref=f7e207]:
+                      - /url: /search/statuses?q=%23%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+                  - button "Показать ещё" [ref=f7e209]
+                - generic [ref=f7e213]:
+                  - generic [ref=f7e214]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249113?from=post&list=wall-156951422_3799
+                  - generic [ref=f7e215]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249114?from=post&list=wall-156951422_3799
+                  - generic [ref=f7e216]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249112?from=post&list=wall-156951422_3799
+              - generic [ref=f7e220]:
+                - generic [ref=f7e221]:
+                  - button [aria-hidden] [ref=f7e222] [cursor=pointer]:
+                    - generic [ref=f7e224]: "16"
+                  - generic [ref=f7e225]:
+                    - button "Отправить реакцию «Лайк»"
+                  - generic [ref=f7e227]:
+                    - button "Выбор реакции"
+                  - button "2 Поделиться" [ref=f7e229] [cursor=pointer]:
+                    - generic [ref=f7e233]: "2"
+                - link "6 ч назад" [ref=f7e235] [cursor=pointer]:
+                  - /url: /wall-156951422_3799
+          - article [ref=f7e236]:
+            - generic [ref=f7e237]:
+              - generic [ref=f7e239]:
+                - link [aria-hidden] [ref=f7e241] [cursor=pointer]:
+                  - /url: /samocvet_me
+                - heading [level=3] [ref=f7e246]:
+                  - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f7e250] [cursor=pointer]:
+                    - /url: /samocvet_me?trackcode=0xabcdefomdfZrMbkF8PJ151iRAIRkpJaUKBUUVDEE33qMx6qTepfbRtK2HqQPhhqkvjKIhn6lAyUON2pjeINoBg-XLyXfhPhz3yK6ZwqG34Iuo0l0UHCB836DSVTdwrpnDv5Uw9hyNpbaI
+                - button "Действия" [ref=f7e254] [cursor=pointer]
+              - generic [ref=f7e261]:
+                - generic [ref=f7e264] [cursor=pointer]:
+                  - generic [ref=f7e266]:
+                    - text: Сегодня поздравляем с Днем рождения
+                    - link "Дарью Леонидовну" [ref=f7e267]:
+                      - /url: https://vk.ru/daria.chesnakova
+                    - text: "- нашего дорогого учителя второго класса"
+                    - img "❤" [ref=f7e268]
+                    - text: "Дарья , от всей души благодарим за то, что каждый день ты даришь детям знания, тепло и драгоценное внимание. Особенно ценим твою ответственность и удивительную организованность: с тобой в классе всегда уютно, всё понятно, любой день складывается в красивую, продуманную историю - и ребята чувствуют себя спокойно и уверенно. Отдельное восхищение — твоим талантом художника! То, как ты оформляешь школьную доску, украшаешь класс и превращаешь обычные темы в живые образы - настоящее искусство, которое останется в памяти ребят надолго.Желаем неиссякаемого вдохновения, сил и радости от каждого урока. Пусть всё задуманное легко сбывается, а ученики радуют своими открытиями и улыбками!"
+                    - img "💐" [ref=f7e269]
+                    - text: "А с вами, дорогие читатели, хотели бы поделиться тем, что Дарья Леонидовна постоянно учится, чем бесконечно вдохновляет: почти закончен вальдорфский дошкольный семинар, и уже пройдена первая сессия педагогического семинара в Санкт - Петербурге. Столько труда и любви к своему делу - искренне гордимся, что именно Дарья ведёт наших второклассников! Если хотите, чтобы ваш ребенок стал учеником Дарьи - пишите"
+                    - link "Ксении" [ref=f7e270]:
+                      - /url: https://vk.ru/kseniania
+                    - text: или звоните 89049887039, договоримся об экскурсии или собеседовании.
+                    - link "#СО" [ref=f7e271]:
+                      - /url: /search/statuses?q=%23%D0%A1%D0%9E
+                    - link "#семейноеобучение" [ref=f7e272]:
+                      - /url: /search/statuses?q=%23%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D0%BE%D0%B5%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5
+                    - link "#вальдорф" [ref=f7e273]:
+                      - /url: /search/statuses?q=%23%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D1%84
+                    - link "#школа" [ref=f7e274]:
+                      - /url: /search/statuses?q=%23%D1%88%D0%BA%D0%BE%D0%BB%D0%B0
+                    - link "#Екатеринбург" [ref=f7e275]:
+                      - /url: /search/statuses?q=%23%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3
+                    - link "#Ботаника" [ref=f7e276]:
+                      - /url: /search/statuses?q=%23%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0
+                    - link "#waldorf" [ref=f7e277]:
+                      - /url: /search/statuses?q=%23waldorf
+                    - link "#waldorfschool" [ref=f7e278]:
+                      - /url: /search/statuses?q=%23waldorfschool
+                    - link "#waldorfeducation" [ref=f7e279]:
+                      - /url: /search/statuses?q=%23waldorfeducation
+                    - link "#педагоги_школасамоцвет" [ref=f7e280]:
+                      - /url: /search/statuses?q=%23%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+                  - button "Показать ещё" [ref=f7e282]
+                - generic [ref=f7e286]:
+                  - generic [ref=f7e287]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249107?from=post&list=wall-156951422_3794
+                  - generic [ref=f7e288]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249108?from=post&list=wall-156951422_3794
+                  - generic [ref=f7e289]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249109?from=post&list=wall-156951422_3794
+              - generic [ref=f7e293]:
+                - generic [ref=f7e294]:
+                  - button [aria-hidden] [ref=f7e295] [cursor=pointer]:
+                    - generic [ref=f7e297]: "35"
+                  - generic [ref=f7e298]:
+                    - button "Отправить реакцию «Лайк»"
+                  - generic [ref=f7e300]:
+                    - button "Выбор реакции"
+                  - button "1 Поделиться" [ref=f7e302] [cursor=pointer]:
+                    - generic [ref=f7e306]: "1"
+                - link "3 д назад" [ref=f7e308] [cursor=pointer]:
+                  - /url: /wall-156951422_3794
+          - article [ref=f7e309]:
+            - generic [ref=f7e310]:
+              - generic [ref=f7e312]:
+                - link [aria-hidden] [ref=f7e314] [cursor=pointer]:
+                  - /url: /samocvet_me
+                - heading [level=3] [ref=f7e319]:
+                  - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f7e323] [cursor=pointer]:
+                    - /url: /samocvet_me?trackcode=0xabcdefomdfZrMbkF8PJ151iRAIRkpJaUKBUUVDEE33qMx6qTepfahtKGHqQPhhqkvjKIhn6lAyUON2pjeINoBg-XLyXfhPhz3yK6ZwqG34Iuo0l0UHCB836DSVTdwrpnDv5Uw8WK5pbaI
+                - button "Действия" [ref=f7e327] [cursor=pointer]
+              - generic [ref=f7e334]:
+                - generic [ref=f7e337] [cursor=pointer]:
+                  - generic [ref=f7e339]:
+                    - text: АФИША СОБЫТИЙ НА ОКТЯБРЬ
+                    - img "🍁" [ref=f7e340]
+                    - text: 11 октября, воскресенье, с 14.30 до 16.00 -
+                    - link "открытая встреча" [ref=f7e342]:
+                      - /url: https://vk.ru/wall-156951422_3788
+                    - text: беседа о подготовке к школе для родителей с
+                    - link "Ириной Толстых" [ref=f7e343]:
+                      - /url: https://vk.ru/irina_tolstykh
+                    - text: + лепка из воска и создание свечей для детей
+                    - img "🍁" [ref=f7e344]
+                    - text: 16 октября, пятница в 19.00 и 17 октября, суббота, в 12.00
+                    - link "спектакль \"По стрелкам вверх\"" [ref=f7e345]:
+                      - /url: https://vk.ru/wall-156951422_3789
+                    - text: от театра " Добрые люди "
+                    - img "🍁" [ref=f7e346]
+                    - text: 17-18 октября - уникальная возможность посетить
+                    - link "двухдневный практический семинар" [ref=f7e347]:
+                      - /url: https://vk.ru/wall-156951422_3760
+                    - text: в нашем городеВедущий лектор - Владимир Анатольевич Пегов, профессор, вальдорфский педагог из Смоленска
+                    - img "🍁" [ref=f7e348]
+                    - text: 25 октября, воскресенье, с 14.30 до 16.00 - 2 открытая встреча из
+                    - link "цикла встреч" [ref=f7e349]:
+                      - /url: https://vk.ru/wall-156951422_3785
+                    - text: беседа с
+                    - link "Диной" [ref=f7e350]:
+                      - /url: https://vk.ru/happy_grebneva
+                    - text: "о ПРОЕКТНОЙ ДЕЯТЕЛЬНОСТИ в вальдорфской школе: как дети учатся создавать проекты, планировать и доводить идеи до результата; + мк для детей"
+                    - img "🍁" [ref=f7e351]
+                    - text: 25 октября, воскресенье,с 11.30 до 16.30 - " Спевка " для взрослых с
+                    - link "Татьяной Сурь" [ref=f7e352]:
+                      - /url: https://vk.ru/tansur
+                    - text: "- настраиваем внимание на тело и дыхание, проявляя своё звучание, свой уникальный голос, ощущая радость звучать и радость созвучия в кругу"
+                    - img "🍂" [ref=f7e353]
+                    - text: по вторникам и пятницам с 16.00 до 17.30 - продолжаются
+                    - link "занятия по подготовке к школе" [ref=f7e354]:
+                      - /url: https://vk.ru/wall-156951422_3763
+                    - text: с Ириной Толстых
+                    - img "🍂" [ref=f7e355]
+                    - text: все учебные будни, с 13.00 до 16.00 действует группа продленного дня
+                    - img "🍂" [ref=f7e356]
+                    - text: а также весь октябрь возможны индивидуальные занятия по музыке и английскому языку с нашими чудесными педагогами запись и подробности
+                    - link "Ксения" [ref=f7e357]:
+                      - /url: https://vk.ru/kseniania
+                    - text: "89049887039"
+                    - link "#афиша_школасамоцвет" [ref=f7e358]:
+                      - /url: /search/statuses?q=%23%D0%B0%D1%84%D0%B8%D1%88%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+                    - link "#октябрь" [ref=f7e359]:
+                      - /url: /search/statuses?q=%23%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C
+                    - link "#Екатеринбург" [ref=f7e360]:
+                      - /url: /search/statuses?q=%23%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3
+                    - link "#вальдорф" [ref=f7e361]:
+                      - /url: /search/statuses?q=%23%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D1%84
+                    - link "#семинар" [ref=f7e362]:
+                      - /url: /search/statuses?q=%23%D1%81%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80
+                    - link "#спектакль" [ref=f7e363]:
+                      - /url: /search/statuses?q=%23%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B0%D0%BA%D0%BB%D1%8C
+                    - link "#дод" [ref=f7e364]:
+                      - /url: /search/statuses?q=%23%D0%B4%D0%BE%D0%B4
+                  - button "Показать ещё" [ref=f7e366]
+                - generic [ref=f7e376]:
+                  - link:
+                    - /url: /photo-156951422_457249093?from=post&list=3870a4ca75512534cd
+              - generic [ref=f7e380]:
+                - generic [ref=f7e381]:
+                  - button [aria-hidden] [ref=f7e382] [cursor=pointer]:
+                    - generic [ref=f7e384]: "29"
+                  - generic [ref=f7e385]:
+                    - button "Отправить реакцию «Лайк»"
+                  - generic [ref=f7e387]:
+                    - button "Выбор реакции"
+                  - button "5 Поделиться" [ref=f7e389] [cursor=pointer]:
+                    - generic [ref=f7e393]: "5"
+                - link "4 д назад" [ref=f7e395] [cursor=pointer]:
+                  - /url: /wall-156951422_3790
+          - article [ref=f7e396]:
+            - generic [ref=f7e397]:
+              - generic [ref=f7e399]:
+                - link [aria-hidden] [ref=f7e401] [cursor=pointer]:
+                  - /url: /samocvet_me
+                - heading [level=3] [ref=f7e406]:
+                  - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f7e410] [cursor=pointer]:
+                    - /url: /samocvet_me?trackcode=0xabcdefomdfZrMbkF8PJ151iRAIRkpJaUKBUUVDEE33qMx6qTepfattKWHqQPhhqkvjKIhn6lAyUON2pjeINoBg-XLyXfhPhz3yK6ZwqG34Iuo0l0UHCB836DSVTdwrpnDv5Uw8-rppbaI
+                - button "Действия" [ref=f7e414] [cursor=pointer]
+              - generic [ref=f7e421]:
+                - generic [ref=f7e424] [cursor=pointer]:
+                  - generic [ref=f7e426]:
+                    - text: 16 и 17 октября в нашем пространстве состоится премьера спектакля " По стрелам вверх " от театра " Добрые люди "
+                    - img "🍁" [ref=f7e427]
+                    - text: Основатель и режиссер -
+                    - link "Никита" [ref=f7e428]:
+                      - /url: https://vk.ru/nikita.vinogradov.nitya
+                    - text: Виноградов, папа пятерых детей, трое из которых учатся в нашей семейной школе. Вместе с супругой
+                    - link "Анной" [ref=f7e429]:
+                      - /url: https://vk.ru/anna_purna
+                    - text: в этот раз они также будут актёрами
+                    - img "⚡" [ref=f7e430]
+                    - text: "Первой работой театра стала мистическая притча \" Точка невозврата \". \" По стрелам вверх \" - второй спектакль, как говорит Никита, его можно охарактеризовать как \" терапевтическую комедию с элементами художественного тренинга \".Шесть абсолютно непохожих людей случайно оказываются в замкнутом пространстве. Что их связывает? Почему они встретились? А главное - кто этот загадочный Седьмой, человек - вопрос, человек - тайна, у которого есть \" ключи от всех дверей \"?\" Это не просто спектакль, это - зеркало. Вы узнаете себя в каждом герое, посмеетесь над своими страхами и, возможно, найдете ответы на свои вопросы, которые давно прятали в дальний ящик. Мы обещаем: будет смешно, глубоко и по-настоящему терапевтично.А еще мы хотим дружить со зрителем вдолгую - нам очень важна любая обратная связь, поэтому готовим доверительное пространство для беседы после спектакля - с горячим чаем и вкусностями \".Для показа премьеры ребята специально выбрали два дня:"
+                    - img "🎫" [ref=f7e431]
+                    - text: 16 октября в 19:00
+                    - link "https://cbiletom.ru/event.php?event=14958" [ref=f7e432]:
+                      - /url: /away.php?to=https%3A%2F%2Fcbiletom.ru%2Fevent.php%3Fevent%3D14958&utf=1
+                    - img "🎫" [ref=f7e433]
+                    - text: 17 октября в 12:00
+                    - link "https://cbiletom.ru/event.php?event=14958" [ref=f7e434]:
+                      - /url: /away.php?to=https%3A%2F%2Fcbiletom.ru%2Fevent.php%3Fevent%3D14958&utf=1
+                    - img "🎁" [ref=f7e435]
+                    - text: При покупке от 2 билетов театр дарит скидку 5%Важно - спектакль для взрослых , 18+
+                    - img "👍" [ref=f7e436]
+                    - text: Выбирайте удобный день и время, и до встречи на спектакле!
+                    - link "#анонс_школасамоцвет" [ref=f7e437]:
+                      - /url: /search/statuses?q=%23%D0%B0%D0%BD%D0%BE%D0%BD%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+                    - link "#друзья_школасамоцвет" [ref=f7e438]:
+                      - /url: /search/statuses?q=%23%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+                    - link "#театр" [ref=f7e439]:
+                      - /url: /search/statuses?q=%23%D1%82%D0%B5%D0%B0%D1%82%D1%80
+                    - link "#Екатеринбург" [ref=f7e440]:
+                      - /url: /search/statuses?q=%23%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3
+                    - link "#комедия" [ref=f7e441]:
+                      - /url: /search/statuses?q=%23%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F
+                  - button "Показать ещё" [ref=f7e443]
+                - generic [ref=f7e453]:
+                  - link:
+                    - /url: /photo-156951422_457249091?from=post&list=3527d693609be356db
+              - generic [ref=f7e457]:
+                - generic [ref=f7e458]:
+                  - button [aria-hidden] [ref=f7e459] [cursor=pointer]:
+                    - generic [ref=f7e461]: "12"
+                  - generic [ref=f7e462]:
+                    - button "Отправить реакцию «Лайк»"
+                  - generic [ref=f7e464]:
+                    - button "Выбор реакции"
+                  - button "3 Поделиться" [ref=f7e466] [cursor=pointer]:
+                    - generic [ref=f7e470]: "3"
+                - link "5 д назад" [ref=f7e472] [cursor=pointer]:
+                  - /url: /wall-156951422_3789
+          - article [ref=f7e492]:
+            - generic [ref=f7e493]:
+              - generic [ref=f7e495]:
+                - link [aria-hidden] [ref=f7e497] [cursor=pointer]:
+                  - /url: /samocvet_me
+                - heading [level=3] [ref=f7e502]:
+                  - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f7e506] [cursor=pointer]:
+                    - /url: /samocvet_me?trackcode=0xabcdefomdfZrMbkF8PJ151iRAIRkpJaUKBUUVDEE33qMx6qTepfaptLmHqQPhhqkvjKIhn6lAyUON2pjeINoBg-XLyXfhPhz3yK6ZwqG34Iuo0l0UHCB836DSVTdwrpnDv5Uw7YHVpbaI
+                - button "Действия" [ref=f7e510] [cursor=pointer]
+              - generic [ref=f7e517]:
+                - generic [ref=f7e520] [cursor=pointer]:
+                  - generic [ref=f7e522]:
+                    - text: 11 октября приглашаем на встречу по ПОДГОТОВКЕ К ШКОЛЕ
+                    - img "🍁" [ref=f7e523]
+                    - text: первую из
+                    - link "нового цикла открытых встреч" [ref=f7e524]:
+                      - /url: https://vk.ru/wall-156951422_3785
+                    - img "🍂" [ref=f7e525]
+                    - link "Ирина Толстых" [ref=f7e526]:
+                      - /url: https://vk.ru/irina_tolstykh
+                    - text: ", вальдорфский педагог, ведущая"
+                    - link "занятий по подготовке к школе" [ref=f7e527]:
+                      - /url: https://vk.ru/wall-156951422_3763
+                    - text: расскажет о том, как сохранить радость в будущем первокласснике, его естественное любопытство и желание учиться, а также - по каким критериям вальдорфские педагоги понимают, что ребенок готов к школе.
+                    - img "🍂" [ref=f7e528]
+                    - text: Детям в это время предлагаем полепить из воска и создать свои авторские свечи под руководством
+                    - link "Екатерины" [ref=f7e529]:
+                      - /url: https://vk.ru/katyona7
+                    - text: и
+                    - link "Ксении" [ref=f7e530]:
+                      - /url: https://vk.ru/kseniania
+                    - text: .Тепло открываем двери для новых семей - с радостью ждем тех, кто давно хотел познакомиться с пространством, подходом обучения и нашей семейной школой.
+                    - img "👉" [ref=f7e531]
+                    - text: Формат встреч - семейный, стоимость мастер-класса - 300р. ЗАПИСЬ ОБЯЗАТЕЛЬНА! У
+                    - link "Ксении" [ref=f7e532]:
+                      - /url: https://vk.ru/kseniania
+                    - text: 8(904)988-70-39
+                    - img "👉" [ref=f7e533]
+                    - text: "Ждем вас 11 октября, воскресенье, с 14:30 до 16:00 в пространстве «Самоцвет» по адресу: ул. 8 Марта, д.194Б, отдельностоящее трехэтажное здание, второй этаж, третий пролет"
+                    - link "#анонс_школасамоцвет" [ref=f7e534]:
+                      - /url: /search/statuses?q=%23%D0%B0%D0%BD%D0%BE%D0%BD%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+                    - link "#лепкавоском" [ref=f7e535]:
+                      - /url: /search/statuses?q=%23%D0%BB%D0%B5%D0%BF%D0%BA%D0%B0%D0%B2%D0%BE%D1%81%D0%BA%D0%BE%D0%BC
+                    - link "#свечи" [ref=f7e536]:
+                      - /url: /search/statuses?q=%23%D1%81%D0%B2%D0%B5%D1%87%D0%B8
+                    - link "#Екатеринбург" [ref=f7e537]:
+                      - /url: /search/statuses?q=%23%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3
+                    - link "#Ботаника" [ref=f7e538]:
+                      - /url: /search/statuses?q=%23%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0
+                    - link "#СО" [ref=f7e539]:
+                      - /url: /search/statuses?q=%23%D0%A1%D0%9E
+                    - link "#семейноеобучение" [ref=f7e540]:
+                      - /url: /search/statuses?q=%23%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D0%BE%D0%B5%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5
+                    - link "#вальдорф" [ref=f7e541]:
+                      - /url: /search/statuses?q=%23%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D1%84
+                    - link "#waldorf" [ref=f7e542]:
+                      - /url: /search/statuses?q=%23waldorf
+                    - link "#waldorfschool" [ref=f7e543]:
+                      - /url: /search/statuses?q=%23waldorfschool
+                    - link "#waldorfeducation" [ref=f7e544]:
+                      - /url: /search/statuses?q=%23waldorfeducation
+                  - button "Показать ещё" [ref=f7e546]
+                - generic [ref=f7e550]:
+                  - generic [ref=f7e551]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249070?from=post&list=wall-156951422_3788
+                  - generic [ref=f7e552]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249071?from=post&list=wall-156951422_3788
+              - generic [ref=f7e556]:
+                - generic [ref=f7e557]:
+                  - button [aria-hidden] [ref=f7e558] [cursor=pointer]:
+                    - generic [ref=f7e560]: "33"
+                  - generic [ref=f7e561]:
+                    - button "Отправить реакцию «Лайк»"
+                  - generic [ref=f7e563]:
+                    - button "Выбор реакции"
+                  - button "7 Поделиться" [ref=f7e565] [cursor=pointer]:
+                    - generic [ref=f7e569]: "7"
+                - link "6 д назад" [ref=f7e571] [cursor=pointer]:
+                  - /url: /wall-156951422_3788
+          - article [ref=f7e572]:
+            - generic [ref=f7e573]:
+              - generic [ref=f7e575]:
+                - link [aria-hidden] [ref=f7e577] [cursor=pointer]:
+                  - /url: /samocvet_me
+                - heading [level=3] [ref=f7e582]:
+                  - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f7e586] [cursor=pointer]:
+                    - /url: /samocvet_me?trackcode=0xabcdefomdfZrMbkF8PJ151iRAIRkpJaUKBUUVDEE33qMx6qTepfa9tL2HqQPhhqkvjKIhn6lAyUON2pjeINoBg-XLyXfhPhz3yK6ZwqG34Iuo0l0UHCB836DSVTdwrpnDv5Uw7BtJpbaI
+                - button "Действия" [ref=f7e590] [cursor=pointer]
+              - generic [ref=f7e597]:
+                - generic [ref=f7e600] [cursor=pointer]:
+                  - generic [ref=f7e602]:
+                    - text: Рады сообщить, что мы возобновляем ОТКРЫТЫЕ ЖИВЫЕ ВСТРЕЧИ
+                    - img "🍁" [ref=f7e603]
+                    - text: в семейном формате,где взрослые - могут узнать о вальдорфском подходе, задать волнующие вопросы, а дети - погрузиться в творчество! Помните,
+                    - link "летний цикл" [ref=f7e604]:
+                      - /url: https://vk.ru/wall-156951422_3603
+                    - text: "? Теперь в таком формате мы планируем встречаться с вами на протяжении всего учебного года!Темы встреч до конца декабря:"
+                    - img "🍂" [ref=f7e605]
+                    - text: "11 октября - ПОДГОТОВКА К ШКОЛЕ без стресса: как мягко войти в ритм и сохранить радость ребёнка;"
+                    - img "🍂" [ref=f7e606]
+                    - text: "25 октября - ПРОЕКТНАЯ РАБОТА в вальдорфской школе: как дети учатся создавать проекты, планировать и доводить идеи до результата;"
+                    - img "✨" [ref=f7e607]
+                    - text: "8 ноября - математика через движение, письмо через рисунок: как в вальдорфском ПЕРВОМ КЛАССЕ осваивают школьную программу;"
+                    - img "✨" [ref=f7e608]
+                    - text: "22 ноября - когда цвет рассказывает историю: ЖИВОПИСЬ как способ познания мира;"
+                    - img "❄" [ref=f7e609]
+                    - text: "6 декабря - ВТОРОЙ КЛАСС: как эпоха становится учебником для ребёнка;"
+                    - img "❄" [ref=f7e610]
+                    - text: "20 декабря - один подход — разные задачи: как в каждом классе МУЗЫКА решает именно то, что нужно возрасту.Открытые встречи - возможность:- почувствовать ту самую атмосферу, в которой дети учатся и по утрам просыпаются с мыслью «я иду в школу с радостью»; - посмотреть работы ребят, увидеть их красивые тетради, поделки, рисунки; - поговорить с учителями, которые горят своим делом; - увидеть и услышать как проходят уроки и самим попробовать. Ждём вас в нашей семейной школе «Самоцвет»"
+                    - img "❤" [ref=f7e611]
+                    - text: Запись и подробности у
+                    - link "Ксении" [ref=f7e612]:
+                      - /url: https://vk.ru/kseniania
+                    - text: 89049887039Темы детских мастер-классов раскроем в отдельных подробных анонсах, следите за новостями!
+                    - link "#анонс_школасамоцвет" [ref=f7e613]:
+                      - /url: /search/statuses?q=%23%D0%B0%D0%BD%D0%BE%D0%BD%D1%81_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+                    - link "#школа" [ref=f7e614]:
+                      - /url: /search/statuses?q=%23%D1%88%D0%BA%D0%BE%D0%BB%D0%B0
+                    - link "#Екатеринбург" [ref=f7e615]:
+                      - /url: /search/statuses?q=%23%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3
+                    - link "#Ботаника" [ref=f7e616]:
+                      - /url: /search/statuses?q=%23%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0
+                    - link "#СО" [ref=f7e617]:
+                      - /url: /search/statuses?q=%23%D0%A1%D0%9E
+                    - link "#семейноеобучение" [ref=f7e618]:
+                      - /url: /search/statuses?q=%23%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D0%BE%D0%B5%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5
+                    - link "#вальдорф" [ref=f7e619]:
+                      - /url: /search/statuses?q=%23%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D1%84
+                    - link "#waldorf" [ref=f7e620]:
+                      - /url: /search/statuses?q=%23waldorf
+                    - link "#waldorfschool" [ref=f7e621]:
+                      - /url: /search/statuses?q=%23waldorfschool
+                    - link "#waldorfeducation" [ref=f7e622]:
+                      - /url: /search/statuses?q=%23waldorfeducation
+                  - button "Показать ещё" [ref=f7e624]
+                - generic [ref=f7e630]:
+                  - link:
+                    - /url: /photo-156951422_457249068?from=post&list=2d31d341dacea52847
+              - generic [ref=f7e634]:
+                - generic [ref=f7e635]:
+                  - button [aria-hidden] [ref=f7e636] [cursor=pointer]:
+                    - generic [ref=f7e638]: "30"
+                  - generic [ref=f7e639]:
+                    - button "Отправить реакцию «Лайк»"
+                  - generic [ref=f7e641]:
+                    - button "Выбор реакции"
+                  - button "6 Поделиться" [ref=f7e643] [cursor=pointer]:
+                    - generic [ref=f7e647]: "6"
+                - link "7 д назад" [ref=f7e649] [cursor=pointer]:
+                  - /url: /wall-156951422_3785
+          - article [ref=f7e650]:
+            - generic [ref=f7e651]:
+              - generic [ref=f7e653]:
+                - link [aria-hidden] [ref=f7e655] [cursor=pointer]:
+                  - /url: /samocvet_me
+                - heading [level=3] [ref=f7e660]:
+                  - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f7e664] [cursor=pointer]:
+                    - /url: /samocvet_me?trackcode=0xabcdefomdfZrMbkF8PJ151iRAIRkpJaUKBUUVDEE33qMx6qTepfdptLGHqQPhhqkvjKIhn6lAyUON2pjeINoBg-XLyXfhPhz3yK6ZwqG34Iuo0l0UHCB836DSVTdwrpnDv5Uw6XyNpbaI
+                - button "Действия" [ref=f7e668] [cursor=pointer]
+              - generic [ref=f7e675]:
+                - generic [ref=f7e678] [cursor=pointer]:
+                  - generic [ref=f7e680]:
+                    - text: Традиционный осенний поход - праздник Мужества состоялся!
+                    - img "🔥" [ref=f7e681]
+                    - text: Субботний денек выдался солнечным, а испытания на смелость начались еще до того как мы добрались до скал Гронского - детям нужно было по бревнам перебраться через затопленные участки земли. Эта задачка оказалась им по плечу и даже вызвала восторг!На месте распределились по классам, младшие - слушали сказку и играли с учителями, четвероклассники составляли карту местности, а старшим досталось самое ответственное.Мальчики заготовили дрова, натаскали брёвен, разожгли костёр и следили за ним вместе с папами. Девочки готовили и пели песни с мамами и
+                    - link "Татьяной Георгиевной" [ref=f7e682]:
+                      - /url: https://vk.ru/tansur
+                    - text: .Потом ребят ждали испытания от пап, и это, пожалуй, были самые лучшие испытания за всю нашу историю - ребята проходили их очень включённо и старательно.. Поддерживали друг друга, думали, проявляли командные качества.Как награда - напиток храбрости! Кстати, он был очень насыщенным и вкусным - девочки жали кислые ягоды своими руками, а мамы не пожадничали пряных согревающих специй! Благодарим каждого за организацию и участие
+                    - img "🙏" [ref=f7e683]
+                    - img "💔" [ref=f7e684]
+                    - link "#праздник_школасамоцвет" [ref=f7e685]:
+                      - /url: /search/statuses?q=%23%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+                    - link "#осеннийпраздник" [ref=f7e686]:
+                      - /url: /search/statuses?q=%23%D0%BE%D1%81%D0%B5%D0%BD%D0%BD%D0%B8%D0%B9%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA
+                    - link "#вальдорф" [ref=f7e687]:
+                      - /url: /search/statuses?q=%23%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D1%84
+                    - link "#поход" [ref=f7e688]:
+                      - /url: /search/statuses?q=%23%D0%BF%D0%BE%D1%85%D0%BE%D0%B4
+                  - button "Показать ещё" [ref=f7e690]
+                - generic [ref=f7e694]:
+                  - generic [ref=f7e695]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249055?from=post&list=wall-156951422_3772
+                  - generic [ref=f7e696]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249056?from=post&list=wall-156951422_3772
+                  - generic [ref=f7e697]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249057?from=post&list=wall-156951422_3772
+                  - generic [ref=f7e698]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249058?from=post&list=wall-156951422_3772
+                  - generic [ref=f7e699]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249059?from=post&list=wall-156951422_3772
+                  - generic [ref=f7e700]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249060?from=post&list=wall-156951422_3772
+                  - generic [ref=f7e701]:
+                    - generic:
+                      - link "Фотография":
+                        - /url: /photo-156951422_457249061?from=post&list=wall-156951422_3772
+              - generic [ref=f7e705]:
+                - generic [ref=f7e706]:
+                  - button [aria-hidden] [ref=f7e707] [cursor=pointer]:
+                    - generic [ref=f7e709]: "33"
+                  - generic [ref=f7e710]:
+                    - button "Отправить реакцию «Лайк»"
+                  - generic [ref=f7e712]:
+                    - button "Выбор реакции"
+                  - button "4 Поделиться" [ref=f7e714] [cursor=pointer]:
+                    - generic [ref=f7e718]: "4"
+                - link "28 сен" [ref=f7e720] [cursor=pointer]:
+                  - /url: /wall-156951422_3772
+        - tablist [ref=f7e725]:
+          - generic [ref=f7e726]:
+            - generic [ref=f7e729]:
+              - tab [selected] [ref=f7e730] [cursor=pointer]:
+                - generic [ref=f7e731]: Посты
+              - tab "Клипы" [ref=f7e732] [cursor=pointer]
+              - tab "Фото" [ref=f7e734] [cursor=pointer]
+              - tab "Видео" [ref=f7e736] [cursor=pointer]
+              - tab "Обсуждения" [ref=f7e738] [cursor=pointer]
+            - generic [ref=f7e740]:
+              - link "Поиск" [ref=f7e744] [cursor=pointer]:
+                - /url: /samocvet_me?search=1
+              - separator [ref=f7e752]
+  - generic [ref=f7e474]:
+    - generic [ref=f7e479]:
+      - heading "Следите за новыми постами — с аккаунтом ВКонтакте" [level=4] [ref=f7e480]
+      - generic [ref=f7e481]: Войдите, чтобы не пропускать интересный контент
+    - group [ref=f7e482]:
+      - link "Открыть в приложении" [ref=f7e483] [cursor=pointer]:
+        - /url: https://trk.mail.ru/c/xj9pr7
+      - link "Зарегистрироваться" [ref=f7e486] [cursor=pointer]:
+        - /url: /join?from=Y2x1YjIzMTQ3MTYzMQ--
+      - link "Войти" [ref=f7e489] [cursor=pointer]:
+        - /url: /login?to=Y2x1YjIzMTQ3MTYzMQ--
+  - dialog [ref=f7e756]:
+    - generic [ref=f7e757]:
+      - heading "Войдите ВКонтакте, чтобы смотреть посты от «САМОЦВЕТ — Вальдорфская инициатива.»" [level=2] [ref=f7e761]
+      - heading "Сможете подписаться и комментировать интересный контент" [level=5] [ref=f7e763]
+      - generic [ref=f7e764]:
+        - link "Открыть в приложении" [active] [ref=f7e766] [cursor=pointer]:
+          - /url: https://trk.mail.ru/c/xj9pr7
+        - heading [level=2] [ref=f7e770]:
+          - generic "Войти или Зарегистрироваться" [ref=f7e775]:
+            - generic [ref=f7e776]:
+              - link "Войти" [ref=f7e777] [cursor=pointer]:
+                - /url: /login?to=Y2x1YjIzMTQ3MTYzMQ--
+              - text: или
+              - link "Зарегистрироваться" [ref=f7e780] [cursor=pointer]:
+                - /url: /join?from=Y2x1YjIzMTQ3MTYzMQ--
+      - button "Закрыть" [ref=f7e784] [cursor=pointer]

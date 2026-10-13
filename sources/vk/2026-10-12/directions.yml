@@ -1,0 +1,31 @@
+- main [ref=f10e16]:
+  - generic [ref=f10e17]:
+    - generic [ref=f10e19]:
+      - link [ref=f10e22] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f10e34]:
+        - button "Войти" [ref=f10e36] [cursor=pointer]
+        - button "Зарегистрироваться" [ref=f10e38] [cursor=pointer]
+    - generic [ref=f10e43]:
+      - generic [ref=f10e44]:
+        - heading "Как нас найти?" [level=2] [ref=f10e46]
+        - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f10e48] [cursor=pointer]:
+          - /url: /samocvet_me
+      - heading "1 сообщение" [level=2] [ref=f10e49]
+      - generic [ref=f10e52]:
+        - link "samocvet_me":
+          - /url: /samocvet_me
+          - img "samocvet_me" [ref=f10e54] [cursor=pointer]:
+            - generic "САМОЦВЕТ — Вальдорфская инициатива." [ref=f10e56]
+        - generic [ref=f10e57]:
+          - heading [level=3] [ref=f10e59]:
+            - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f10e60] [cursor=pointer]:
+              - /url: /samocvet_me
+          - generic [ref=f10e61]:
+            - generic [ref=f10e62]: "Мы находимся по адресу: г. Екатеринбург, ул. 8 марта, д194ботдельностоящее трехэтажное здание второй этаж, третий пролет"
+            - generic [ref=f10e63]:
+              - link "5 июл 2026 в 16:55" [ref=f10e64] [cursor=pointer]:
+                - /url: /topic-156951422_67415541?post=57#post57
+              - button "1 Лайк" [ref=f10e65] [cursor=pointer]: "1"
+            - link "Лайк" [ref=f10e69] [cursor=pointer]:
+              - /url: /like?act=add&object=topic_comment-156951422_57&from=topic-156951422_67415541&hash=cceba451904b8dd55a

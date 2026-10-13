@@ -1,0 +1,67 @@
+- main [ref=f3e21]:
+  - generic [ref=f3e22]:
+    - generic [ref=f3e24]:
+      - link [ref=f3e27] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f3e39]:
+        - button "Войти" [ref=f3e41] [cursor=pointer]
+        - button "Зарегистрироваться" [ref=f3e43] [cursor=pointer]
+    - generic [ref=f3e48]:
+      - heading "9 ссылок" [level=3] [ref=f3e49]
+      - link "ВЫ СПРАШИВАЕТЕ - МЫ ОТВЕЧАЕМ" [ref=f3e50] [cursor=pointer]:
+        - /url: /topic-156951422_39923180
+        - img [ref=f3e52]:
+          - generic "ВЫ СПРАШИВАЕТЕ - МЫ ОТВЕЧАЕМ" [ref=f3e54]
+      - link "ОТЗЫВЫ РОДИТЕЛЕЙ" [ref=f3e57] [cursor=pointer]:
+        - /url: /topic-156951422_39914947
+        - img [ref=f3e59]:
+          - generic "ОТЗЫВЫ РОДИТЕЛЕЙ" [ref=f3e61]
+      - link "WaldorfTV RU www.youtube.com" [ref=f3e64] [cursor=pointer]:
+        - /url: /away.php?to=https%3A%2F%2Fwww.youtube.com%2Fuser%2Fwaldorftvru
+        - img [ref=f3e66]:
+          - generic "WaldorfTV RU" [ref=f3e68]
+        - generic [ref=f3e69]:
+          - generic [ref=f3e70]: WaldorfTV RU
+          - generic [ref=f3e71]: www.youtube.com
+      - link "Деятельность выпускников вальдорфских школ Polad Bederkhanov" [ref=f3e72] [cursor=pointer]:
+        - /url: /topic-49428430_27745950
+        - img [ref=f3e74]:
+          - generic "Деятельность выпускников вальдорфских школ" [ref=f3e76]
+        - generic [ref=f3e77]:
+          - generic [ref=f3e78]: Деятельность выпускников вальдорфских школ
+          - generic [ref=f3e79]: Polad Bederkhanov
+      - link "Ассоциация Вальдорфских Школ waldorf-russia.ru" [ref=f3e80] [cursor=pointer]:
+        - /url: /away.php?to=http%3A%2F%2Fwaldorf-russia.ru
+        - img [ref=f3e82]:
+          - generic "Ассоциация Вальдорфских Школ" [ref=f3e84]
+        - generic [ref=f3e85]:
+          - generic [ref=f3e86]: Ассоциация Вальдорфских Школ
+          - generic [ref=f3e87]: waldorf-russia.ru
+      - link "Антропософское движение на Урале 736 участников" [ref=f3e88] [cursor=pointer]:
+        - /url: /club59008461
+        - img [ref=f3e90]:
+          - generic "Антропософское движение на Урале" [ref=f3e92]
+        - generic [ref=f3e93]:
+          - generic [ref=f3e94]: Антропософское движение на Урале
+          - generic [ref=f3e95]: 736 участников
+      - link "Home - Waldorf 100 waldorf100.org" [ref=f3e96] [cursor=pointer]:
+        - /url: /away.php?to=http%3A%2F%2Fwaldorf100.org
+        - img [ref=f3e98]:
+          - generic "Home - Waldorf 100" [ref=f3e100]
+        - generic [ref=f3e101]:
+          - generic [ref=f3e102]: Home - Waldorf 100
+          - generic [ref=f3e103]: waldorf100.org
+      - link "Рудольф Штайнер. Антропософия Духовное лицо" [ref=f3e104] [cursor=pointer]:
+        - /url: /rudolf.steiner
+        - img [ref=f3e106]:
+          - generic "Рудольф Штайнер. Антропософия" [ref=f3e108]
+        - generic [ref=f3e109]:
+          - generic [ref=f3e110]: Рудольф Штайнер. Антропософия
+          - generic [ref=f3e111]: Духовное лицо
+      - 'link "Inet-kniga.ru: книжный интернет-магазин 1 362 участника" [ref=f3e112] [cursor=pointer]':
+        - /url: /inetkniga
+        - img [ref=f3e114]:
+          - 'generic "Inet-kniga.ru: книжный интернет-магазин" [ref=f3e116]'
+        - generic [ref=f3e117]:
+          - generic [ref=f3e118]: "Inet-kniga.ru: книжный интернет-магазин"
+          - generic [ref=f3e119]: 1 362 участника

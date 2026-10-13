@@ -1,0 +1,75 @@
+- main [ref=f1e1077]:
+  - generic [ref=f1e1078]:
+    - generic [ref=f1e1080]:
+      - link [ref=f1e1083] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f1e1095]:
+        - button "Войти" [ref=f1e1097] [cursor=pointer]
+        - button "Зарегистрироваться" [ref=f1e1099] [cursor=pointer]
+    - generic [ref=f1e1104]:
+      - heading "7 контактов" [level=3] [ref=f1e1105]
+      - generic [ref=f1e1106]:
+        - img [ref=f1e1108]:
+          - generic "Ксения Холматова" [ref=f1e1110]
+        - generic [ref=f1e1111]:
+          - link "Ксения Холматова" [ref=f1e1112] [cursor=pointer]:
+            - /url: /kseniania
+          - generic [ref=f1e1113]: взаимодействие с новыми семьями
+          - link "79049887039" [ref=f1e1115] [cursor=pointer]:
+            - /url: tel:+79049887039
+          - link "xolmatovak@mail.ru" [ref=f1e1117] [cursor=pointer]:
+            - /url: mailto:xolmatovak@mail.ru
+      - generic [ref=f1e1118]:
+        - img [ref=f1e1120]:
+          - generic "Анна Юнусова" [ref=f1e1122]
+        - generic [ref=f1e1123]:
+          - link "Анна Юнусова" [ref=f1e1124] [cursor=pointer]:
+            - /url: /anasbka
+          - generic [ref=f1e1125]: 1 класс
+          - link "79126448353" [ref=f1e1127] [cursor=pointer]:
+            - /url: tel:+79126448353
+      - generic [ref=f1e1128]:
+        - img [ref=f1e1130]:
+          - generic "Дарья Чеснакова" [ref=f1e1132]
+        - generic [ref=f1e1133]:
+          - link "Дарья Чеснакова" [ref=f1e1134] [cursor=pointer]:
+            - /url: /daria.chesnakova
+          - generic [ref=f1e1135]: 2 класс
+          - link "79122980567" [ref=f1e1137] [cursor=pointer]:
+            - /url: tel:+79122980567
+      - generic [ref=f1e1138]:
+        - img [ref=f1e1140]:
+          - generic "Ирина Григорьева" [ref=f1e1142]
+        - generic [ref=f1e1143]:
+          - link "Ирина Григорьева" [ref=f1e1144] [cursor=pointer]:
+            - /url: /irveng
+          - generic [ref=f1e1145]: 4 класс
+          - link "79221278483" [ref=f1e1147] [cursor=pointer]:
+            - /url: tel:+79221278483
+      - generic [ref=f1e1148]:
+        - img [ref=f1e1150]:
+          - generic "Дина Гребнева" [ref=f1e1152]
+        - generic [ref=f1e1153]:
+          - link "Дина Гребнева" [ref=f1e1154] [cursor=pointer]:
+            - /url: /happy_grebneva
+          - generic [ref=f1e1155]: 5 класс
+          - link "79227146338" [ref=f1e1157] [cursor=pointer]:
+            - /url: tel:+79227146338
+      - generic [ref=f1e1158]:
+        - img [ref=f1e1160]:
+          - generic "Елизавета Морозова" [ref=f1e1162]
+        - generic [ref=f1e1163]:
+          - link "Елизавета Морозова" [ref=f1e1164] [cursor=pointer]:
+            - /url: /mylizavetta
+          - generic [ref=f1e1165]: 6 класс
+          - link "79126353430" [ref=f1e1167] [cursor=pointer]:
+            - /url: tel:+79126353430
+      - generic [ref=f1e1168]:
+        - img [ref=f1e1170]:
+          - generic "Галина Мальцева" [ref=f1e1172]
+        - generic [ref=f1e1173]:
+          - link "Галина Мальцева" [ref=f1e1174] [cursor=pointer]:
+            - /url: /id76285688
+          - generic [ref=f1e1175]: 7 класс
+          - link "79068108670" [ref=f1e1177] [cursor=pointer]:
+            - /url: tel:+79068108670

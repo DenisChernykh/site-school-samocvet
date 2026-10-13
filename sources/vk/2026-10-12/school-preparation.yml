@@ -1,0 +1,83 @@
+- generic [active] [ref=f6e1]:
+  - main [ref=f6e21]:
+    - generic [ref=f6e22]:
+      - generic [ref=f6e24]:
+        - button "Назад" [ref=f6e25] [cursor=pointer]
+        - heading "Пост" [level=2] [ref=f6e34]
+      - generic [ref=f6e40]:
+        - generic [ref=f6e41]:
+          - link [aria-hidden] [ref=f6e43] [cursor=pointer]:
+            - /url: /samocvet_me?from=post
+          - generic [ref=f6e48]:
+            - generic [ref=f6e49]:
+              - heading [level=3] [ref=f6e50]:
+                - link "САМОЦВЕТ — Вальдорфская инициатива." [ref=f6e51] [cursor=pointer]:
+                  - /url: /samocvet_me?from=post
+              - link "21 сен в 8:50" [ref=f6e53] [cursor=pointer]:
+                - /url: /wall-156951422_3763
+            - link "Подписаться" [ref=f6e56] [cursor=pointer]:
+              - /url: /club156951422?act=enter&hash=2b7bbae9fbe4e92174&from=feed
+        - generic [ref=f6e62]:
+          - generic [ref=f6e63]:
+            - text: С 29 сентября начинаем ЗАНЯТИЯ ПО ПОДГОТОВКЕ К ШКОЛЕ!
+            - img "✨" [ref=f6e64]
+            - text: Дорогие родители! Если ваш ребенок в следующем году идет в школу, очень важно не торопить его взросление, сохранить живой интерес к учебе и укрепить уверенность в себе через реальные дела. В этом возрасте ребенку особенно нужен ритм, тепло и возможность делать что-то своими руками. Так, шаг за шагом, укрепляется внутренняя опора — то глубокое внутреннее чувство, что мир добр, а я справлюсь. Психологи называют это базовым доверием; в вальдорфской педагогике мы говорим о крепкой воле и здоровом чувстве «Я», которое растет из живого опыта, а не из ранних интеллектуальных нагрузок. Меня зовут Ирина Аркадьевна Толстых. Я — вальдорфский педагог, и сейчас я набираю группу детей на занятия по подготовке к школе. Что будет?
+            - img "✨" [ref=f6e65]
+            - text: Ритмические упражнения Упражнения на развитие равновесия и координации, игры на внимание и осязание. Стихи, песни, жестовые и пальчиковые игры.
+            - img "✨" [ref=f6e66]
+            - text: Творческая деятельность Живопись, рукоделие, лепка из воска и глины.
+            - img "✨" [ref=f6e67]
+            - text: Подготовка к письму Рисование блоками. Что это дает ребенку?
+            - img "✨" [ref=f6e68]
+            - text: "Уверенность: «Я умею, я справляюсь»."
+            - img "✨" [ref=f6e69]
+            - text: Интерес к учебе, который не выгорает к первому классу.
+            - img "✨" [ref=f6e70]
+            - text: Крепкую руку, внимательное восприятие, развитую речь.
+            - img "✨" [ref=f6e71]
+            - text: Умение быть в группе, слышать другого и сотрудничать.
+            - img "✨" [ref=f6e72]
+            - text: "Мягкий, бережный переход от игры к учебной деятельности. Расписание занятий: С 29 сентября, 2 раза в неделю по вторникам и пятницам, с 16:00 до 17:30 Стоимость: Пробное занятие можно оплатить разово - 800р за 1,5 часа. Далее приобретается абонемент: 8 занятий - 6400р Адрес проведения: \"Самоцвет\", г. Екатеринбург, ул.8 марта 194б, второй этаж, третий пролет Если вы чувствуете, что вашему ребенку нужен именно такой бережный и живой путь к школе, — приходите знакомиться. Количество мест в группе ограничено. Контакты для записи и вопросов: 89049887039"
+            - link "Ксения" [ref=f6e73] [cursor=pointer]:
+              - /url: https://vk.ru/kseniania
+            - text: (вк, макс, вотсап, тг) Буду рада нашей встрече! С уважением,
+            - link "Ирина Аркадьевна" [ref=f6e74] [cursor=pointer]:
+              - /url: https://vk.ru/irina_tolstykh
+            - text: ", вальдорфский педагог школы «Самоцвет»."
+            - link "#педагоги_школасамоцвет" [ref=f6e75] [cursor=pointer]:
+              - /url: /feed?section=search&q=%23%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+            - link "#подготовкакшколе_школасамоцвет" [ref=f6e76] [cursor=pointer]:
+              - /url: /feed?section=search&q=%23%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%D0%BA%D1%88%D0%BA%D0%BE%D0%BB%D0%B5_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D0%B0%D0%BC%D0%BE%D1%86%D0%B2%D0%B5%D1%82
+            - link "#вальдорф" [ref=f6e77] [cursor=pointer]:
+              - /url: /feed?section=search&q=%23%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D1%84
+            - link "#Екатеринбург" [ref=f6e78] [cursor=pointer]:
+              - /url: /feed?section=search&q=%23%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3
+            - link "#waldorf" [ref=f6e79] [cursor=pointer]:
+              - /url: /feed?section=search&q=%23waldorf
+            - link "#подготовишки" [ref=f6e80] [cursor=pointer]:
+              - /url: /feed?section=search&q=%23%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%B8%D1%88%D0%BA%D0%B8
+          - link "Видео Клип @samocvet_me длительностью 23 секунды" [ref=f6e87] [cursor=pointer]:
+            - /url: /clip-156951422_456239579?list=ef8d788399e88530c1&from=wall-156951422_3763
+            - generic [ref=f6e88]: 0:23
+          - link "Оценили 46 человек" [ref=f6e91] [cursor=pointer]:
+            - /url: /like?act=members&object=wall-156951422_3763
+            - generic [aria-hidden] [ref=f6e94]: "46"
+          - generic [ref=f6e95]:
+            - generic [ref=f6e97]:
+              - generic [ref=f6e98]:
+                - button "Отправить реакцию «Лайк»" [ref=f6e99] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f6e107]: Лайк
+                - button "Выбор реакции" [ref=f6e108]
+              - button "7 Поделиться" [ref=f6e109] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f6e116]: "7"
+            - generic [ref=f6e120]:
+              - text: "944"
+              - generic [ref=f6e121]: просмотра
+  - generic [ref=f6e124]:
+    - generic [ref=f6e130]:
+      - generic [ref=f6e131]: Читайте и смотрите интересное
+      - generic [ref=f6e132]: Войдите в аккаунт и следите за популярными авторами и сообществами
+    - generic [ref=f6e133]:
+      - button "Открыть в приложении" [ref=f6e135] [cursor=pointer]
+      - button "Зарегистрироваться" [ref=f6e137] [cursor=pointer]
+      - button "Войти" [ref=f6e139] [cursor=pointer]

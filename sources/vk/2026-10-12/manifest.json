@@ -1,0 +1,179 @@
+{
+  "archived_on": "2026-10-13",
+  "source_capture_date": "2026-10-12",
+  "source_directory": "output/playwright/samocvet-vk-2026-10-12",
+  "community_url": "https://m.vk.ru/samocvet_me",
+  "file_count": 34,
+  "files": [
+    {
+      "path": "about.yml",
+      "bytes": 55041,
+      "sha256": "62a72af59727ed4b2c235fdcae2c1a47dd67a4e456b7766c18ac3538e5922f3c"
+    },
+    {
+      "path": "admission.yml",
+      "bytes": 3785,
+      "sha256": "01a39b190f32d19de5ac3ac510ede548937b7f57e4f1f17273ab4bdd8e4dec86"
+    },
+    {
+      "path": "archive-conditions-verified.json",
+      "bytes": 18911,
+      "sha256": "b3dec6765ff8246eaf1d78413a8531cf9543bf0e8ed5ac66f9b41e48e2518cf2"
+    },
+    {
+      "path": "archive-conditions-verified.txt",
+      "bytes": 19523,
+      "sha256": "dcff18c55edde9c5e2fd23e1f042ab872f332f211b6dbd6d93bab825cb190432"
+    },
+    {
+      "path": "archive-posts-verified.json",
+      "bytes": 19109,
+      "sha256": "d85100ef90e67d3e4f1962276ac065592e78eca4bc9ceae5e0cc1ddb45271e06"
+    },
+    {
+      "path": "archive-posts-verified.txt",
+      "bytes": 19668,
+      "sha256": "40dd19bb952fa88d9cfef0f4f2ec0c50e766e2ba5577de008dde0d6b02fc041b"
+    },
+    {
+      "path": "contacts.yml",
+      "bytes": 3517,
+      "sha256": "112bf086e38b011b944dc9dede90b9bfd5e02090032740394289010863fcf8dc"
+    },
+    {
+      "path": "directions.yml",
+      "bytes": 1858,
+      "sha256": "ee74a89c58b49f2da61edb1b46bb39eda909d2f4ac2f658137cc0cb7e7eb23a2"
+    },
+    {
+      "path": "discussions.yml",
+      "bytes": 16962,
+      "sha256": "1f2bffaa981ba60ffbbd0ff8a8bac3300972e071e22da1b19851b0ba9e217483"
+    },
+    {
+      "path": "faq.yml",
+      "bytes": 25607,
+      "sha256": "b4cadb8b4dd1a10d9a4a3f94ff591a78e0ef1857cfb30f3f40dd0c7746d45cf9"
+    },
+    {
+      "path": "feed-initial.yml",
+      "bytes": 53399,
+      "sha256": "c5e8e42d9157fa0de8820d75519b6814430355829686280cd969fb528d598d68"
+    },
+    {
+      "path": "feed-return.yml",
+      "bytes": 40009,
+      "sha256": "02fbf576479abbc9ff7bd1f3e6fb66d7da0404255a88eacde1b8cd14d0a5952b"
+    },
+    {
+      "path": "feed-scrolled.yml",
+      "bytes": 60572,
+      "sha256": "541f13d0e38bf62a3f60ae3364808697e528717385787dcc8a9f32a4f5fca0fa"
+    },
+    {
+      "path": "links.yml",
+      "bytes": 3954,
+      "sha256": "dc7f0982c5bd57bc65f6d43943ae66d24306cd761956518b92ff4143c232f6ef"
+    },
+    {
+      "path": "photos.png",
+      "bytes": 672596,
+      "sha256": "0cf04b9ee6382154a8251d3c9f30b2a493ef07b5092325f4ef5c0fc81325c272"
+    },
+    {
+      "path": "photos.yml",
+      "bytes": 18815,
+      "sha256": "f03ce9d2b353eb72b1946694e4a72088384250760d1dfd79edc03eb78a428629"
+    },
+    {
+      "path": "price-search-batch1.json",
+      "bytes": 103937,
+      "sha256": "0a26b9a95229ac057765b9de732c3244d1dad022abe5ad7dc651c91ee5c35c93"
+    },
+    {
+      "path": "price-search-batch1.txt",
+      "bytes": 101593,
+      "sha256": "de62a1a8a38407770b809889e422ace1cf9f2f90895db05da957413a89805513"
+    },
+    {
+      "path": "price-search-batch2.json",
+      "bytes": 951400,
+      "sha256": "cfa659314796e8f138f12278dde1b5b6d1ef463d5de2d1c2b38786adb2e2a1aa"
+    },
+    {
+      "path": "price-search-batch2.txt",
+      "bytes": 922084,
+      "sha256": "881c5f7d85069ce90f6e724ad04b5b620f27cda0aa5d67bf3a7db4c05c4b47f1"
+    },
+    {
+      "path": "price-search-batch3.json",
+      "bytes": 365426,
+      "sha256": "960799add2e6826181c29872f159cab265e776b30ea9714f23efa533dfc55129"
+    },
+    {
+      "path": "price-search-batch3.txt",
+      "bytes": 356426,
+      "sha256": "f0d1ee1da35104912a5f56fba2d8ce79aa771ecf932c226ad730d892135851df"
+    },
+    {
+      "path": "reviews.yml",
+      "bytes": 30328,
+      "sha256": "d5d6a3442646446a7fdd958583cacc1c47a04b0fb396d086f5ac4be3f93fa88f"
+    },
+    {
+      "path": "school-preparation.yml",
+      "bytes": 8137,
+      "sha256": "7d38899d782171cdf27678d34166e8e1ed4ceab78829b39e8cf3a09e5caedb5c"
+    },
+    {
+      "path": "search-aftercare.yml",
+      "bytes": 49199,
+      "sha256": "ebc4e0333d7235d13c0ab26be55838e6d2441f15fe175eba59c0a69a69f11965"
+    },
+    {
+      "path": "search-cost-expanded.txt",
+      "bytes": 26037,
+      "sha256": "9c5c1992bdd610a80eeec23cd044c781e0b3d2543330ee7cb10aa8ee316d1187"
+    },
+    {
+      "path": "search-cost.yml",
+      "bytes": 54436,
+      "sha256": "24912076e0f1d15b488218f2bfef7cd873b3f7fcf483a3dd97ae6d793ff50676"
+    },
+    {
+      "path": "search-current.yml",
+      "bytes": 43948,
+      "sha256": "f50e4e91d2b52f52a279c7a41c3e40d771850f6aa280944e8d4d417eb13ff35b"
+    },
+    {
+      "path": "search-dues.txt",
+      "bytes": 13461,
+      "sha256": "18ff8bb44d543a3d44016de4ba4232c1f368786cbbfd4fa5ae01c198b470510e"
+    },
+    {
+      "path": "search-form.yml",
+      "bytes": 40008,
+      "sha256": "b19a82df7b3050e09f4146716378bb7cfa54066176b8012059a09f479b8647ef"
+    },
+    {
+      "path": "search-individual-exact.yml",
+      "bytes": 56127,
+      "sha256": "9ecd90f071b7bb4def5deb4d6fb0a73effa53b7967ea41783f4578e1e4da61a7"
+    },
+    {
+      "path": "teachers.yml",
+      "bytes": 37300,
+      "sha256": "9da996b2665eac73ea8feeda33f7267b00b8c0ca4536f756393e8f7721e87e2d"
+    },
+    {
+      "path": "videos-retry.yml",
+      "bytes": 12801,
+      "sha256": "0991f6376b11190e044935b8de5d8f6782be880a243c8e816c1f7960972fbd28"
+    },
+    {
+      "path": "videos.yml",
+      "bytes": 12805,
+      "sha256": "d6c583f224adf20cbd195eca96c6768b73ad1e66da31a697af03240fff62a92b"
+    }
+  ]
+}
