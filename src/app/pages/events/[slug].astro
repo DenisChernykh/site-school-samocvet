@@ -21,8 +21,6 @@ const { content, event } = Astro.props;
   content={content}
   title={event.title.replaceAll('\n', ' ')}
   description={event.description}
-  ><EventPage
-    event={event}
-    contactUrl={content.site.contactVkUrl}
-  /></SiteLayout
 >
+  <EventPage event={event} contactUrl={content.site.contactVkUrl} />
+</SiteLayout>

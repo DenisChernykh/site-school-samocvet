@@ -5,5 +5,6 @@ import HomePage from '@/pages/home/home-page.astro';
 const content = await getSiteContent();
 ---
 
-<SiteLayout content={content} overlay><HomePage content={content} /></SiteLayout
->
+<SiteLayout content={content} overlay>
+  <HomePage content={content} />
+</SiteLayout>

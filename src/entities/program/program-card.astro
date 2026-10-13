@@ -11,19 +11,29 @@ const { program, home = false } = Astro.props;
 <a
   class:list={['program-card', { 'home-card': home }]}
   href={withBase(`programs/${program.slug}/`)}
-  ><div class="card-image">
+>
+  <div class="card-image">
     <img
-      src={media(program.cardImage)}
+      src={media(
+        !home && program.slug === 'after-school'
+          ? 'school-23.webp'
+          : program.cardImage,
+      )}
       alt={program.name}
       loading="lazy"
       decoding="async"
     />
-  </div><div class="card-copy">
-    <h3>{program.name}</h3>{!home && <p>{program.cardAudience}</p>}<p>
+  </div>
+  <div class="card-copy">
+    <h3>{program.name}</h3>
+    {!home && <p>{program.cardAudience}</p>}
+    <p class:list={{ 'desktop-copy': home }}>
       {home ? program.homeSummary : program.cardSummary}
-    </p>{!home && <span class="text-link">Подробнее о формате</span>}
-  </div></a
->
+    </p>
+    {home && <p class="mobile-copy">{program.mobileHomeSummary}</p>}
+    {!home && <span class="text-link">Подробнее о формате</span>}
+  </div>
+</a>
 <style>
   .program-card {
     display: flex;
@@ -58,8 +68,13 @@ const { program, home = false } = Astro.props;
     flex: 1;
   }
   .card-copy h3 {
-    font-size: 27px;
+    font-size: 27.31px;
+    line-height: 1.21;
     font-style: italic;
+    letter-spacing: -0.3px;
+  }
+  .card-copy p {
+    line-height: 1.6;
   }
   .card-copy .text-link {
     margin-top: auto;
@@ -69,17 +84,14 @@ const { program, home = false } = Astro.props;
   }
   .home-card .card-copy {
     padding: 28px 24px;
-    align-items: flex-start;
-    text-align: left;
     min-height: 242px;
   }
-  .home-card h3 {
-    font-size: 25px;
-  }
   @media (max-width: 760px) {
-    .home-card .card-image,
     .card-image {
-      height: 260px;
+      height: 255px;
+    }
+    .home-card .card-image {
+      height: 285px;
     }
     .home-card .card-copy {
       min-height: 0;

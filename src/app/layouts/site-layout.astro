@@ -4,23 +4,37 @@ import { withBase, media } from '@/shared/lib/paths';
 import SiteHeader from '@/widgets/site-header/site-header.astro';
 import SiteFooter from '@/widgets/site-footer/site-footer.astro';
 import '../styles/global.css';
+import '../styles/fidelity.css';
 interface Props {
   content: SiteContent;
   title?: string;
   description?: string;
   overlay?: boolean;
+  showFooter?: boolean;
 }
 const {
   content,
   title,
   description = content.site.description,
   overlay = false,
+  showFooter = true,
 } = Astro.props;
 const pageTitle = title
   ? `${title} — ${content.site.name}`
   : `${content.site.name} — семейная школа в Екатеринбурге`;
 const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url.origin)
   .href;
+const relativePath = Astro.url.pathname.replace(
+  import.meta.env.BASE_URL.replace(/\/$/, ''),
+  '',
+);
+const segments = relativePath.split('/').filter(Boolean);
+const page =
+  segments[0] === 'programs' && segments[1]
+    ? 'program'
+    : segments[0] === 'events' && segments[1]
+      ? 'event'
+      : segments[0] || 'home';
 ---
 
 <!doctype html>
@@ -40,36 +54,20 @@ const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url.origin)
     <meta property="og:url" content={canonical} />
     <meta
       property="og:image"
-      content={new URL(media('school-04.webp'), Astro.site || Astro.url.origin)
-        .href}
+      content={
+        new URL(media('school-04.webp'), Astro.site || Astro.url.origin).href
+      }
     />
     <title>{pageTitle}</title>
   </head>
-  <body>
-    <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <body data-page={page}>
+    <a class="skip-link" href="#main">
+      Перейти к содержанию
+    </a>
     <SiteHeader content={content} overlay={overlay} />
-    <main id="main" tabindex="-1"><slot /></main>
-    <SiteFooter site={content.site} />
-    <script>
-      const reduced = window.matchMedia(
-        '(prefers-reduced-motion: reduce)',
-      ).matches;
-      if (!reduced && 'IntersectionObserver' in window) {
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add('is-visible');
-                observer.unobserve(entry.target);
-              }
-            });
-          },
-          { threshold: 0.15 },
-        );
-        document
-          .querySelectorAll('.reveal')
-          .forEach((element) => observer.observe(element));
-      }
-    </script>
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    {showFooter && <SiteFooter site={content.site} />}
   </body>
 </html>

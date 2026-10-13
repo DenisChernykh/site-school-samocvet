@@ -9,6 +9,7 @@ interface Props {
   mainHeading?: boolean;
   centered?: boolean;
   ratio?: string;
+  variant?: string;
 }
 const {
   feature,
@@ -17,11 +18,12 @@ const {
   mainHeading = false,
   centered = false,
   ratio = '1.1',
+  variant,
 } = Astro.props;
 const HeadingTag = mainHeading ? 'h1' : 'h2';
 ---
 
-<section class="section">
+<section class:list={['section', 'feature-section', variant]}>
   <div class:list={['section-inner split feature', { reverse }]}>
     <div class="feature-photo reveal">
       <Photo
@@ -31,24 +33,22 @@ const HeadingTag = mainHeading ? 'h1' : 'h2';
         ratio={ratio}
         eager={mainHeading}
       />
-    </div><div class:list={['text-stack', { center: centered }]}>
-      <HeadingTag class="multiline">{feature.title}</HeadingTag>{
-        feature.description && <p>{feature.description}</p>
-      }{feature.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}{
-        feature.link && (
-          <TextLink href={feature.link.href}>{feature.link.label}</TextLink>
-        )
-      }<slot />
+    </div>
+    <div class:list={['text-stack', { center: centered }]}>
+      <HeadingTag class="multiline">{feature.title}</HeadingTag>
+      {feature.description && <p>{feature.description}</p>}
+      {feature.paragraphs?.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+      {feature.link && (
+        <TextLink href={feature.link.href}>{feature.link.label}</TextLink>
+      )}
+      <slot />
     </div>
   </div>
 </section>
 <style>
   .reverse .feature-photo {
     order: 2;
-  }
-  @media (max-width: 760px) {
-    .reverse .feature-photo {
-      order: 0;
-    }
   }
 </style>

@@ -1,7 +1,7 @@
 ---
 import type { SiteContent } from '@/shared/api/types';
 import InquiryForm from '@/features/inquiry/ui/inquiry-form.astro';
-import FeatureSection from '@/shared/ui/feature-section.astro';
+import Photo from '@/shared/ui/photo.astro';
 import TextLink from '@/shared/ui/text-link.astro';
 import Invitation from '@/widgets/invitation/invitation.astro';
 interface Props {
@@ -11,74 +11,74 @@ const { content } = Astro.props;
 const { site } = content;
 ---
 
-<section class="section">
+<section class="section contact-intro">
   <div class="section-inner split contact-layout">
-    <div class="text-stack">
-      <h1>Начать можно<br />с разговора</h1><p>
+    <div class="text-stack contact-copy">
+      <h1>
+        Начать можно
+        <br />с разговора
+      </h1>
+      <p class="muted">
         Поможем разобраться в форматах, договориться об экскурсии и узнать
         условия участия.
-      </p><dl class="facts">
-        <div><dt>Для новых семей</dt><dd>{site.contactName}</dd></div><div>
-          <dt>Телефон</dt><dd><a href={site.phoneHref}>{site.phone}</a></dd>
-        </div><div>
-          <dt>Электронная почта</dt><dd>
+      </p>
+      <dl class="facts">
+        <div>
+          <dt>Для новых семей</dt>
+          <dd>{site.contactName}</dd>
+        </div>
+        <div>
+          <dt>Телефон</dt>
+          <dd>
+            <a href={site.phoneHref}>{site.phone}</a>
+          </dd>
+        </div>
+        <div>
+          <dt>Электронная почта</dt>
+          <dd>
             <a href={`mailto:${site.email}`}>{site.email}</a>
           </dd>
         </div>
-      </dl><TextLink href={site.contactVkUrl}>Написать в ВКонтакте</TextLink>
-    </div><div class="question">
-      <h2>Оставьте ваш вопрос</h2><InquiryForm
-        source="contacts"
-        label="Отправить вопрос"
-      />
+      </dl>
+      <TextLink href={site.contactVkUrl}>Написать в ВКонтакте</TextLink>
     </div>
+    <InquiryForm
+      source="contacts"
+      contactUrl={site.contactVkUrl}
+      title="Оставьте ваш вопрос"
+      label="Отправить вопрос"
+    />
   </div>
 </section>
-<FeatureSection
-  feature={{
-    title: 'Приходите\nв «Самоцвет»',
-    description: `${site.address}\n\nОтдельное трёхэтажное здание. ${site.addressDetail}.\n\nПеред визитом договоритесь о времени встречи с Ксенией.`,
-    image: 'school-09.webp',
-    link: { label: 'Открыть адрес в картах', href: site.mapsUrl },
-  }}
-  reverse
-/>
+<section class="section contact-map">
+  <div class="section-inner split">
+    <div class="text-stack">
+      <h2>
+        Приходите
+        <br />в «Самоцвет»
+      </h2>
+      <p class="address">
+        Екатеринбург
+        <br />
+        ул. 8 Марта, 194Б
+      </p>
+      <p class="muted">
+        Отдельное трёхэтажное здание.
+        <br />
+        {site.addressDetail}.
+      </p>
+      <p class="muted">
+        Перед визитом договоритесь о времени встречи с Ксенией.
+      </p>
+      <TextLink href={site.mapsUrl}>Открыть адрес в картах</TextLink>
+    </div>
+    <Photo name="school-09.webp" alt="Цветы у здания школы" ratio="1" />
+  </div>
+</section>
 <Invitation
+  variant="contacts"
   title="Школьная жизнь\nпродолжается здесь"
   description="Фотографии, анонсы и новости сообщества — в нашей группе ВКонтакте."
   label="Самоцвет в ВКонтакте"
   href={site.vkUrl}
 />
-<style>
-  .contact-layout {
-    align-items: start;
-    gap: 96px;
-    max-width: 1152px;
-  }
-  .question h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  .facts {
-    gap: 20px;
-  }
-  .facts a {
-    overflow-wrap: anywhere;
-  }
-  p {
-    white-space: pre-line;
-  }
-  @media (max-width: 1000px) {
-    .contact-layout {
-      gap: 48px;
-    }
-  }
-  @media (max-width: 760px) {
-    .contact-layout {
-      gap: 40px;
-    }
-    .question h2 {
-      font-size: 28px;
-    }
-  }
-</style>

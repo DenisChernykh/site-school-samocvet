@@ -21,8 +21,6 @@ const { content, program } = Astro.props;
   content={content}
   title={program.name}
   description={program.heading.description}
-  ><ProgramPage
-    program={program}
-    contactUrl={content.site.contactVkUrl}
-  /></SiteLayout
 >
+  <ProgramPage program={program} contactUrl={content.site.contactVkUrl} />
+</SiteLayout>

@@ -24,236 +24,109 @@ const { home } = content;
         framed
         ratio="1.065"
       />
-    </div><div class="text-stack center">
-      <h2 class="multiline">{home.intro.title}</h2><div class="intro-desktop">
-        {home.intro.paragraphs?.map((p) => <p>{p}</p>)}
-      </div><p class="intro-mobile">
+    </div>
+    <div class="text-stack center">
+      <h2 class="multiline">{home.intro.title}</h2>
+      <div class="intro-desktop">
+        {home.intro.paragraphs?.map((p) => (
+          <p>{p}</p>
+        ))}
+      </div>
+      <p class="intro-mobile">
         Сообщество семей и педагогов для детей на семейном обучении.
         Вальдорфский подход, творчество, проекты и походы — с вниманием к
         каждому ребёнку.
-      </p><Button href="about/">О школе</Button>
+      </p>
+      <Button href="about/">О школе</Button>
     </div>
   </div>
 </section>
 <section class="values light" aria-label="Три опоры школы">
   <div class="section-inner values-grid">
-    {
-      home.values.map((value) => (
-        <div class="value">
-          <>
-            <img
-              src={media(value.image)}
-              alt=""
-              width="104"
-              height="104"
-              loading="lazy"
-            />
-            <h2>{value.title}</h2>
-            <p class="value-desktop">{value.description}</p>
-            <p class="value-mobile">{value.mobileDescription}</p>
-          </>
-        </div>
-      ))
-    }
+    {home.values.map((value) => (
+      <div class="value">
+        <>
+          <img
+            src={media(value.image)}
+            alt=""
+            width="104"
+            height="104"
+            loading="lazy"
+          />
+          <h2>{value.title}</h2>
+          <p class="value-desktop">{value.description}</p>
+          <p class="value-mobile">{value.mobileDescription}</p>
+        </>
+      </div>
+    ))}
   </div>
 </section>
 <section class="section" id="programs">
   <div class="section-inner">
     <div class="section-heading">
-      <h2>{home.programsTitle}</h2><TextLink href="programs/"
-        >Все направления</TextLink
-      >
-    </div><div class="home-programs">
-      {
-        content.programs.map((program) => (
-          <ProgramCard program={program} home />
-        ))
-      }
+      <h2>{home.programsTitle}</h2>
+      <TextLink href="programs/" class="desktop-copy">
+        Все направления
+      </TextLink>
     </div>
+    <div class="home-programs">
+      {content.programs.map((program) => (
+        <ProgramCard program={program} home />
+      ))}
+    </div>
+    <TextLink href="programs/" class="mobile-copy all-programs">
+      Все направления
+    </TextLink>
   </div>
 </section>
 <section class="section home-stories">
   <div class="section-inner">
     <div class="section-heading">
-      <h2 class="multiline">{home.storiesTitle}</h2><TextLink href="life/"
-        >Жизнь школы</TextLink
-      >
-    </div><div class="story-columns">
-      {
-        home.stories.map((story) => (
-          <article class="story reveal">
-            <>
-              <Photo name={story.image} alt={story.title} ratio="1.3" />
-              <h3>{story.title}</h3>
-              <p>{story.description}</p>
-            </>
-          </article>
-        ))
-      }
-    </div><div class="mobile-story">
+      <h2 class="multiline">{home.storiesTitle}</h2>
+      <TextLink href="life/">Жизнь школы</TextLink>
+    </div>
+    <div class="story-columns">
+      {home.stories.map((story) => (
+        <article class="story reveal">
+          <>
+            <Photo name={story.image} alt={story.title} ratio="1.3" />
+            <h3>{story.title}</h3>
+            <p>{story.description}</p>
+          </>
+        </article>
+      ))}
+    </div>
+    <div class="mobile-story">
       <Photo
         name="school-19.webp"
         alt="Общий поход семей и педагогов"
         ratio="1.315"
-      /><p class="muted">
+      />
+      <p class="muted">
         Походы, мастерские, проекты и праздники — вместе с семьями и педагогами.
-      </p><TextLink href="life/">Жизнь школы</TextLink>
+      </p>
+      <TextLink href="life/">Жизнь школы</TextLink>
     </div>
   </div>
 </section>
 <section class="section home-events">
-  <div class="section-inner split">
-    <h2 class="multiline">{home.events.title}</h2><div class="text-stack">
-      <p>{home.events.description}</p><Button href="events/"
-        >Открыть афишу</Button
-      ><TextLink href="events/#archive">Посмотреть прошедшие встречи</TextLink>
+  <div class="section-inner events-layout">
+    <div class="text-stack events-copy">
+      <h2 class="multiline">{home.events.title}</h2>
+      <p class="muted desktop-copy">{home.events.description}</p>
+      <p class="muted mobile-copy">{home.events.mobileDescription}</p>
+    </div>
+    <div class="text-stack events-actions">
+      <Button href="events/">Открыть афишу</Button>
+      <TextLink href="events/#archive">
+        <span class="desktop-copy">Посмотреть прошедшие встречи</span>
+        <span class="mobile-copy">Прошедшие встречи</span>
+      </TextLink>
     </div>
   </div>
 </section>
 <section class="section home-quote">
-  <blockquote class="multiline">{home.quote.text}</blockquote><p class="muted">
-    {home.quote.author}
-  </p>
+  <blockquote class="multiline">{home.quote.text}</blockquote>
+  <p class="muted">{home.quote.author}</p>
 </section>
 <Invitation photo />
-<style>
-  .home-intro .split {
-    grid-template-columns: 520fr 656fr;
-  }
-  .home-intro h2 {
-    font-size: 30px;
-  }
-  .intro-desktop {
-    display: grid;
-    gap: 24px;
-  }
-  .intro-mobile {
-    display: none;
-  }
-  .values {
-    background: var(--fern);
-    color: var(--cream);
-    padding: 44px var(--gutter);
-  }
-  .values-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 64px;
-  }
-  .value {
-    display: grid;
-    justify-items: center;
-    gap: 12px;
-    text-align: center;
-  }
-  .value img {
-    width: 104px;
-    height: 104px;
-    object-fit: contain;
-  }
-  .value h2 {
-    font-size: 20px;
-    line-height: 1.5;
-    font-style: italic;
-  }
-  .value-mobile {
-    display: none;
-  }
-  .home-programs {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-  }
-  .story-columns {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-  }
-  .story h3 {
-    margin-top: 24px;
-    font-size: 26px;
-  }
-  .story p {
-    margin-top: 12px;
-  }
-  .mobile-story {
-    display: none;
-  }
-  .home-events {
-    padding-block: 64px;
-    border-bottom: 1px solid var(--line);
-  }
-  .home-quote {
-    text-align: center;
-    padding-inline: max(var(--gutter), calc((100vw - 980px) / 2));
-  }
-  .home-quote blockquote {
-    font:
-      40px/1.5 Lora,
-      serif;
-    margin-bottom: 22px;
-  }
-  @media (max-width: 1100px) {
-    .home-programs {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  @media (max-width: 760px) {
-    .home-intro {
-      padding-top: 72px;
-      padding-bottom: 72px;
-    }
-    .home-intro .split {
-      grid-template-columns: 1fr;
-    }
-    .home-intro h2 {
-      font-size: 28px;
-    }
-    .intro-desktop {
-      display: none;
-    }
-    .intro-mobile {
-      display: block;
-    }
-    .values {
-      padding: 40px 24px;
-    }
-    .values-grid {
-      grid-template-columns: 1fr;
-      gap: 30px;
-    }
-    .value-desktop {
-      display: none;
-    }
-    .value-mobile {
-      display: block;
-    }
-    .home-programs {
-      grid-template-columns: 1fr;
-      gap: 28px;
-    }
-    .story-columns {
-      display: none;
-    }
-    .mobile-story {
-      display: grid;
-      gap: 20px;
-    }
-    .home-stories .section-heading {
-      text-align: left;
-    }
-    .home-stories .section-heading .text-link {
-      display: none;
-    }
-    .home-events .split {
-      gap: 20px;
-    }
-    .home-quote {
-      padding: 48px 24px;
-    }
-    .home-quote blockquote {
-      font-size: 26px;
-      white-space: normal;
-    }
-  }
-</style>

@@ -10,108 +10,86 @@ interface Props {
   contactUrl: string;
 }
 const { program, contactUrl } = Astro.props;
-const panels = [
-  program.details.items.slice(0, 2),
-  program.details.items.slice(2),
-];
+const preschool = program.slug === 'preschool';
+const afterSchool = program.slug === 'after-school';
+const panels = preschool
+  ? program.details.items.map((item) => [item])
+  : [program.details.items.slice(0, 2), program.details.items.slice(2)];
 ---
 
-<PageHeading heading={program.heading}
-  ><nav slot="before" class="breadcrumbs" aria-label="Хлебные крошки">
-    <a href={withBase('programs/')}>Направления</a><span aria-hidden="true">
-      /
-    </span><span>{program.name}</span>
-  </nav></PageHeading
->
+<PageHeading heading={program.heading}>
+  <nav slot="before" class="breadcrumbs" aria-label="Хлебные крошки">
+    <a href={withBase('programs/')}>Направления</a>
+    <span aria-hidden="true">/</span>
+    <span>{program.name}</span>
+  </nav>
+</PageHeading>
 <section class="section program-overview">
   <div class="section-inner overview">
-    <Photo name={program.image} alt={program.name} ratio="1.76" eager /><div
-      class="text-stack"
+    <Photo name={program.image} alt={program.name} ratio="1.76" eager />
+    <div
+      class:list={[
+        'text-stack',
+        'conditions',
+        { 'preschool-conditions': preschool },
+      ]}
     >
       <dl class="facts">
-        {
-          program.facts.map((fact) => (
-            <div>
-              <>
-                <dt>{fact.label}</dt>
-                <dd>{fact.value}</dd>
-              </>
-            </div>
-          ))
-        }
-      </dl><Button href={contactUrl}>{program.actionLabel}</Button>
+        {program.facts.map((fact) => (
+          <div class:list={{ 'small-fact': fact.label === 'Формат' }}>
+            <>
+              <dt>{fact.label}</dt>
+              <dd>{fact.value}</dd>
+            </>
+          </div>
+        ))}
+      </dl>
+      <Button href={contactUrl}>{program.actionLabel}</Button>
     </div>
   </div>
 </section>
-<section class="section details">
+<section
+  class:list={[
+    'section',
+    'details',
+    { 'preschool-details': preschool, 'after-school-details': afterSchool },
+  ]}
+>
   <div class="section-inner">
     <div class="section-heading">
       <h2 class="multiline">{program.details.title}</h2>
-    </div><div class="panel-grid">
-      {
-        panels.map((items, index) => (
-          <div class:list={['panel', { sage: index === 1 }]}>
-            <div class="items">
-              {items.map((item) => (
-                <div>
-                  <h3>{item.title}</h3>
-                  <p>{item.description}</p>
-                </div>
-              ))}
+    </div>
+    <div class:list={['panel-grid', { 'topics-grid': preschool }]}>
+      {afterSchool
+        ? program.details.items.map((item) => (
+            <div class="discussion-item">
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
             </div>
-          </div>
-        ))
-      }
+          ))
+        : panels.map((items, index) => (
+            <div class:list={['panel', { sage: index === 1 && !preschool }]}>
+              <div class="items">
+                {items.map((item) => (
+                  <div>
+                    <h3>{item.title}</h3>
+                    <p>{item.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
     </div>
   </div>
 </section>
-<FeatureSection feature={program.story} framed />
+<FeatureSection
+  feature={program.story}
+  variant={`program-story ${program.slug === 'preschool' ? 'preschool-story' : ''}`}
+/>
 <section class="section start">
   <div class="narrow text-stack center">
-    <h2>{program.start.title}</h2><p>{program.start.description}</p><Button
-      href={contactUrl}>Написать Ксении</Button
-    >
+    <h2>{program.start.title}</h2>
+    <p>{program.start.description}</p>
+    <Button href={contactUrl}>Написать Ксении</Button>
   </div>
 </section>
-<style>
-  .breadcrumbs {
-    font-size: 14px;
-    color: var(--muted);
-  }
-  .breadcrumbs a {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
-  .overview {
-    display: grid;
-    grid-template-columns: 758fr 442fr;
-    gap: 48px;
-    align-items: start;
-  }
-  .program-overview {
-    padding-top: 0;
-    padding-bottom: 80px;
-  }
-  .details {
-    border-top: 1px solid var(--line);
-  }
-  .panel h3 {
-    font-size: 22px;
-    margin: 0 0 8px;
-  }
-  .start {
-    background: var(--sage);
-  }
-  @media (max-width: 760px) {
-    .overview {
-      grid-template-columns: 1fr;
-      gap: 28px;
-    }
-    .program-overview {
-      padding-bottom: 56px;
-    }
-    .breadcrumbs {
-      font-size: 12px;
-    }
-  }
-</style>

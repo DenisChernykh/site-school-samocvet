@@ -8,50 +8,73 @@ interface Props {
   content: SiteContent;
 }
 const { content } = Astro.props;
+const director = content.team.members[0];
 ---
 
-<PageHeading heading={content.team.heading} />
+<PageHeading heading={content.team.heading} variant="team-heading" />
+<section class="section team-director">
+  <article class="section-inner director-row">
+    <Photo name={director.image} alt={director.title.replaceAll('\n', ' ')} />
+    <div class="text-stack">
+      <h2 class="multiline">{director.title}</h2>
+      <p class="director-role">{director.role}</p>
+      <p class="muted">{director.description}</p>
+      <TextLink href="admission/#inquiry">Познакомиться на экскурсии</TextLink>
+    </div>
+  </article>
+</section>
 <section class="section team">
   <div class="section-inner team-members">
-    {
-      content.team.members.map((member, index) => (
-        <article
-          class:list={[
-            'team-member',
-            { reverse: index % 2 === 0, director: index === 0 },
-          ]}
-        >
-          <>
-            <div class="portrait reveal">
-              <Photo
-                name={member.image}
-                alt={member.title.replaceAll('\n', ' ')}
-                ratio={index === 0 ? '1.08' : '.917'}
-              />
-            </div>
-            <div class="text-stack">
-              <p class="muted">{member.description}</p>
-              {index === 0 && (
-                <TextLink href="admission/#inquiry">
-                  Познакомиться на экскурсии
-                </TextLink>
-              )}
-            </div>
-          </>
-        </article>
-      ))
-    }
+    {content.team.members.slice(1).map((member, index) => (
+      <article class:list={['team-member', { reverse: index === 1 }]}>
+        <div class="portrait">
+          <Photo name={member.image} alt={member.title.replaceAll('\n', ' ')} />
+        </div>
+        <div class="text-stack">
+          <h2>{member.title}</h2>
+          <p class="role">{member.role}</p>
+          <p class="muted">{member.description}</p>
+        </div>
+      </article>
+    ))}
   </div>
 </section>
 <Invitation title="Лучше познакомиться лично" />
 <style>
+  .team-director {
+    padding: 32px 10% 88px;
+  }
+  .director-row {
+    max-width: 1152px;
+    display: grid;
+    grid-template-columns: 420fr 632fr;
+    gap: 100px;
+    align-items: center;
+  }
+  .director-row :global(.photo) {
+    height: 470px;
+    aspect-ratio: auto !important;
+  }
+  .director-row h2 {
+    font-size: 39px;
+    line-height: 1.25;
+  }
+  .director-row .text-stack {
+    gap: 22px;
+  }
+  .director-row .muted {
+    line-height: 1.5;
+  }
+  .director-role {
+    font-weight: 600;
+  }
   .team {
-    padding-top: 32px;
+    padding: 70px 10.4167%;
   }
   .team-members {
     max-width: 1140px;
     display: grid;
-    gap: 100px;
+    gap: 80px;
   }
   .team-member {
     display: grid;
@@ -65,51 +88,72 @@ const { content } = Astro.props;
   .reverse .portrait {
     order: 2;
   }
-  .director {
-    grid-template-columns: 1fr 500px !important;
-    gap: 96px;
-    margin-bottom: 32px;
+  .portrait :global(.photo) {
+    height: 360px;
+    aspect-ratio: auto !important;
   }
   .team-member h2 {
     font-size: 32px;
-    line-height: 1.4;
+    line-height: 1.6;
   }
-  .director h2 {
-    font-size: 40px;
+  .team-member .text-stack {
+    gap: 20px;
   }
   .role {
     font-style: italic;
   }
-  @media (max-width: 1000px) {
+  @media (max-width: 1000px) and (min-width: 761px) {
+    .director-row,
     .team-member,
-    .team-member.reverse,
-    .director {
-      grid-template-columns: 1fr 1fr !important;
+    .team-member.reverse {
+      grid-template-columns: 1fr 1fr;
       gap: 40px;
     }
   }
   @media (max-width: 760px) {
+    .team-director {
+      padding: 16px 24px 52px;
+    }
+    .director-row {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .director-row :global(.photo) {
+      height: 360px;
+    }
+    .director-row h2 {
+      font-size: 30px;
+      line-height: 1.25;
+    }
+    .director-row .muted {
+      line-height: 1.6;
+    }
+    .director-row .text-stack {
+      gap: 22px;
+    }
+    .team {
+      padding: 48px 24px;
+    }
     .team-members {
-      gap: 64px;
+      gap: 44px;
     }
     .team-member,
-    .team-member.reverse,
-    .director {
-      grid-template-columns: 1fr !important;
-      gap: 28px;
+    .team-member.reverse {
+      grid-template-columns: 1fr;
+      gap: 18px;
     }
     .reverse .portrait {
       order: 0;
     }
-    .portrait {
-      max-width: 430px;
-      width: 100%;
-    }
-    .director h2 {
-      font-size: 32px;
+    .portrait :global(.photo) {
+      height: 350px;
     }
     .team-member h2 {
-      font-size: 28px;
+      font-size: 25px;
+      line-height: 1.25;
+    }
+    .team-member .text-stack {
+      gap: 18px;
     }
   }
 </style>

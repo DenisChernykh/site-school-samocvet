@@ -12,71 +12,54 @@ interface Props {
 const { event, contactUrl } = Astro.props;
 ---
 
-<PageHeading heading={{ title: event.title }}
-  ><nav slot="before" class="breadcrumbs" aria-label="Хлебные крошки">
-    <a href={withBase('events/')}>Афиша</a><span aria-hidden="true"> / </span><a
-      href={withBase('events/#archive')}>Архив</a
-    >
-  </nav><p>Встреча прошла</p></PageHeading
->
-<section class="section">
-  <div class="section-inner split">
+<PageHeading heading={{ title: event.title }}>
+  <div slot="before" class="text-stack event-heading-before">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a href={withBase('events/')}>Афиша</a>
+      <span aria-hidden="true"> / </span>
+      <a href={withBase('events/#archive')}>Архив</a>
+    </nav>
+    <p class="muted">Встреча прошла</p>
+  </div>
+</PageHeading>
+<section class="section event-overview">
+  <div class="section-inner story-panel">
     <Photo
       name={event.image}
       alt="Лепка и творческие занятия в Самоцвете"
-      ratio="1.42"
+      ratio="1"
       eager
-    /><div class="text-stack">
+    />
+    <div class="text-stack event-facts">
       <dl class="facts">
-        {
-          event.facts.map((fact) => (
-            <div>
-              <>
-                <dt>{fact.label}</dt>
-                <dd>{fact.value}</dd>
-              </>
-            </div>
-          ))
-        }
-      </dl><p class="muted">Год архивного анонса уточняется.</p><p
-        class="closed"
-      >
-        Запись закрыта
-      </p><TextLink href="events/#upcoming">Ближайшие встречи</TextLink>
+        {event.facts.map((fact) => (
+          <div>
+            <dt>{fact.label}</dt>
+            <dd>{fact.value}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <p class="closed">Запись закрыта</p>
+      <TextLink href="events/#upcoming">Ближайшие встречи</TextLink>
     </div>
   </div>
 </section>
-<section class="section">
-  <div class="narrow text-stack center">
-    <h2 class="multiline">{event.story.title}</h2><p>
-      {event.story.description}
-    </p><ul>{event.activities.map((activity) => <li>{activity}</li>)}</ul>
+<section class="section event-story">
+  <div class="narrow text-stack">
+    <h2 class="multiline">{event.story.title}</h2>
+    <p class="muted">{event.story.description}</p>
+    <ul>
+      {event.activities.map((activity) => (
+        <li>{activity}</li>
+      ))}
+    </ul>
   </div>
 </section>
 <Invitation
+  variant="event"
   title="Хотите познакомиться\nсо школой?"
   description="Узнайте о следующей встрече у Ксении."
   label="Написать Ксении"
   href={contactUrl}
 />
-<style>
-  .breadcrumbs {
-    font-size: 14px;
-    color: var(--muted);
-  }
-  .breadcrumbs a {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
-  .closed {
-    font-weight: 600;
-  }
-  ul {
-    padding-left: 24px;
-    text-align: left;
-    margin: 0;
-  }
-  li {
-    margin-block: 8px;
-  }
-</style>

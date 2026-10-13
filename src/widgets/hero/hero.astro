@@ -11,16 +11,19 @@ const { hero, compact = false } = Astro.props;
 
 <section class:list={['hero', { compact }]}>
   <picture aria-hidden="true">
-    {
-      hero.mobileImage && (
-        <source media="(max-width: 760px)" srcset={media(hero.mobileImage)} />
-      )
-    }
+    {hero.mobileImage && (
+      <source media="(max-width:760px)" srcset={media(hero.mobileImage)} />
+    )}
     <img src={media(hero.image)} alt="" fetchpriority="high" decoding="async" />
   </picture>
   <div class="hero-content">
     <h1 class="multiline">{hero.title}</h1>
-    <p class="multiline">{hero.description}</p>
+    <p class:list={['multiline', { 'desktop-copy': !!hero.mobileDescription }]}>
+      {hero.description}
+    </p>
+    {hero.mobileDescription && (
+      <p class="multiline mobile-copy">{hero.mobileDescription}</p>
+    )}
     <Button href={hero.action.href}>{hero.action.label}</Button>
   </div>
 </section>
@@ -34,9 +37,6 @@ const { hero, compact = false } = Astro.props;
     justify-content: center;
     color: var(--cream);
     background: var(--forest);
-  }
-  .hero.compact {
-    height: 700px;
   }
   picture {
     position: absolute;
@@ -61,17 +61,12 @@ const { hero, compact = false } = Astro.props;
     align-items: center;
     gap: 32px;
     width: 100%;
-    padding: 96px 24px 42px;
+    padding: 96px 120px 42px;
     text-align: center;
   }
-  .hero-content > * {
-    animation: hero-arrive 650ms ease both;
-  }
-  .hero-content > p {
-    animation-delay: 120ms;
-  }
-  .hero-content :global(.button) {
-    animation-delay: 240ms;
+  h1 {
+    font-size: 56px;
+    line-height: 1.14;
   }
   p {
     max-width: 770px;
@@ -79,21 +74,72 @@ const { hero, compact = false } = Astro.props;
       20px/1.4 Lora,
       serif;
   }
+  .compact {
+    height: 700px;
+    min-height: 0;
+    display: block;
+  }
+  .compact picture::after {
+    background: linear-gradient(
+      90deg,
+      #344537f0 0%,
+      #344537ab 55%,
+      #34453766 100%
+    );
+  }
+  .compact .hero-content {
+    width: min(640px, 100%);
+    padding: 192px 96px 0;
+    gap: 22px;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .compact h1 {
+    font-size: 52px;
+    line-height: 1.2;
+  }
+  .compact p {
+    font:
+      16px/1.5 Montserrat,
+      sans-serif;
+  }
   @media (max-width: 760px) {
-    .hero,
-    .hero.compact {
-      height: min(740px, 100svh);
-      min-height: 600px;
+    .hero {
+      height: 740px;
+      min-height: 0;
     }
     .hero-content {
       gap: 26px;
-      padding-bottom: 32px;
+      padding: 96px 24px 32px;
     }
     h1 {
-      font-size: 38px;
+      font-size: 33px;
+      line-height: 1.2;
     }
     p {
-      font-size: 18px;
+      font-size: 17px;
+      line-height: 1.5;
+    }
+    .compact picture::after {
+      background: linear-gradient(
+        180deg,
+        #344537f0 0%,
+        #344537ab 72%,
+        #34453766 100%
+      );
+    }
+    .compact {
+      height: 660px;
+    }
+    .compact .hero-content {
+      padding: 170px 24px 0;
+      gap: 22px;
+    }
+    .compact h1 {
+      font-size: 38px;
+    }
+    .compact p {
+      line-height: 1.6;
     }
   }
 </style>

@@ -7,6 +7,7 @@ interface Props {
   description?: string;
   label?: string;
   href?: string;
+  variant?: 'default' | 'contacts' | 'event' | 'life';
 }
 const {
   title = 'Приходите познакомиться',
@@ -14,25 +15,22 @@ const {
   description = 'Покажем, как живёт школа, и ответим на вопросы вашей семьи.',
   label = 'Записаться на экскурсию',
   href = 'admission/#inquiry',
+  variant = 'default',
 } = Astro.props;
 ---
 
-<section class:list={['invitation', { 'with-photo': photo }]}>
-  {
-    photo && (
-      <img
-        src={media('school-04.webp')}
-        alt=""
-        loading="lazy"
-        decoding="async"
-      />
-    )
-  }
+<section
+  class:list={['invitation', `invitation-${variant}`, { 'with-photo': photo }]}
+>
+  {photo && (
+    <img src={media('school-04.webp')} alt="" loading="lazy" decoding="async" />
+  )}
   <div>
-    <h2 class="multiline">{title}</h2><p>{description}</p><Button
-      href={href}
-      outline={photo}>{label}</Button
-    >
+    <h2 class="multiline">{title}</h2>
+    <p>{description}</p>
+    <Button href={href} outline={variant === 'default'}>
+      {label}
+    </Button>
   </div>
 </section>
 <style>
@@ -41,13 +39,36 @@ const {
     display: grid;
     place-items: center;
     padding: 120px var(--gutter);
-    background: var(--sage);
-    text-align: center;
-  }
-  .with-photo {
-    min-height: 528px;
     background: var(--forest);
     color: var(--cream);
+    text-align: center;
+  }
+  .invitation > div {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  p {
+    max-width: 760px;
+    line-height: 1.5;
+  }
+  .with-photo {
+    height: 528px;
+    padding: 100px var(--gutter);
+  }
+  .with-photo > div {
+    gap: 28px;
+  }
+  .with-photo p {
+    max-width: 680px;
   }
   img {
     position: absolute;
@@ -60,30 +81,72 @@ const {
     content: '';
     position: absolute;
     inset: 0;
-    background: #374036a0;
+    background: #37403685;
   }
-  .invitation > div {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 28px;
+  .invitation-contacts {
+    padding: 100px 10%;
   }
-  h2 {
-    font-size: 40px;
+  .invitation-contacts h2 {
+    font-size: 45px;
+    line-height: 1.25;
   }
-  p {
-    max-width: 680px;
+  .invitation-contacts > div,
+  .invitation-event > div,
+  .invitation-life > div {
+    gap: 24px;
+  }
+  .invitation-event {
+    padding: 64px 16%;
+  }
+  .invitation-event h2 {
+    font-size: 43px;
+    line-height: 1.2;
+  }
+  .invitation-event p {
+    line-height: 1.6;
+  }
+  .invitation-life {
+    padding: 80px 12.5%;
+    background: var(--cream);
+    color: var(--ink);
+  }
+  .invitation-life h2 {
+    font-size: 45px;
+  }
+  .invitation-life p {
+    color: var(--muted);
+    line-height: 1.6;
   }
   @media (max-width: 760px) {
     .invitation {
-      padding: 72px 24px;
+      padding: 70px 24px;
     }
-    .with-photo {
-      min-height: 379px;
+    p {
+      line-height: 1.6;
     }
     h2 {
+      font-size: 32px;
+    }
+    .with-photo {
+      height: 379px;
+      padding: 72px 24px;
+    }
+    .invitation-contacts {
+      padding: 60px 24px;
+    }
+    .invitation-contacts h2 {
+      font-size: 32px;
+    }
+    .invitation-event {
+      padding: 52px 24px;
+    }
+    .invitation-event h2 {
+      font-size: 32px;
+    }
+    .invitation-life {
+      padding: 56px 24px;
+    }
+    .invitation-life h2 {
       font-size: 32px;
     }
   }

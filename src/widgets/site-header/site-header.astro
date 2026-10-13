@@ -16,44 +16,68 @@ const active = (path: string) =>
 ---
 
 <header class:list={['site-header', { overlay }]} data-site-header>
-  <a class="brand" href={withBase()} aria-label="Самоцвет — главная"
-    >{content.site.name}</a
-  >
+  <a class="brand" href={withBase()} aria-label="Самоцвет — главная">
+    {content.site.name}
+  </a>
   <nav id="site-menu" aria-label="Основная навигация">
-    <a href={withBase('about/')} aria-current={active('about/')}>О школе</a>
+    <a href={withBase('about/')} aria-current={active('about/')}>
+      О школе
+    </a>
     <div class="program-nav">
       <div class="program-trigger">
-        <a href={withBase('programs/')} aria-current={active('programs/')}
-          >Направления</a
-        >
+        <a href={withBase('programs/')} aria-current={active('programs/')}>
+          Направления
+        </a>
         <button
           type="button"
           class="dropdown-toggle"
           aria-label="Раскрыть направления"
           aria-expanded="false"
           aria-controls="program-menu"
-          ><span class="chevron" aria-hidden="true"></span></button
         >
+          <span class="chevron" aria-hidden="true"></span>
+        </button>
       </div>
       <ul id="program-menu" class="program-menu" hidden>
-        {
-          content.programs.map((program) => (
-            <li>
-              <a href={withBase(`programs/${program.slug}/`)}>{program.name}</a>
-            </li>
-          ))
-        }
-        <li><a href={withBase('programs/')}>Все направления</a></li>
+        {content.programs.map((program) => (
+          <li>
+            <a href={withBase(`programs/${program.slug}/`)}>{program.name}</a>
+          </li>
+        ))}
+        <li>
+          <a href={withBase('programs/')}>Все направления</a>
+        </li>
       </ul>
     </div>
-    <a href={withBase('life/')} aria-current={active('life/')}>Жизнь школы</a>
-    <a href={withBase('events/')} aria-current={active('events/')}>Афиша</a>
-    <a href={withBase('contacts/')} aria-current={active('contacts/')}
-      >Контакты</a
+    <a
+      class="mobile-menu-link"
+      href={withBase('team/')}
+      aria-current={active('team/')}
     >
-    <a class="mobile-admission button" href={withBase('admission/')}
-      >На экскурсию</a
+      Педагоги
+    </a>
+    <a href={withBase('life/')} aria-current={active('life/')}>
+      Жизнь школы
+    </a>
+    <a href={withBase('events/')} aria-current={active('events/')}>
+      Афиша
+    </a>
+    <a
+      class="mobile-menu-link"
+      href={withBase('admission/')}
+      aria-current={active('admission/')}
     >
+      Поступление
+    </a>
+    <a href={withBase('contacts/')} aria-current={active('contacts/')}>
+      Контакты
+    </a>
+    <div class="mobile-menu-footer">
+      <a class="mobile-admission button" href={withBase('admission/')}>
+        Записаться на экскурсию
+      </a>
+      <a href={withBase('legalinfo/')}>Сведения об организации</a>
+    </div>
   </nav>
   <div class="header-action">
     <Button href="admission/">На экскурсию</Button>
@@ -63,8 +87,12 @@ const active = (path: string) =>
     class="menu-toggle"
     aria-label="Открыть меню"
     aria-expanded="false"
-    aria-controls="site-menu"><span></span><span></span></button
+    aria-controls="site-menu"
   >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 </header>
 
 <script>
@@ -173,6 +201,7 @@ const active = (path: string) =>
     color: var(--cream);
   }
   .brand {
+    width: 200px;
     font:
       400 34px/1.1 Lora,
       serif;
@@ -188,8 +217,7 @@ const active = (path: string) =>
     font-size: 16px;
     padding-block: 10px;
   }
-  nav a:hover,
-  nav a[aria-current] {
+  nav a:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
   }
@@ -225,27 +253,34 @@ const active = (path: string) =>
   }
   .program-menu {
     position: absolute;
-    top: 100%;
-    left: -20px;
+    top: calc(100% + 16px);
+    left: 16px;
     margin: 0;
     list-style: none;
-    padding: 12px;
-    min-width: 280px;
+    padding: 16px;
+    width: 324px;
     background: var(--cream);
     color: var(--ink);
-    border: 1px solid var(--line);
+    outline: 1px solid var(--line);
     border-radius: 12px;
     box-shadow: 0 12px 30px #2c2a2712;
     animation: section-arrive 150ms ease;
   }
   .program-menu a {
     display: block;
-    padding: 10px 12px;
+    padding: 14px 12px;
+    line-height: 24px;
     border-radius: 6px;
+  }
+  .program-menu li:last-child {
+    box-shadow: inset 0 1px var(--line);
+    color: var(--muted);
   }
   .program-menu a:hover {
     background: var(--sage);
   }
+  .mobile-menu-footer,
+  .mobile-menu-link,
   .menu-toggle,
   .mobile-admission {
     display: none;
@@ -255,7 +290,7 @@ const active = (path: string) =>
       padding: 20px 24px;
     }
     .brand {
-      font-size: 28px;
+      font-size: 25px;
     }
     .header-action {
       display: none;
@@ -264,7 +299,7 @@ const active = (path: string) =>
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 7px;
+      gap: 4.5px;
       width: 44px;
       height: 44px;
       padding: 10px;
@@ -273,7 +308,7 @@ const active = (path: string) =>
       color: inherit;
     }
     .menu-toggle span {
-      width: 24px;
+      width: 22px;
       height: 1.5px;
       background: currentColor;
       transition: transform 180ms;
@@ -283,10 +318,16 @@ const active = (path: string) =>
       background: var(--cream) !important;
     }
     .menu-visible .menu-toggle span:first-child {
-      transform: translateY(4.25px) rotate(45deg);
+      transform: translateY(6px) rotate(45deg);
+    }
+    .menu-visible .menu-toggle span:nth-child(2) {
+      opacity: 0;
+    }
+    .mobile-menu-link {
+      display: block;
     }
     .menu-visible .menu-toggle span:last-child {
-      transform: translateY(-4.25px) rotate(-45deg);
+      transform: translateY(-6px) rotate(-45deg);
     }
     nav {
       display: none;
@@ -295,11 +336,11 @@ const active = (path: string) =>
       left: 0;
       width: 100%;
       height: calc(100dvh - 95px);
-      padding: 24px;
+      padding: 30px 24px 8px;
       flex-direction: column;
       align-items: stretch;
       justify-content: flex-start;
-      gap: 12px;
+      gap: 0;
       overflow-y: auto;
       background: var(--cream);
       color: var(--ink);
@@ -310,35 +351,58 @@ const active = (path: string) =>
     nav > a,
     .program-trigger > a {
       font-family: Lora, serif;
-      font-size: 25px;
-      padding: 8px 0;
+      font-size: 26px;
+      line-height: 1.5;
+      padding: 14px 0;
+      box-shadow: inset 0 -1px var(--line);
     }
     .program-trigger {
+      padding: 14px 0;
+      box-shadow: inset 0 -1px var(--line);
       justify-content: space-between;
+    }
+    .program-trigger > a {
+      padding: 0;
+      box-shadow: none;
     }
     .program-menu {
       position: static;
       box-shadow: none;
-      border: 0;
+      outline: 0;
       border-radius: 0;
       background: transparent;
-      padding: 0 0 12px 12px;
+      padding: 12px 0 12px 20px;
       min-width: 0;
     }
     .program-menu a {
       font:
         16px/1.5 Montserrat,
         sans-serif;
-      padding: 12px 0;
+      padding: 14px 0;
+    }
+    .program-menu li:last-child {
+      display: none;
+    }
+    .mobile-menu-footer {
+      display: grid;
+      gap: 22px;
+      margin-top: 38px;
+    }
+    .mobile-menu-footer > a:last-child {
+      font:
+        16px/1.6 Montserrat,
+        sans-serif;
+      color: var(--muted);
     }
     .site-header nav .mobile-admission {
       display: inline-flex;
       align-self: flex-start;
-      margin-top: 20px;
+      margin-top: 0;
       font:
         700 14px/1.5 'Open Sans',
         sans-serif;
       padding: 14px 26px;
+      box-shadow: none;
     }
   }
 </style>

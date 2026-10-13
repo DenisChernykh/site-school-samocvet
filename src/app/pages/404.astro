@@ -2,25 +2,48 @@
 import { getSiteContent } from '@/shared/api/site-content';
 import SiteLayout from '../layouts/site-layout.astro';
 import Button from '@/shared/ui/button.astro';
-import TextLink from '@/shared/ui/text-link.astro';
+import Photo from '@/shared/ui/photo.astro';
 const content = await getSiteContent();
 ---
 
-<SiteLayout content={content} title="Страница не найдена"
-  ><section class="section error-page">
+<SiteLayout content={content} title="Страница не найдена" showFooter={false}>
+  <section class="section error-page">
     <div class="text-stack center">
-      <p class="code">404</p><h1>Здесь пока<br />ничего нет</h1><p>
-        Возможно, адрес изменился. Вернёмся на главную — там начинается
-        знакомство со школой.
-      </p><Button href="">На главную</Button><TextLink href="programs/"
-        >Наши направления</TextLink
-      >
+      <p class="code">404</p>
+      <h1>
+        Страница
+        <br />
+        не найдена
+      </h1>
+      <p>
+        Возможно, ссылка устарела.
+        <br />
+        Начните знакомство с главной.
+      </p>
+      <Button href="">На главную</Button>
+      <Photo name="school-40.webp" alt="Колосья в поле" ratio="2.44" />
     </div>
-  </section></SiteLayout
->
+  </section>
+</SiteLayout>
 <style>
+  .error-page .text-stack {
+    gap: 22px;
+    width: 100%;
+  }
+  .error-page h1 {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+  .error-page :global(.photo) {
+    width: 342px;
+    height: 140px;
+    max-width: 100%;
+  }
+  .error-page p:not(.code) {
+    color: var(--muted);
+  }
   .error-page {
-    min-height: 65svh;
+    padding: 64px 24px;
     display: grid;
     place-items: center;
   }
@@ -30,8 +53,8 @@ const content = await getSiteContent();
   }
   .code {
     font:
-      italic 80px/1 Lora,
+      96px/1.1 Lora,
       serif;
-    color: var(--fern);
+    color: var(--ink);
   }
 </style>

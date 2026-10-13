@@ -11,155 +11,56 @@ const { admission, site } = content;
 ---
 
 <Hero hero={admission.hero} compact />
-<section class="section">
+<section class="section admission-process">
   <div class="section-inner">
     <div class="section-heading">
-      <h2 class="multiline">{admission.steps.title}</h2><p>
-        {admission.steps.description}
-      </p>
-    </div><ol class="admission-steps">
-      {
-        admission.steps.items.map((step) => (
-          <li>
-            <>
-              <h3>{step.title}</h3>
-              <p>{step.description}</p>
-            </>
-          </li>
-        ))
-      }
+      <h2 class="multiline">{admission.steps.title}</h2>
+      <p>{admission.steps.description}</p>
+    </div>
+    <ol class="admission-steps">
+      {admission.steps.items.map((step) => (
+        <li>
+          <div class="timeline-card">
+            <h3>{step.title}</h3>
+            <p>{step.description}</p>
+          </div>
+        </li>
+      ))}
     </ol>
   </div>
 </section>
 <section class="section" id="inquiry">
   <div class="narrow split inquiry-layout">
     <div class="text-stack">
-      <h2>Расскажите<br />о вашей семье</h2><p>
+      <h2>
+        Расскажите
+        <br />о вашей семье
+      </h2>
+      <p>
         Ксения помогает новым семьям познакомиться со школой и выбрать следующий
         шаг.
-      </p><a href={site.phoneHref}>{site.phone}</a><TextLink
-        href={site.contactVkUrl}>Написать в ВКонтакте</TextLink
-      >
-    </div><InquiryForm source="admission" />
+      </p>
+      <a href={site.phoneHref}>{site.phone}</a>
+      <TextLink href={site.contactVkUrl}>Написать в ВКонтакте</TextLink>
+    </div>
+    <InquiryForm source="admission" contactUrl={site.contactVkUrl} />
   </div>
 </section>
 <section class="section faq">
   <div class="section-inner faq-layout">
-    <h2>О чём спрашивают семьи</h2><div>
-      {
-        admission.faqs.map((item, index) => (
-          <details open={index === 0}>
-            <>
-              <summary>
-                {item.title}
-                <span class="plus" aria-hidden="true" />
-              </summary>
-              <p>{item.description}</p>
-            </>
-          </details>
-        ))
-      }
+    <h2>О чём спрашивают семьи</h2>
+    <div>
+      {admission.faqs.map((item, index) => (
+        <details open>
+          <>
+            <summary>
+              {index < 4 && <span class="plus" aria-hidden="true" />}
+              {item.title}
+            </summary>
+            <p>{item.description}</p>
+          </>
+        </details>
+      ))}
     </div>
   </div>
 </section>
-<style>
-  .admission-steps {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 40px;
-  }
-  .admission-steps li {
-    border-top: 1px solid var(--forest);
-    padding-top: 24px;
-  }
-  .admission-steps h3 {
-    font-size: 25px;
-    margin-bottom: 16px;
-  }
-  .inquiry-layout {
-    gap: 72px;
-    align-items: start;
-  }
-  .faq-layout {
-    display: grid;
-    grid-template-columns: 350fr 810fr;
-    gap: 80px;
-    align-items: start;
-  }
-  .faq h2 {
-    font-size: 36px;
-  }
-  details {
-    border-top: 1px solid var(--line);
-    padding: 20px 0;
-  }
-  details:last-child {
-    border-bottom: 1px solid var(--line);
-  }
-  summary {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-    cursor: pointer;
-    font:
-      24px/1.4 Lora,
-      serif;
-    min-height: 44px;
-  }
-  summary::-webkit-details-marker {
-    display: none;
-  }
-  .plus {
-    position: relative;
-    width: 18px;
-    height: 18px;
-    flex-shrink: 0;
-  }
-  .plus::before,
-  .plus::after {
-    content: '';
-    position: absolute;
-    top: 8px;
-    left: 0;
-    width: 18px;
-    height: 1px;
-    background: var(--forest);
-  }
-  .plus::after {
-    transform: rotate(90deg);
-  }
-  details[open] .plus::after {
-    display: none;
-  }
-  details p {
-    margin-top: 16px;
-    padding-right: 36px;
-  }
-  @media (max-width: 760px) {
-    .admission-steps {
-      grid-template-columns: 1fr;
-      gap: 28px;
-    }
-    .inquiry-layout {
-      gap: 40px;
-    }
-    .faq-layout {
-      grid-template-columns: 1fr;
-      gap: 32px;
-    }
-    .faq h2 {
-      font-size: 30px;
-    }
-    summary {
-      font-size: 22px;
-    }
-    details p {
-      padding-right: 0;
-    }
-  }
-</style>

@@ -1,6 +1,7 @@
 export interface Heading {
   title: string;
   description?: string;
+  mobileDescription?: string;
 }
 
 export interface Feature extends Heading {
@@ -27,6 +28,7 @@ export interface Program {
   cardSummary: string;
   cardAudience: string;
   homeSummary: string;
+  mobileHomeSummary: string;
   heading: Heading;
   image: string;
   facts: Fact[];

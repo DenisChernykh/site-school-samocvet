@@ -1,20 +1,28 @@
 ---
-import { withBase } from '@/shared/lib/paths';
+import Button from '@/shared/ui/button.astro';
+import { media, withBase } from '@/shared/lib/paths';
 interface Props {
   source: 'admission' | 'contacts';
+  contactUrl: string;
   label?: string;
+  title?: string;
 }
-const { source, label = 'Записаться на знакомство' } = Astro.props;
+const {
+  source,
+  title,
+  contactUrl,
+  label = 'Записаться на знакомство',
+} = Astro.props;
 const id = `inquiry-${source}`;
 ---
 
 <div class="inquiry-widget" data-inquiry-widget>
-  <p class="preview-note">
-    Демонстрационная форма. Данные не сохраняются и не отправляются в школу.
-  </p>
+  {title && <h2 class="form-title">{title}</h2>}
+  <p class="preview-note">Демо: данные не сохраняются и не отправляются.</p>
   <form data-inquiry-form data-source={source}>
     <div class="field">
-      <label for={`${id}-name`}>Ваше имя</label><input
+      <label for={`${id}-name`}>Ваше имя</label>
+      <input
         id={`${id}-name`}
         name="name"
         placeholder="Как к вам обращаться"
@@ -23,11 +31,17 @@ const id = `inquiry-${source}`;
         minlength="2"
         maxlength="80"
         aria-describedby={`${id}-name-error`}
-      /><p class="field-error" id={`${id}-name-error`} data-error="name" hidden>
-      </p>
+      />
+      <p
+        class="field-error"
+        id={`${id}-name-error`}
+        data-error="name"
+        hidden
+      ></p>
     </div>
     <div class="field">
-      <label for={`${id}-contact`}>Телефон или контакт в VK</label><input
+      <label for={`${id}-contact`}>Телефон или контакт в VK</label>
+      <input
         id={`${id}-contact`}
         name="contact"
         type="text"
@@ -36,70 +50,86 @@ const id = `inquiry-${source}`;
         required
         maxlength="160"
         aria-describedby={`${id}-contact-error`}
-      /><p
+      />
+      <p
         class="field-error"
         id={`${id}-contact-error`}
         data-error="contact"
         hidden
-      >
-      </p>
+      ></p>
     </div>
     <div class="field">
-      <label for={`${id}-message`}
-        >Ваш вопрос <span class="optional">(необязательно)</span></label
-      ><textarea
+      <label for={`${id}-message`}>Ваш вопрос</label>
+      <textarea
         id={`${id}-message`}
         name="message"
         rows="4"
-        placeholder={source === 'contacts'
-          ? 'Что вы хотите узнать о школе?'
-          : 'Расскажите о ребёнке и своих ожиданиях'}
+        placeholder={
+          source === 'contacts'
+            ? 'Что вы хотите узнать о школе?'
+            : 'Расскажите о ребёнке и своих ожиданиях'
+        }
         maxlength="2000"
-        aria-describedby={`${id}-message-error`}></textarea><p
+        aria-describedby={`${id}-message-error`}
+      ></textarea>
+      <p
         class="field-error"
         id={`${id}-message-error`}
         data-error="message"
         hidden
-      >
-      </p>
+      ></p>
     </div>
     <div>
-      <label class="consent" for={`${id}-consent`}
-        ><input
+      <label class="consent" for={`${id}-consent`}>
+        <input
           id={`${id}-consent`}
           type="checkbox"
           name="consent"
           required
           aria-describedby={`${id}-consent-error`}
-        /><span
-          >Даю согласие на обработку персональных данных. <a
-            href={withBase('privacy/')}>Политика обработки данных.</a
-          ></span
-        ></label
-      ><p
+        />
+        <span>
+          Даю согласие на обработку персональных данных.{' '}
+          <a href={withBase('privacy/')}>Политика обработки данных.</a>
+        </span>
+      </label>
+      <p
         class="field-error"
         id={`${id}-consent-error`}
         data-error="consent"
         hidden
-      >
-      </p>
+      ></p>
     </div>
     <p class="form-error" role="alert" hidden></p>
-    <button class="button" type="submit" disabled>{label}</button>
-    <noscript
-      ><p>
+    <button class="button" type="submit" disabled>
+      {label}
+    </button>
+    <noscript>
+      <p>
         Для проверки формы включите JavaScript. Связаться со школой можно по
         телефону или в VK.
-      </p></noscript
-    >
+      </p>
+    </noscript>
   </form>
   <div class="form-result" role="status" tabindex="-1" hidden>
-    <h3>Форма заполнена</h3><p>
-      Это демонстрация: заявка не отправлена. Чтобы договориться о встрече,
-      свяжитесь с Ксенией по телефону или в VK.
-    </p><button class="button" type="button" data-reset
-      >Заполнить ещё раз</button
-    >
+    <img src={media('confirmation-icon.png')} width="40" height="40" alt="" />
+    <h1>
+      Спасибо
+      <br />
+      за знакомство
+    </h1>
+    <p>
+      Пример подтверждения после отправки: школа получает обращение и
+      связывается с семьёй по указанному контакту. В демонстрационном макете
+      обращение не отправляется.
+    </p>
+    <Button href="">Вернуться на главную</Button>
+    <p class="direct-contact">
+      Если удобнее —{' '}
+      <a href={contactUrl} target="_blank" rel="noopener noreferrer">
+        напишите Ксении в VK.
+      </a>
+    </p>
   </div>
 </div>
 
@@ -172,7 +202,12 @@ const id = `inquiry-${source}`;
           } else {
             form.hidden = true;
             result.hidden = false;
-            result.focus();
+            const main = document.querySelector('main');
+            main?.prepend(result);
+            main?.classList.add('inquiry-confirmed');
+            document.querySelector('footer')?.setAttribute('hidden', '');
+            window.scrollTo({ top: 0, behavior: 'instant' });
+            result.focus({ preventScroll: true });
           }
         } catch {
           generalError.textContent =
@@ -184,34 +219,46 @@ const id = `inquiry-${source}`;
           form.removeAttribute('aria-busy');
         }
       });
-      widget.querySelector('[data-reset]')?.addEventListener('click', () => {
-        form.reset();
-        clearErrors();
-        result.hidden = true;
-        form.hidden = false;
-        (form.elements.namedItem('name') as HTMLElement)?.focus();
-      });
     });
 </script>
 <style>
   .inquiry-widget {
     min-width: 0;
+    padding: 32px;
+    outline: 2px dashed var(--forest);
+    outline-offset: -1px;
+    border-radius: 20px;
+  }
+  .form-title {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+  }
+  @media (max-width: 760px) {
+    .inquiry-widget {
+      padding: 24px;
+    }
+    .form-title {
+      font-size: 28px;
+    }
   }
   .preview-note {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
     color: var(--muted);
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
   form {
     display: grid;
-    gap: 24px;
+    gap: 18px;
   }
   .field {
     display: grid;
     gap: 8px;
   }
   label {
+    line-height: 1.5;
+    font-weight: 600;
     font-size: 14px;
   }
   .optional {
@@ -221,23 +268,27 @@ const id = `inquiry-${source}`;
   input:not([type='checkbox']),
   textarea {
     width: 100%;
-    border: 1px solid var(--forest);
-    border-radius: 4px;
-    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: var(--sage);
     color: var(--ink);
     padding: 12px 16px;
     font-size: 16px;
-    min-height: 48px;
+    min-height: 56px;
   }
   textarea {
     resize: vertical;
-    min-height: 120px;
+    min-height: 104px;
+    height: 104px;
   }
   ::placeholder {
+    font-size: 13px;
     color: var(--muted);
     opacity: 1;
   }
   .consent {
+    font-weight: 400;
+    line-height: 1.5;
     display: flex;
     align-items: flex-start;
     gap: 12px;
@@ -259,27 +310,51 @@ const id = `inquiry-${source}`;
   .field-error,
   .form-error {
     font-size: 14px;
-    color: #9b342c;
+    color: #974f46;
     line-height: 1.5;
   }
+  .field-error {
+    font-size: 12px;
+  }
   [aria-invalid='true'] {
-    border-color: #9b342c !important;
+    border-color: #974f46 !important;
+  }
+  :global(main.inquiry-confirmed > :not(.form-result)) {
+    display: none;
   }
   .form-result {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 24px;
-    border: 2px dashed var(--forest);
-    border-radius: 20px;
-    padding: 32px;
+    padding: 92px 24px;
+    width: 100%;
+    max-width: 728px;
+    margin-inline: auto;
   }
   .form-result:focus {
     outline: none;
   }
-  .form-result h3 {
-    font-size: 30px;
+  .form-result img {
+    width: 40px;
+    height: 40px;
   }
-  form > .button,
-  .form-result > .button {
+  .form-result h1 {
+    font-size: 35px;
+    line-height: 1.2;
+  }
+  .form-result p {
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .form-result .direct-contact {
+    font-size: 14px;
+  }
+  .direct-contact a:hover {
+    text-decoration: underline;
+  }
+  form > .button {
     justify-self: start;
   }
 </style>

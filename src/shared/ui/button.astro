@@ -19,5 +19,7 @@ const destination =
   class:list={['button', { outline }]}
   href={destination}
   target={external ? '_blank' : undefined}
-  rel={external ? 'noopener noreferrer' : undefined}><slot /></a
+  rel={external ? 'noopener noreferrer' : undefined}
 >
+  <slot />
+</a>
