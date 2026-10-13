@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-13",
+  "scope": "static Pen mockups and HTML exports",
+  "screen_count": 34,
+  "layout_problems": 0,
+  "zero_size_nodes": 0,
+  "unfinished_frames": 0,
+  "text_below_12px": 0,
+  "html_exports": [
+    "samocvet-after-school-desktop.html",
+    "samocvet-after-school-mobile.html",
+    "samocvet-desktop.html",
+    "samocvet-family-classes-desktop.html",
+    "samocvet-family-classes-mobile.html",
+    "samocvet-individual-lessons-desktop.html",
+    "samocvet-individual-lessons-mobile.html",
+    "samocvet-mobile.html"
+  ],
+  "missing_image_paths": [],
+  "verified_pen_image_paths": 23,
+  "local_document_links": "passed",
+  "screenshots": {
+    "before": 7,
+    "after": 34,
+    "details": 6,
+    "reference-blocks": 4
+  },
+  "limits": "Static design only. Live form submission, keyboard behavior and intermediate responsive widths are not implemented or verified."
+}
