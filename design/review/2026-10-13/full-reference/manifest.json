@@ -1,0 +1,1419 @@
+{
+  "date": "2026-10-13",
+  "design": "samocvet.pen",
+  "source": "Fieldnote",
+  "referenceSectionCount": 40,
+  "referencePages": [
+    {
+      "id": "PmE7V",
+      "name": "Референс · 01 Home",
+      "sections": [
+        {
+          "id": "m7peH9",
+          "name": "01 · Первый экран на фото",
+          "source": "Источник: /home · section[data-section-id=\"686340e1517fd928f9d92d9e\"]",
+          "screenshot": "source-blocks/m7peH9.png"
+        },
+        {
+          "id": "KZCOb",
+          "name": "02 · Фото и вводный текст",
+          "source": "Источник: /home · section[data-section-id=\"686340e1517fd928f9d92da2\"]",
+          "screenshot": "source-blocks/KZCOb.png"
+        },
+        {
+          "id": "n1uiy",
+          "name": "03 · Полоса ценностей",
+          "source": "Источник: /home · section[data-section-id=\"686340e1517fd928f9d92da3\"]",
+          "screenshot": "source-blocks/n1uiy.png"
+        },
+        {
+          "id": "N4zu0",
+          "name": "04 · Фотоссылки на разделы",
+          "source": "Источник: /home · section[data-section-id=\"686340e1517fd928f9d92da7\"]",
+          "screenshot": "source-blocks/N4zu0.png"
+        },
+        {
+          "id": "qBHvz",
+          "name": "05 · Приглашение на фото",
+          "source": "Источник: /home · section[data-section-id=\"686340e1517fd928f9d92daa\"]",
+          "screenshot": "source-blocks/qBHvz.png"
+        }
+      ]
+    },
+    {
+      "id": "oUsex",
+      "name": "Референс · 02 Our Approach",
+      "sections": [
+        {
+          "id": "MjV5q",
+          "name": "01 · Подход · фото и текст",
+          "source": "Источник: /our-approach · section[data-section-id=\"68634077f21af5440b4b3a56\"]",
+          "screenshot": "source-blocks/MjV5q.png"
+        },
+        {
+          "id": "azTir",
+          "name": "02 · Принципы и практика",
+          "source": "Источник: /our-approach · section[data-section-id=\"68634077f21af5440b4b3a59\"]",
+          "screenshot": "source-blocks/azTir.png"
+        },
+        {
+          "id": "rKz5U",
+          "name": "03 · Цитата на фото",
+          "source": "Источник: /our-approach · section[data-section-id=\"68634077f21af5440b4b3a5c\"]",
+          "screenshot": "source-blocks/rKz5U.png"
+        },
+        {
+          "id": "dVIYC",
+          "name": "04 · Галерея принципов",
+          "source": "Источник: /our-approach · section[data-section-id=\"68634077f21af5440b4b3a60\"]",
+          "screenshot": "source-blocks/dVIYC.png"
+        }
+      ]
+    },
+    {
+      "id": "JQh70",
+      "name": "Референс · 03 Meet the Educators",
+      "sections": [
+        {
+          "id": "Crg81",
+          "name": "01 · Вступление команды",
+          "source": "Источник: /meet-the-educators · section[data-section-id=\"68634080bff9642b262c8941\"]",
+          "screenshot": "source-blocks/Crg81.png"
+        },
+        {
+          "id": "PnFNU",
+          "name": "02 · Фото и биографии",
+          "source": "Источник: /meet-the-educators · section[data-section-id=\"68634080bff9642b262c8944\"]",
+          "screenshot": "source-blocks/PnFNU.png"
+        },
+        {
+          "id": "Ollxg",
+          "name": "03 · Отзывы на тёмном фоне",
+          "source": "Источник: /meet-the-educators · section[data-section-id=\"68634080bff9642b262c8945\"]",
+          "screenshot": "source-blocks/Ollxg.png"
+        }
+      ]
+    },
+    {
+      "id": "iSIKw",
+      "name": "Референс · 04 A Day in the Life",
+      "sections": [
+        {
+          "id": "xkKcQ",
+          "name": "01 · Первый экран дня",
+          "source": "Источник: /a-day-in-the-life · section[data-section-id=\"68634089c234800d20cc5e1b\"]",
+          "screenshot": "source-blocks/xkKcQ.png"
+        },
+        {
+          "id": "mvJ9t",
+          "name": "02 · Последовательность дня",
+          "source": "Источник: /a-day-in-the-life · section[data-section-id=\"68634089c234800d20cc5e1e\"]",
+          "screenshot": "source-blocks/mvJ9t.png"
+        },
+        {
+          "id": "sR4uG",
+          "name": "03 · Пояснение ритма",
+          "source": "Источник: /a-day-in-the-life · section[data-section-id=\"68634089c234800d20cc5e21\"]",
+          "screenshot": "source-blocks/sR4uG.png"
+        }
+      ]
+    },
+    {
+      "id": "sfXNR",
+      "name": "Референс · 05 Programs Overview",
+      "sections": [
+        {
+          "id": "tvYZR",
+          "name": "01 · Карточки программ",
+          "source": "Источник: /programs-overview · section[data-section-id=\"6863409442c96171c1ff16d2\"]",
+          "screenshot": "source-blocks/tvYZR.png"
+        },
+        {
+          "id": "q3IhzU",
+          "name": "02 · Недельный ритм",
+          "source": "Источник: /programs-overview · section[data-section-id=\"6863409442c96171c1ff16d5\"]",
+          "screenshot": "source-blocks/q3IhzU.png"
+        },
+        {
+          "id": "NxQ4k",
+          "name": "03 · Сезонные проекты · коллаж",
+          "source": "Источник: /programs-overview · section[data-section-id=\"6863409442c96171c1ff16d8\"]",
+          "screenshot": "source-blocks/NxQ4k.png"
+        },
+        {
+          "id": "xNadx",
+          "name": "04 · Приглашение выбрать формат",
+          "source": "Источник: /programs-overview · section[data-section-id=\"6863409442c96171c1ff16db\"]",
+          "screenshot": "source-blocks/xNadx.png"
+        }
+      ]
+    },
+    {
+      "id": "BPqyY",
+      "name": "Референс · 06 Our Learning Tools",
+      "sections": [
+        {
+          "id": "wGBUk",
+          "name": "01 · Галерея материалов",
+          "source": "Источник: /our-learning-tools · section[data-section-id=\"6863409dec445e1057858dbe\"]",
+          "screenshot": "source-blocks/wGBUk.png"
+        },
+        {
+          "id": "ZyfKo",
+          "name": "02 · Фото и пояснение практики",
+          "source": "Источник: /our-learning-tools · section[data-section-id=\"6863409dec445e1057858dc1\"]",
+          "screenshot": "source-blocks/ZyfKo.png"
+        }
+      ]
+    },
+    {
+      "id": "hk8Sv",
+      "name": "Референс · 07 Enrollment Info",
+      "sections": [
+        {
+          "id": "MQWbZ",
+          "name": "01 · Первый экран поступления",
+          "source": "Источник: /enrollment-info · section[data-section-id=\"686340a675654f5ed5f8a21c\"]",
+          "screenshot": "source-blocks/MQWbZ.png"
+        },
+        {
+          "id": "P0INcE",
+          "name": "02 · Этапы поступления · аккордеон",
+          "source": "Источник: /enrollment-info · section[data-section-id=\"686340a675654f5ed5f8a21f\"]",
+          "screenshot": "source-blocks/P0INcE.png"
+        },
+        {
+          "id": "NevyA",
+          "name": "03 · Карточки стоимости",
+          "source": "Источник: /enrollment-info · section[data-section-id=\"686340a675654f5ed5f8a222\"]",
+          "screenshot": "source-blocks/NevyA.png"
+        },
+        {
+          "id": "KwnQs",
+          "name": "04 · Два приглашения",
+          "source": "Источник: /enrollment-info · section[data-section-id=\"686340a675654f5ed5f8a225\"]",
+          "screenshot": "source-blocks/KwnQs.png"
+        }
+      ]
+    },
+    {
+      "id": "i3u8Y",
+      "name": "Референс · 08 Family Stories",
+      "sections": [
+        {
+          "id": "t3anV4",
+          "name": "01 · Вступление историй",
+          "source": "Источник: /family-stories · section[data-section-id=\"686340b1321d4f37825e9249\"]",
+          "screenshot": "source-blocks/t3anV4.png"
+        },
+        {
+          "id": "M6EqA",
+          "name": "02 · История семьи · фото слева",
+          "source": "Источник: /family-stories · section[data-section-id=\"686340b1321d4f37825e924c\"]",
+          "screenshot": "source-blocks/M6EqA.png"
+        },
+        {
+          "id": "o9Xd6T",
+          "name": "03 · Карусель отзывов",
+          "source": "Источник: /family-stories · section[data-section-id=\"686340b1321d4f37825e924d\"]",
+          "screenshot": "source-blocks/o9Xd6T.png"
+        },
+        {
+          "id": "Yh6ne",
+          "name": "04 · История семьи · фото справа",
+          "source": "Источник: /family-stories · section[data-section-id=\"686340b1321d4f37825e9251\"]",
+          "screenshot": "source-blocks/Yh6ne.png"
+        }
+      ]
+    },
+    {
+      "id": "ityQ3",
+      "name": "Референс · 09 Learning Journal",
+      "sections": [
+        {
+          "id": "kxQ4U",
+          "name": "01 · Журнал · фото и вступление",
+          "source": "Источник: /learning-journal · section[data-section-id=\"686340b9a831954cdb797f23\"]",
+          "screenshot": "source-blocks/kxQ4U.png"
+        },
+        {
+          "id": "HgFe5",
+          "name": "02 · Сетка публикаций",
+          "source": "Источник: /learning-journal · section[data-section-id=\"686340b9a831954cdb797f25\"]",
+          "screenshot": "source-blocks/HgFe5.png"
+        }
+      ]
+    },
+    {
+      "id": "EDtBQ",
+      "name": "Референс · 10 Visit Us",
+      "sections": [
+        {
+          "id": "Oxj0B",
+          "name": "01 · Контакты и карта",
+          "source": "Источник: /visit-us · section[data-section-id=\"686340c36b52bd18f7e62c25\"]",
+          "screenshot": "source-blocks/Oxj0B.png"
+        },
+        {
+          "id": "Npd3X",
+          "name": "02 · Приветствие · графика",
+          "source": "Источник: /visit-us · section[data-section-id=\"686340c36b52bd18f7e62c28\"]",
+          "screenshot": "source-blocks/Npd3X.png"
+        },
+        {
+          "id": "MpsSn",
+          "name": "03 · Советы для визита · аккордеон",
+          "source": "Источник: /visit-us · section[data-section-id=\"686340c36b52bd18f7e62c2b\"]",
+          "screenshot": "source-blocks/MpsSn.png"
+        }
+      ]
+    },
+    {
+      "id": "d7g7H",
+      "name": "Референс · 11 Join the Team",
+      "sections": [
+        {
+          "id": "n8KNG3",
+          "name": "01 · Приглашение на зелёном фоне",
+          "source": "Источник: /join-the-team · section[data-section-id=\"686340cc6456fd76cecb137f\"]",
+          "screenshot": "source-blocks/n8KNG3.png"
+        },
+        {
+          "id": "IdJ3N",
+          "name": "02 · Фотобаннер",
+          "source": "Источник: /join-the-team · section[data-section-id=\"686340cc6456fd76cecb1382\"]",
+          "screenshot": "source-blocks/IdJ3N.png"
+        },
+        {
+          "id": "gOa1A",
+          "name": "03 · Открытые позиции",
+          "source": "Источник: /join-the-team · section[data-section-id=\"686340cc6456fd76cecb1383\"]",
+          "screenshot": "source-blocks/gOa1A.png"
+        },
+        {
+          "id": "Ctu31",
+          "name": "04 · Большая текстовая панель",
+          "source": "Источник: /join-the-team · section[data-section-id=\"686340cc6456fd76cecb1387\"]",
+          "screenshot": "source-blocks/Ctu31.png"
+        }
+      ]
+    },
+    {
+      "id": "eFSij",
+      "name": "Референс · 12 Contact",
+      "sections": [
+        {
+          "id": "eUC0w",
+          "name": "01 · Контакты и форма",
+          "source": "Источник: /contact · section[data-section-id=\"686340d551f015747ddb55c6\"]",
+          "screenshot": "source-blocks/eUC0w.png"
+        },
+        {
+          "id": "fWdc7",
+          "name": "02 · Полоса социальных ссылок",
+          "source": "Источник: /contact · section[data-section-id=\"686340d551f015747ddb55c9\"]",
+          "screenshot": "source-blocks/fWdc7.png"
+        }
+      ]
+    }
+  ],
+  "sharedElements": [
+    {
+      "id": "W59CU",
+      "name": "Navigation",
+      "screenshot": "source-blocks/W59CU.png"
+    },
+    {
+      "id": "m4t4Dy",
+      "name": "Footer",
+      "screenshot": "source-blocks/m4t4Dy.png"
+    }
+  ],
+  "validation": {
+    "screenCount": 34,
+    "pageTemplateCount": 14,
+    "stateCount": 6,
+    "sectionCount": 191,
+    "textElementCount": 1320,
+    "sectionIdsNamesAndOrderUnchanged": true,
+    "textContentUnchangedAfterWhitespaceAndCaseNormalization": true,
+    "visibleLayoutProblems": 0
+  },
+  "screens": [
+    {
+      "id": "tQ4F5",
+      "name": "29 · Мобильное меню",
+      "sections": [
+        {
+          "id": "VGBfH",
+          "name": "Навигация"
+        },
+        {
+          "id": "BHn0B",
+          "name": "Основные разделы"
+        },
+        {
+          "id": "t6NY6",
+          "name": "Знакомство из меню"
+        }
+      ],
+      "textCount": 10,
+      "screenshot": "after/tQ4F5.png"
+    },
+    {
+      "id": "V81EqS",
+      "name": "30 · Меню направлений / Desktop 1440",
+      "sections": [
+        {
+          "id": "y8AlAj",
+          "name": "Навигация"
+        },
+        {
+          "id": "UrcJx",
+          "name": "Знакомство со школой"
+        },
+        {
+          "id": "YOmG1",
+          "name": "Выпадающий список направлений"
+        }
+      ],
+      "textCount": 15,
+      "screenshot": "after/V81EqS.png"
+    },
+    {
+      "id": "sJuKE",
+      "name": "31 · Мобильное меню / направления раскрыты",
+      "sections": [
+        {
+          "id": "P73fF",
+          "name": "Навигация"
+        },
+        {
+          "id": "LTjSU",
+          "name": "Основные разделы"
+        },
+        {
+          "id": "t6s1i",
+          "name": "Знакомство из меню"
+        }
+      ],
+      "textCount": 14,
+      "screenshot": "after/sJuKE.png"
+    },
+    {
+      "id": "IWgGw",
+      "name": "32 · Форма / подтверждение",
+      "sections": [
+        {
+          "id": "YlWuL",
+          "name": "Навигация"
+        },
+        {
+          "id": "eVoTo",
+          "name": "Обращение получено"
+        }
+      ],
+      "textCount": 5,
+      "screenshot": "after/IWgGw.png"
+    },
+    {
+      "id": "mrnLe",
+      "name": "33 · Форма / ошибка контакта",
+      "sections": [
+        {
+          "id": "Lq7tI",
+          "name": "Навигация"
+        },
+        {
+          "id": "WT2ue",
+          "name": "Исправление контакта"
+        }
+      ],
+      "textCount": 11,
+      "screenshot": "after/mrnLe.png"
+    },
+    {
+      "id": "Y58gMM",
+      "name": "34 · Страница 404 / Mobile 390",
+      "sections": [
+        {
+          "id": "rjfUp",
+          "name": "Навигация"
+        },
+        {
+          "id": "oJiva",
+          "name": "Страница не найдена"
+        }
+      ],
+      "textCount": 5,
+      "screenshot": "after/Y58gMM.png"
+    },
+    {
+      "id": "IF7iB",
+      "name": "01 · Главная / Desktop 1440",
+      "sections": [
+        {
+          "id": "SBp2j",
+          "name": "Первый экран — поле и дети"
+        },
+        {
+          "id": "a9N0dL",
+          "name": "Школа начинается с отношений"
+        },
+        {
+          "id": "SnS3h",
+          "name": "Три опоры школы"
+        },
+        {
+          "id": "GL8Fc",
+          "name": "Направления — открытый каталог"
+        },
+        {
+          "id": "oNvAB",
+          "name": "Жизнь школы — три истории"
+        },
+        {
+          "id": "SXElX",
+          "name": "Афиша на главной — без ближайших дат"
+        },
+        {
+          "id": "E3fkEF",
+          "name": "История семьи"
+        },
+        {
+          "id": "cFPoT",
+          "name": "Приглашение в школу"
+        },
+        {
+          "id": "koscY",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 62,
+      "screenshot": "after/IF7iB.png"
+    },
+    {
+      "id": "ICAKb",
+      "name": "02 · Главная / Mobile 390",
+      "sections": [
+        {
+          "id": "h8V18",
+          "name": "Первый экран"
+        },
+        {
+          "id": "R8Nbd",
+          "name": "Наш подход"
+        },
+        {
+          "id": "NWOSe",
+          "name": "Три опоры школы"
+        },
+        {
+          "id": "UQYZA",
+          "name": "Направления"
+        },
+        {
+          "id": "b6bX6",
+          "name": "Жизнь школы"
+        },
+        {
+          "id": "VbMfu",
+          "name": "Афиша"
+        },
+        {
+          "id": "g5gjvY",
+          "name": "История семьи"
+        },
+        {
+          "id": "t6poW",
+          "name": "Приглашение в школу"
+        },
+        {
+          "id": "kiNVC",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 50,
+      "screenshot": "after/ICAKb.png"
+    },
+    {
+      "id": "lKRhN",
+      "name": "03 · О школе / Desktop 1440",
+      "sections": [
+        {
+          "id": "r3pvpT",
+          "name": "Навигация"
+        },
+        {
+          "id": "CILk8",
+          "name": "Подход — фото и текст"
+        },
+        {
+          "id": "RGCI2",
+          "name": "Что стоит за подходом"
+        },
+        {
+          "id": "R6z61",
+          "name": "Смысл сообщества"
+        },
+        {
+          "id": "ZsQ8J",
+          "name": "Роль семьи"
+        },
+        {
+          "id": "x9LcY2",
+          "name": "Приглашение в школу"
+        },
+        {
+          "id": "Yiy9q",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 48,
+      "screenshot": "after/lKRhN.png"
+    },
+    {
+      "id": "bixoV",
+      "name": "04 · О школе / Mobile 390",
+      "sections": [
+        {
+          "id": "wlsTr",
+          "name": "Навигация"
+        },
+        {
+          "id": "ziRCo",
+          "name": "Подход — фото и текст"
+        },
+        {
+          "id": "JMbwp",
+          "name": "Что стоит за подходом"
+        },
+        {
+          "id": "dANFo",
+          "name": "Смысл сообщества"
+        },
+        {
+          "id": "npRZi",
+          "name": "Роль семьи"
+        },
+        {
+          "id": "KfU6O",
+          "name": "Приглашение в школу"
+        },
+        {
+          "id": "UCxzf",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 42,
+      "screenshot": "after/bixoV.png"
+    },
+    {
+      "id": "dGso2",
+      "name": "05 · Направления / Desktop 1440",
+      "sections": [
+        {
+          "id": "oFqRW",
+          "name": "Навигация"
+        },
+        {
+          "id": "wGNWy",
+          "name": "Заголовок каталога"
+        },
+        {
+          "id": "qkz8g",
+          "name": "Основные форматы"
+        },
+        {
+          "id": "T7qxNl",
+          "name": "Индивидуальные занятия"
+        },
+        {
+          "id": "K2nf0",
+          "name": "Как проходит день"
+        },
+        {
+          "id": "B9iDQA",
+          "name": "Приглашение в школу"
+        },
+        {
+          "id": "ZLH8G",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 52,
+      "screenshot": "after/dGso2.png"
+    },
+    {
+      "id": "wPOYQ",
+      "name": "06 · Направления / Mobile 390",
+      "sections": [
+        {
+          "id": "d1mjp",
+          "name": "Навигация"
+        },
+        {
+          "id": "h7WXCq",
+          "name": "Заголовок каталога"
+        },
+        {
+          "id": "tCTeo",
+          "name": "Основные форматы"
+        },
+        {
+          "id": "Y53OL",
+          "name": "Индивидуальные занятия"
+        },
+        {
+          "id": "PQgZg",
+          "name": "Как проходит день"
+        },
+        {
+          "id": "j214H",
+          "name": "Приглашение в школу"
+        },
+        {
+          "id": "M6yot",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 46,
+      "screenshot": "after/wPOYQ.png"
+    },
+    {
+      "id": "GaICf",
+      "name": "07 · Семейные классы / Desktop 1440",
+      "sections": [
+        {
+          "id": "MP2O0",
+          "name": "Навигация"
+        },
+        {
+          "id": "KskJM",
+          "name": "Заголовок программы"
+        },
+        {
+          "id": "dS70h",
+          "name": "Фотография и условия"
+        },
+        {
+          "id": "gKp2I",
+          "name": "Из чего состоят занятия"
+        },
+        {
+          "id": "JKBRN",
+          "name": "Педагоги и семьи"
+        },
+        {
+          "id": "BEXqi",
+          "name": "Как начать"
+        },
+        {
+          "id": "UKSju",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 49,
+      "screenshot": "after/GaICf.png"
+    },
+    {
+      "id": "L6VoZt",
+      "name": "08 · Семейные классы / Mobile 390",
+      "sections": [
+        {
+          "id": "gZWTB",
+          "name": "Навигация"
+        },
+        {
+          "id": "kbpr5",
+          "name": "Заголовок программы"
+        },
+        {
+          "id": "jUjT0",
+          "name": "Фотография и условия"
+        },
+        {
+          "id": "n2dNSm",
+          "name": "Из чего состоят занятия"
+        },
+        {
+          "id": "hQ7YA",
+          "name": "Педагоги и семьи"
+        },
+        {
+          "id": "NdQ8T",
+          "name": "Как начать"
+        },
+        {
+          "id": "VlaGm",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 43,
+      "screenshot": "after/L6VoZt.png"
+    },
+    {
+      "id": "YRuXp",
+      "name": "09 · Подготовка к школе / Desktop 1440",
+      "sections": [
+        {
+          "id": "wrHNq",
+          "name": "Навигация"
+        },
+        {
+          "id": "bPwD2",
+          "name": "Заголовок программы"
+        },
+        {
+          "id": "A1l9BL",
+          "name": "Фотография и условия"
+        },
+        {
+          "id": "FGAB7",
+          "name": "Из чего состоят занятия"
+        },
+        {
+          "id": "HfPmR",
+          "name": "Кто ведёт подготовку"
+        },
+        {
+          "id": "n0cC4",
+          "name": "Как начать"
+        },
+        {
+          "id": "mUBE0",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 49,
+      "screenshot": "after/YRuXp.png"
+    },
+    {
+      "id": "bY9eA",
+      "name": "10 · Подготовка к школе / Mobile 390",
+      "sections": [
+        {
+          "id": "J7Oc1",
+          "name": "Навигация"
+        },
+        {
+          "id": "qyYDc",
+          "name": "Заголовок программы"
+        },
+        {
+          "id": "QoEGS",
+          "name": "Фотография и условия"
+        },
+        {
+          "id": "nSF60",
+          "name": "Из чего состоят занятия"
+        },
+        {
+          "id": "x0vs6",
+          "name": "Кто ведёт подготовку"
+        },
+        {
+          "id": "i3g9fv",
+          "name": "Как начать"
+        },
+        {
+          "id": "cdYdf",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 43,
+      "screenshot": "after/bY9eA.png"
+    },
+    {
+      "id": "U7aJh",
+      "name": "11 · Продлёнка / Desktop 1440",
+      "sections": [
+        {
+          "id": "tsBYu",
+          "name": "Навигация"
+        },
+        {
+          "id": "j30NRr",
+          "name": "Заголовок программы"
+        },
+        {
+          "id": "Sm0B5",
+          "name": "Фотография и условия"
+        },
+        {
+          "id": "jWBZU",
+          "name": "Из чего состоят занятия"
+        },
+        {
+          "id": "U7MopD",
+          "name": "Знакомство с продлёнкой"
+        },
+        {
+          "id": "FCVk1",
+          "name": "Как начать"
+        },
+        {
+          "id": "W1xJk",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 49,
+      "screenshot": "after/U7aJh.png"
+    },
+    {
+      "id": "gLU5J",
+      "name": "12 · Продлёнка / Mobile 390",
+      "sections": [
+        {
+          "id": "zMTvH",
+          "name": "Навигация"
+        },
+        {
+          "id": "Dhvkg",
+          "name": "Заголовок программы"
+        },
+        {
+          "id": "ZjDb5",
+          "name": "Фотография и условия"
+        },
+        {
+          "id": "g2xgk",
+          "name": "Из чего состоят занятия"
+        },
+        {
+          "id": "Spgeb",
+          "name": "Знакомство с продлёнкой"
+        },
+        {
+          "id": "u8k4B8",
+          "name": "Как начать"
+        },
+        {
+          "id": "Cq8uh",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 43,
+      "screenshot": "after/gLU5J.png"
+    },
+    {
+      "id": "PQpof",
+      "name": "13 · Музыка и английский / Desktop 1440",
+      "sections": [
+        {
+          "id": "G0zdp",
+          "name": "Навигация"
+        },
+        {
+          "id": "wMTvf",
+          "name": "Заголовок программы"
+        },
+        {
+          "id": "lxPlK",
+          "name": "Фотография и условия"
+        },
+        {
+          "id": "BEDj8",
+          "name": "Из чего состоят занятия"
+        },
+        {
+          "id": "zFRSD",
+          "name": "Выбор индивидуального занятия"
+        },
+        {
+          "id": "Gx1jg",
+          "name": "Как начать"
+        },
+        {
+          "id": "bjAcS",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 49,
+      "screenshot": "after/PQpof.png"
+    },
+    {
+      "id": "fCZdE",
+      "name": "14 · Музыка и английский / Mobile 390",
+      "sections": [
+        {
+          "id": "DJRgX",
+          "name": "Навигация"
+        },
+        {
+          "id": "yfHbN",
+          "name": "Заголовок программы"
+        },
+        {
+          "id": "NQItS",
+          "name": "Фотография и условия"
+        },
+        {
+          "id": "gIvlM",
+          "name": "Из чего состоят занятия"
+        },
+        {
+          "id": "SrlBi",
+          "name": "Выбор индивидуального занятия"
+        },
+        {
+          "id": "p98EZa",
+          "name": "Как начать"
+        },
+        {
+          "id": "UyukH",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 43,
+      "screenshot": "after/fCZdE.png"
+    },
+    {
+      "id": "H1uHY",
+      "name": "15 · Знакомство и поступление / Desktop 1440",
+      "sections": [
+        {
+          "id": "X1DimH",
+          "name": "Знакомство — большой фотокадр"
+        },
+        {
+          "id": "Xsako",
+          "name": "Путь семьи"
+        },
+        {
+          "id": "jl0KS",
+          "name": "Запись на знакомство"
+        },
+        {
+          "id": "ZyG9T",
+          "name": "Вопросы перед знакомством"
+        },
+        {
+          "id": "Uro0o",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 58,
+      "screenshot": "after/H1uHY.png"
+    },
+    {
+      "id": "Xch78",
+      "name": "16 · Знакомство и поступление / Mobile 390",
+      "sections": [
+        {
+          "id": "zzHyF",
+          "name": "Знакомство — большой фотокадр"
+        },
+        {
+          "id": "PY4zi",
+          "name": "Путь семьи"
+        },
+        {
+          "id": "J6rjJ",
+          "name": "Запись на знакомство"
+        },
+        {
+          "id": "A7u1y",
+          "name": "Вопросы перед знакомством"
+        },
+        {
+          "id": "x3xnfR",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 52,
+      "screenshot": "after/Xch78.png"
+    },
+    {
+      "id": "VtCp0",
+      "name": "17 · Афиша / Desktop 1440",
+      "sections": [
+        {
+          "id": "kx7sW",
+          "name": "Навигация"
+        },
+        {
+          "id": "i1tYXH",
+          "name": "Встречи в школе"
+        },
+        {
+          "id": "zsrWW",
+          "name": "Ближайшие встречи — пустое состояние"
+        },
+        {
+          "id": "WB3iR",
+          "name": "Архив встреч"
+        },
+        {
+          "id": "ckRmJ",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 36,
+      "screenshot": "after/VtCp0.png"
+    },
+    {
+      "id": "z62pr",
+      "name": "18 · Афиша / Mobile 390",
+      "sections": [
+        {
+          "id": "uAJH5",
+          "name": "Навигация"
+        },
+        {
+          "id": "VP6EF",
+          "name": "Встречи в школе"
+        },
+        {
+          "id": "G6I8NF",
+          "name": "Ближайшие встречи — пустое состояние"
+        },
+        {
+          "id": "R7p4E",
+          "name": "Архив встреч"
+        },
+        {
+          "id": "W8eDY1",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 30,
+      "screenshot": "after/z62pr.png"
+    },
+    {
+      "id": "pWgyS",
+      "name": "19 · Событие из архива / Desktop 1440",
+      "sections": [
+        {
+          "id": "MHbl4",
+          "name": "Навигация"
+        },
+        {
+          "id": "Kbect",
+          "name": "Встреча — заголовок"
+        },
+        {
+          "id": "XPyMQ",
+          "name": "Фото и сведения"
+        },
+        {
+          "id": "smqTa",
+          "name": "О встрече"
+        },
+        {
+          "id": "H1FMa",
+          "name": "Следующее знакомство"
+        },
+        {
+          "id": "ptUFP",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 45,
+      "screenshot": "after/pWgyS.png"
+    },
+    {
+      "id": "QX1jq",
+      "name": "20 · Событие из архива / Mobile 390",
+      "sections": [
+        {
+          "id": "IMTT3",
+          "name": "Навигация"
+        },
+        {
+          "id": "wK8ql",
+          "name": "Встреча — заголовок"
+        },
+        {
+          "id": "yre8A",
+          "name": "Фото и сведения"
+        },
+        {
+          "id": "tUYBP",
+          "name": "О встрече"
+        },
+        {
+          "id": "Gylvv",
+          "name": "Следующее знакомство"
+        },
+        {
+          "id": "SHp7i",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 39,
+      "screenshot": "after/QX1jq.png"
+    },
+    {
+      "id": "yScO3",
+      "name": "21 · Контакты / Desktop 1440",
+      "sections": [
+        {
+          "id": "IGn1B",
+          "name": "Навигация"
+        },
+        {
+          "id": "pItol",
+          "name": "Связаться со школой"
+        },
+        {
+          "id": "nmJti",
+          "name": "Как нас найти"
+        },
+        {
+          "id": "yrkCT",
+          "name": "Продолжим знакомство в VK"
+        },
+        {
+          "id": "Hnwcz",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 48,
+      "screenshot": "after/yScO3.png"
+    },
+    {
+      "id": "x20IKM",
+      "name": "22 · Контакты / Mobile 390",
+      "sections": [
+        {
+          "id": "fGI1H",
+          "name": "Навигация"
+        },
+        {
+          "id": "GmgDs",
+          "name": "Связаться со школой"
+        },
+        {
+          "id": "F3Gjdt",
+          "name": "Как нас найти"
+        },
+        {
+          "id": "Ka9en",
+          "name": "Продолжим знакомство в VK"
+        },
+        {
+          "id": "eH3LM",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 42,
+      "screenshot": "after/x20IKM.png"
+    },
+    {
+      "id": "JErrG",
+      "name": "23 · Команда / Desktop 1440",
+      "sections": [
+        {
+          "id": "zYc9f",
+          "name": "Навигация"
+        },
+        {
+          "id": "a6PNk",
+          "name": "Люди школы"
+        },
+        {
+          "id": "WA9TJ",
+          "name": "Директор и наставник"
+        },
+        {
+          "id": "ZgybO",
+          "name": "Педагоги"
+        },
+        {
+          "id": "FSsJn",
+          "name": "Приглашение в школу"
+        },
+        {
+          "id": "l26Es",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 40,
+      "screenshot": "after/JErrG.png"
+    },
+    {
+      "id": "EEHAn",
+      "name": "24 · Команда / Mobile 390",
+      "sections": [
+        {
+          "id": "qys3p",
+          "name": "Навигация"
+        },
+        {
+          "id": "s0DIop",
+          "name": "Люди школы"
+        },
+        {
+          "id": "xTPED",
+          "name": "Директор и наставник"
+        },
+        {
+          "id": "uab9u",
+          "name": "Педагоги"
+        },
+        {
+          "id": "gFo5R",
+          "name": "Приглашение в школу"
+        },
+        {
+          "id": "B8lutM",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 34,
+      "screenshot": "after/EEHAn.png"
+    },
+    {
+      "id": "kDRg3",
+      "name": "25 · Жизнь школы / Desktop 1440",
+      "sections": [
+        {
+          "id": "NxRaf",
+          "name": "Навигация"
+        },
+        {
+          "id": "n8fEn3",
+          "name": "Жизнь сообщества"
+        },
+        {
+          "id": "TYUkH",
+          "name": "История — походы всей школой"
+        },
+        {
+          "id": "C6WVaQ",
+          "name": "Творчество и музыка"
+        },
+        {
+          "id": "hAIAk",
+          "name": "Присоединиться к жизни школы"
+        },
+        {
+          "id": "sRa1x",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 42,
+      "screenshot": "after/kDRg3.png"
+    },
+    {
+      "id": "COWVk",
+      "name": "26 · Жизнь школы / Mobile 390",
+      "sections": [
+        {
+          "id": "hWM8x",
+          "name": "Навигация"
+        },
+        {
+          "id": "zjXbD",
+          "name": "Жизнь сообщества"
+        },
+        {
+          "id": "oLfGR",
+          "name": "История — походы всей школой"
+        },
+        {
+          "id": "kf3go",
+          "name": "Творчество и музыка"
+        },
+        {
+          "id": "lzUKx",
+          "name": "Присоединиться к жизни школы"
+        },
+        {
+          "id": "XxyhN",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 36,
+      "screenshot": "after/COWVk.png"
+    },
+    {
+      "id": "XjYJm",
+      "name": "27 · Сведения и документы / Desktop 1440",
+      "sections": [
+        {
+          "id": "oGPlF",
+          "name": "Навигация"
+        },
+        {
+          "id": "aJEOT",
+          "name": "Официальные сведения"
+        },
+        {
+          "id": "lYeWV",
+          "name": "Навигация и содержание"
+        },
+        {
+          "id": "TlfWi",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 48,
+      "screenshot": "after/XjYJm.png"
+    },
+    {
+      "id": "kpLJz",
+      "name": "28 · Сведения и документы / Mobile 390",
+      "sections": [
+        {
+          "id": "V1iihA",
+          "name": "Навигация"
+        },
+        {
+          "id": "aTb6c",
+          "name": "Официальные сведения"
+        },
+        {
+          "id": "ijGGA",
+          "name": "Навигация и содержание"
+        },
+        {
+          "id": "o6DgIv",
+          "name": "Подвал"
+        }
+      ],
+      "textCount": 42,
+      "screenshot": "after/kpLJz.png"
+    }
+  ],
+  "staticExports": [
+    {
+      "id": "IF7iB",
+      "file": "samocvet-desktop.html"
+    },
+    {
+      "id": "ICAKb",
+      "file": "samocvet-mobile.html"
+    },
+    {
+      "id": "GaICf",
+      "file": "samocvet-family-classes-desktop.html"
+    },
+    {
+      "id": "L6VoZt",
+      "file": "samocvet-family-classes-mobile.html"
+    },
+    {
+      "id": "U7aJh",
+      "file": "samocvet-after-school-desktop.html"
+    },
+    {
+      "id": "gLU5J",
+      "file": "samocvet-after-school-mobile.html"
+    },
+    {
+      "id": "PQpof",
+      "file": "samocvet-individual-lessons-desktop.html"
+    },
+    {
+      "id": "fCZdE",
+      "file": "samocvet-individual-lessons-mobile.html"
+    }
+  ],
+  "limitations": [
+    "Карусели представлены статически.",
+    "Внешний Google Maps сохранён снимком внутри секции Visit Us.",
+    "Переходы, отправка форм и управление с клавиатуры проверяются при реализации сайта."
+  ]
+}
