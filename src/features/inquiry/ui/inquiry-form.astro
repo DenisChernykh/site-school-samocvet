@@ -205,6 +205,7 @@ const id = `inquiry-${source}`;
             const main = document.querySelector('main');
             main?.prepend(result);
             main?.classList.add('inquiry-confirmed');
+            document.querySelector('header')?.classList.remove('overlay');
             document.querySelector('footer')?.setAttribute('hidden', '');
             window.scrollTo({ top: 0, behavior: 'instant' });
             result.focus({ preventScroll: true });
